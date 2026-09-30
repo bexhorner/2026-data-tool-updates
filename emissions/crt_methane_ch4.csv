@@ -1,0 +1,2101 @@
+COUNTRY_CODE,YEAR,EMISSIONS_CH4_KT,SOURCE,FILENAME,ANNEX_FLAG
+AFG,1990,1.31,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+AFG,2000,1.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+AFG,2005,1.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+AFG,2010,1.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+AFG,2012,1.42,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+AFG,2015,1.42,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+AFG,2016,1.45,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+AFG,2017,1.49,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ALB,2005,0.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ALB,2021,0.06493005672302635,1.B.1.a Coal mining and handling,ALB-CRT-2024-V2.0-2021-20251103-231619_awaiting submission.xlsx,true
+ALB,2022,0.04997453234068877,1.B.1.a Coal mining and handling,ALB-CRT-2024-V2.0-2022-20251103-231619_awaiting submission.xlsx,true
+ARG,1990,11.7,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ARG,1994,14.7,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ARG,1997,10.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ARG,2000,11.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ARG,2010,2.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ARG,2012,2.9,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ARG,2013,2.12,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ARG,2014,1.51,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ARG,2015,0.9,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ARG,2016,0.62,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ARG,2017,0.52,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ARG,2018,1.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ARG,2020,0.52,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ARG,2021,0.533838245,1.B.1.a Coal mining and handling,ARG-CRT-2024-V0.2-2021-20241025-125439_started.xlsx,true
+ARG,2021,0.53,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ARG,2022,0.533838245,1.B.1.a Coal mining and handling,ARG-CRT-2024-V0.2-2022-20241025-125439_started.xlsx,true
+ARG,2022,0.53,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+AUS,1990,871.2126944972758,1.B.1.a Coal mining and handling,historic,true
+AUS,1991,885.6704172360064,1.B.1.a Coal mining and handling,historic,true
+AUS,1992,923.4122599924046,1.B.1.a Coal mining and handling,historic,true
+AUS,1993,930.099591161155,1.B.1.a Coal mining and handling,historic,true
+AUS,1994,856.2164655548407,1.B.1.a Coal mining and handling,historic,true
+AUS,1995,857.1245280266724,1.B.1.a Coal mining and handling,historic,true
+AUS,1996,876.4779531295517,1.B.1.a Coal mining and handling,historic,true
+AUS,1997,973.631801030466,1.B.1.a Coal mining and handling,historic,true
+AUS,1998,1013.887422121828,1.B.1.a Coal mining and handling,historic,true
+AUS,1999,943.9723025653858,1.B.1.a Coal mining and handling,historic,true
+AUS,2000,1016.4735463519592,1.B.1.a Coal mining and handling,historic,true
+AUS,2001,1006.6031857470812,1.B.1.a Coal mining and handling,historic,true
+AUS,2002,982.8329145914215,1.B.1.a Coal mining and handling,historic,true
+AUS,2003,970.6787586711546,1.B.1.a Coal mining and handling,historic,true
+AUS,2004,990.0987147434504,1.B.1.a Coal mining and handling,historic,true
+AUS,2005,1068.1622641627857,1.B.1.a Coal mining and handling,historic,true
+AUS,2006,1099.876107847167,1.B.1.a Coal mining and handling,historic,true
+AUS,2007,1192.598790521782,1.B.1.a Coal mining and handling,historic,true
+AUS,2008,1163.1872847223094,1.B.1.a Coal mining and handling,historic,true
+AUS,2009,1138.6399828567176,1.B.1.a Coal mining and handling,historic,true
+AUS,2010,1101.1741925541546,1.B.1.a Coal mining and handling,historic,true
+AUS,2011,1069.8394849087044,1.B.1.a Coal mining and handling,historic,true
+AUS,2012,1070.7972097693028,1.B.1.a Coal mining and handling,historic,true
+AUS,2013,1063.8263633793974,1.B.1.a Coal mining and handling,historic,true
+AUS,2014,991.6123307231139,1.B.1.a Coal mining and handling,historic,true
+AUS,2015,1096.7986239235245,1.B.1.a Coal mining and handling,historic,true
+AUS,2016,1087.0996615685249,1.B.1.a Coal mining and handling,historic,true
+AUS,2017,1041.7338186998788,1.B.1.a Coal mining and handling,historic,true
+AUS,2018,1063.4125665912013,1.B.1.a Coal mining and handling,historic,true
+AUS,2019,973.8227226706666,1.B.1.a Coal mining and handling,historic,true
+AUS,2020,1003.5591333580707,1.B.1.a Coal mining and handling,historic,true
+AUS,2021,931.8107257320826,1.B.1.a Coal mining and handling,AUS-CRT-2025-V1.0-2021-20250530-100919_awaiting submission.xlsx,true
+AUS,2022,861.5130985280853,1.B.1.a Coal mining and handling,AUS-CRT-2025-V1.0-2022-20250530-100919_awaiting submission.xlsx,true
+AUS,2023,888.4199956318997,1.B.1.a Coal mining and handling,AUS-CRT-2025-V1.0-2023-20250530-100919_awaiting submission.xlsx,true
+AUS,2024,822.0169646056521,1.B.1.a Coal mining and handling,AUS-CRT-2026-V1.0-2024.xlsx,true
+AUT,1990,13.328819602,1.B.1.a Coal mining and handling,historic,true
+AUT,1991,7.245427972,1.B.1.a Coal mining and handling,historic,true
+AUT,1992,7.692635753,1.B.1.a Coal mining and handling,historic,true
+AUT,1993,6.574235439,1.B.1.a Coal mining and handling,historic,true
+AUT,1994,2.255039636,1.B.1.a Coal mining and handling,historic,true
+AUT,1995,1.473698433,1.B.1.a Coal mining and handling,historic,true
+AUT,1996,0.965138551,1.B.1.a Coal mining and handling,historic,true
+AUT,1997,0.984493913,1.B.1.a Coal mining and handling,historic,true
+AUT,1998,0.993027971,1.B.1.a Coal mining and handling,historic,true
+AUT,1999,0.990664948,1.B.1.a Coal mining and handling,historic,true
+AUT,2000,1.087764899,1.B.1.a Coal mining and handling,historic,true
+AUT,2001,1.050093278,1.B.1.a Coal mining and handling,historic,true
+AUT,2002,1.229694349,1.B.1.a Coal mining and handling,historic,true
+AUT,2003,1.003725593,1.B.1.a Coal mining and handling,historic,true
+AUT,2004,0.205030787,1.B.1.a Coal mining and handling,historic,true
+AUT,2005,0.005372328,1.B.1.a Coal mining and handling,historic,true
+AUT,2006,0.005815667,1.B.1.a Coal mining and handling,historic,true
+AUT,2007,,1.B.1.a Coal mining and handling,historic,true
+AUT,2008,,1.B.1.a Coal mining and handling,historic,true
+AUT,2009,,1.B.1.a Coal mining and handling,historic,true
+AUT,2010,,1.B.1.a Coal mining and handling,historic,true
+AUT,2011,,1.B.1.a Coal mining and handling,historic,true
+AUT,2012,,1.B.1.a Coal mining and handling,historic,true
+AUT,2013,,1.B.1.a Coal mining and handling,historic,true
+AUT,2014,,1.B.1.a Coal mining and handling,historic,true
+AUT,2015,,1.B.1.a Coal mining and handling,historic,true
+AUT,2016,,1.B.1.a Coal mining and handling,historic,true
+AUT,2017,,1.B.1.a Coal mining and handling,historic,true
+AUT,2018,,1.B.1.a Coal mining and handling,historic,true
+AUT,2019,,1.B.1.a Coal mining and handling,historic,true
+AUT,2020,,1.B.1.a Coal mining and handling,historic,true
+AUT,2021,,1.B.1.a Coal mining and handling,AUT-CRT-2024-V1.0-2021-20241113-173144_awaiting submission.xlsx,true
+AUT,2022,,1.B.1.a Coal mining and handling,AUT-CRT-2024-V1.0-2022-20241113-173144_awaiting submission.xlsx,true
+AUT,2023,,1.B.1.a Coal mining and handling,AUT-CRT-2025-V1.0-2023-20250414-131233_awaiting submission.xlsx,true
+AUT,2024,,1.B.1.a Coal mining and handling,AUT-CRT-2026-V1.0-2024.xlsx,true
+BDI,2021,,1.B.1.a Coal mining and handling,BDI-CRT-2025-V1.1-2021-20260107-135208_started.xlsx,true
+BDI,2022,,1.B.1.a Coal mining and handling,BDI-CRT-2025-V1.1-2022-20260107-135208_started.xlsx,true
+BDI,2023,,1.B.1.a Coal mining and handling,BDI-CRT-2025-V1.1-2023-20260107-135208_started.xlsx,true
+BEL,1990,15.83076,1.B.1.a Coal mining and handling,historic,true
+BEL,1991,10.27914,1.B.1.a Coal mining and handling,historic,true
+BEL,1992,5.33119,1.B.1.a Coal mining and handling,historic,true
+BEL,1993,2.5393,1.B.1.a Coal mining and handling,historic,true
+BEL,1994,2.45488,1.B.1.a Coal mining and handling,historic,true
+BEL,1995,2.38185,1.B.1.a Coal mining and handling,historic,true
+BEL,1996,2.31619,1.B.1.a Coal mining and handling,historic,true
+BEL,1997,2.25656,1.B.1.a Coal mining and handling,historic,true
+BEL,1998,2.20564,1.B.1.a Coal mining and handling,historic,true
+BEL,1999,2.15807,1.B.1.a Coal mining and handling,historic,true
+BEL,2000,2.11787,1.B.1.a Coal mining and handling,historic,true
+BEL,2001,2.07566,1.B.1.a Coal mining and handling,historic,true
+BEL,2002,2.03881,1.B.1.a Coal mining and handling,historic,true
+BEL,2003,2.00397,1.B.1.a Coal mining and handling,historic,true
+BEL,2004,1.97114,1.B.1.a Coal mining and handling,historic,true
+BEL,2005,1.93831,1.B.1.a Coal mining and handling,historic,true
+BEL,2006,1.91151,1.B.1.a Coal mining and handling,historic,true
+BEL,2007,1.88069,1.B.1.a Coal mining and handling,historic,true
+BEL,2008,1.85523,1.B.1.a Coal mining and handling,historic,true
+BEL,2009,1.83044,1.B.1.a Coal mining and handling,historic,true
+BEL,2010,1.80565,1.B.1.a Coal mining and handling,historic,true
+BEL,2011,1.7822,1.B.1.a Coal mining and handling,historic,true
+BEL,2012,1.75875,1.B.1.a Coal mining and handling,historic,true
+BEL,2013,1.73932,1.B.1.a Coal mining and handling,historic,true
+BEL,2014,1.71721,1.B.1.a Coal mining and handling,historic,true
+BEL,2015,1.69912,1.B.1.a Coal mining and handling,historic,true
+BEL,2016,1.68103,1.B.1.a Coal mining and handling,historic,true
+BEL,2017,1.64485,1.B.1.a Coal mining and handling,historic,true
+BEL,2018,1.6281,1.B.1.a Coal mining and handling,historic,true
+BEL,2019,1.61135,1.B.1.a Coal mining and handling,historic,true
+BEL,2020,1.59527,1.B.1.a Coal mining and handling,historic,true
+BEL,2021,1.57919,1.B.1.a Coal mining and handling,BEL-CRT-2024-V1.0-2021-20241217-192810_awaiting submission.xlsx,true
+BEL,2022,1.5678,1.B.1.a Coal mining and handling,BEL-CRT-2024-V1.0-2022-20241217-192810_awaiting submission.xlsx,true
+BEL,2023,1.33799,1.B.1.a Coal mining and handling,BEL-CRT-2025-V1.0-2023-20250411-104305_awaiting submission.xlsx,true
+BEL,2024,1.32459,1.B.1.a Coal mining and handling,BEL-CRT-2026-V1.0-2024.xlsx,true
+BFA,2021,,1.B.1.a Coal mining and handling (unreviewed draft submission),BFA-CRT-2024-V0.4-2021-20251109-154548_awaiting approval.xlsx,true
+BFA,2022,,1.B.1.a Coal mining and handling (unreviewed draft submission),BFA-CRT-2024-V0.4-2022-20251109-154548_awaiting approval.xlsx,true
+BGR,1990,77.2371466155516,1.B.1.a Coal mining and handling,historic,true
+BGR,1991,65.50092195509225,1.B.1.a Coal mining and handling,historic,true
+BGR,1992,72.70754582349927,1.B.1.a Coal mining and handling,historic,true
+BGR,1993,72.77077456228304,1.B.1.a Coal mining and handling,historic,true
+BGR,1994,67.97079904276252,1.B.1.a Coal mining and handling,historic,true
+BGR,1995,70.45249409034874,1.B.1.a Coal mining and handling,historic,true
+BGR,1996,68.50453213857185,1.B.1.a Coal mining and handling,historic,true
+BGR,1997,61.72175652852046,1.B.1.a Coal mining and handling,historic,true
+BGR,1998,51.66187923135084,1.B.1.a Coal mining and handling,historic,true
+BGR,1999,40.97829067649248,1.B.1.a Coal mining and handling,historic,true
+BGR,2000,44.0423872596424,1.B.1.a Coal mining and handling,historic,true
+BGR,2001,39.38500403769027,1.B.1.a Coal mining and handling,historic,true
+BGR,2002,49.6686389832007,1.B.1.a Coal mining and handling,historic,true
+BGR,2003,55.57244519656961,1.B.1.a Coal mining and handling,historic,true
+BGR,2004,37.88554487583287,1.B.1.a Coal mining and handling,historic,true
+BGR,2005,37.68897824649488,1.B.1.a Coal mining and handling,historic,true
+BGR,2006,32.05139222621639,1.B.1.a Coal mining and handling,historic,true
+BGR,2007,37.79523959942566,1.B.1.a Coal mining and handling,historic,true
+BGR,2008,38.46030278962149,1.B.1.a Coal mining and handling,historic,true
+BGR,2009,38.34194036736645,1.B.1.a Coal mining and handling,historic,true
+BGR,2010,40.39740077745251,1.B.1.a Coal mining and handling,historic,true
+BGR,2011,48.38680001052912,1.B.1.a Coal mining and handling,historic,true
+BGR,2012,42.46086249479894,1.B.1.a Coal mining and handling,historic,true
+BGR,2013,36.21498192115187,1.B.1.a Coal mining and handling,historic,true
+BGR,2014,37.26208135250886,1.B.1.a Coal mining and handling,historic,true
+BGR,2015,42.09255374250384,1.B.1.a Coal mining and handling,historic,true
+BGR,2016,38.12358191450905,1.B.1.a Coal mining and handling,historic,true
+BGR,2017,41.91567996158788,1.B.1.a Coal mining and handling,historic,true
+BGR,2018,36.08513164909914,1.B.1.a Coal mining and handling,historic,true
+BGR,2019,32.5257567472114,1.B.1.a Coal mining and handling,historic,true
+BGR,2020,26.83415374264418,1.B.1.a Coal mining and handling,historic,true
+BGR,2021,31.468203786634266,1.B.1.a Coal mining and handling,BGR-CRT-2025-V1.0-2021-20250415-130003_awaiting submission.xlsx,true
+BGR,2022,37.279755126090805,1.B.1.a Coal mining and handling,BGR-CRT-2025-V1.0-2022-20250415-130003_awaiting submission.xlsx,true
+BGR,2023,24.202464917750124,1.B.1.a Coal mining and handling,BGR-CRT-2025-V1.0-2023-20250415-130003_awaiting submission.xlsx,true
+BGR,2024,18.64473412555486,1.B.1.a Coal mining and handling,BGR-CRT-2026-V1.0-2024.xlsx,true
+BIH,1990,76.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BIH,2013,35.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BIH,2014,29.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BLR,1990,,1.B.1.a Coal mining and handling,historic,true
+BLR,1991,,1.B.1.a Coal mining and handling,historic,true
+BLR,1992,,1.B.1.a Coal mining and handling,historic,true
+BLR,1993,,1.B.1.a Coal mining and handling,historic,true
+BLR,1994,,1.B.1.a Coal mining and handling,historic,true
+BLR,1995,,1.B.1.a Coal mining and handling,historic,true
+BLR,1996,,1.B.1.a Coal mining and handling,historic,true
+BLR,1997,,1.B.1.a Coal mining and handling,historic,true
+BLR,1998,,1.B.1.a Coal mining and handling,historic,true
+BLR,1999,,1.B.1.a Coal mining and handling,historic,true
+BLR,2000,,1.B.1.a Coal mining and handling,historic,true
+BLR,2001,,1.B.1.a Coal mining and handling,historic,true
+BLR,2002,,1.B.1.a Coal mining and handling,historic,true
+BLR,2003,,1.B.1.a Coal mining and handling,historic,true
+BLR,2004,,1.B.1.a Coal mining and handling,historic,true
+BLR,2005,,1.B.1.a Coal mining and handling,historic,true
+BLR,2006,,1.B.1.a Coal mining and handling,historic,true
+BLR,2007,,1.B.1.a Coal mining and handling,historic,true
+BLR,2008,,1.B.1.a Coal mining and handling,historic,true
+BLR,2009,,1.B.1.a Coal mining and handling,historic,true
+BLR,2010,,1.B.1.a Coal mining and handling,historic,true
+BLR,2011,,1.B.1.a Coal mining and handling,historic,true
+BLR,2012,,1.B.1.a Coal mining and handling,historic,true
+BLR,2013,,1.B.1.a Coal mining and handling,historic,true
+BLR,2014,,1.B.1.a Coal mining and handling,historic,true
+BLR,2015,,1.B.1.a Coal mining and handling,historic,true
+BLR,2016,,1.B.1.a Coal mining and handling,historic,true
+BLR,2017,,1.B.1.a Coal mining and handling,historic,true
+BLR,2018,,1.B.1.a Coal mining and handling,historic,true
+BLR,2019,,1.B.1.a Coal mining and handling,historic,true
+BLR,2020,,1.B.1.a Coal mining and handling,historic,true
+BLR,2021,,1.B.1.a Coal mining and handling,BLR-CRT-2025-V1.0-2021-20250430-121132_awaiting submission.xlsx,true
+BLR,2022,,1.B.1.a Coal mining and handling,BLR-CRT-2025-V1.0-2022-20250430-121132_awaiting submission.xlsx,true
+BLR,2023,,1.B.1.a Coal mining and handling,BLR-CRT-2025-V1.0-2023-20250430-121132_awaiting submission.xlsx,true
+BLR,2024,,1.B.1.a Coal mining and handling,BLR-CRT-2026-V1.0-2024.xlsx,true
+BRA,1990,49.7,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,1991,54.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,1992,44.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,1993,47.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,1994,42.4,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,1995,41.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,1996,25.5,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,1997,32.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,1998,33.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,1999,34.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,2000,43.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,2001,60.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,2002,44.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,2003,41.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,2004,48.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,2005,49.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,2006,48.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,2007,54.9,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,2008,58.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,2009,52.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,2010,39.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,2011,43.4,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,2012,41.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,2013,60.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,2014,54.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,2015,51.5,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,2016,56.8,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,2020,39.9,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,2021,52.63,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,2021,52.627358890000004,1.B.1.a Coal mining and handling,BRA-CRT-2024-V0.4-2021-20241219-152333_started.xlsx,true
+BRA,2022,50.26,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BRA,2022,50.26460374,1.B.1.a Coal mining and handling,BRA-CRT-2024-V0.4-2022-20241219-152333_started.xlsx,true
+BRN,2021,,1.B.1.a Coal mining and handling (unreviewed draft submission),BRN-CRT-2024-V0.1-2021-20250107-081727_started.xlsx,true
+BRN,2022,,1.B.1.a Coal mining and handling (unreviewed draft submission),BRN-CRT-2024-V0.1-2022-20250107-081727_started.xlsx,true
+BTN,2000,0.01,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BTN,2015,0.07,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BTN,2020,0.01,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BTN,2021,,1.B.1.a Coal mining and handling,BTN-CRT-2024-V0.6-2021-20241222-232810_started.xlsx,true
+BTN,2022,,1.B.1.a Coal mining and handling,BTN-CRT-2024-V0.6-2022-20241222-232810_started.xlsx,true
+BWA,1994,12.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BWA,2000,12.7,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+BWA,2014,12.49949,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+CAN,1990,112.95688649350583,1.B.1.a Coal mining and handling,historic,true
+CAN,1991,115.11408595708097,1.B.1.a Coal mining and handling,historic,true
+CAN,1992,92.25176171439695,1.B.1.a Coal mining and handling,historic,true
+CAN,1993,101.621809177406,1.B.1.a Coal mining and handling,historic,true
+CAN,1994,100.2552963445144,1.B.1.a Coal mining and handling,historic,true
+CAN,1995,91.8095406636406,1.B.1.a Coal mining and handling,historic,true
+CAN,1996,87.4635738702118,1.B.1.a Coal mining and handling,historic,true
+CAN,1997,90.2854527047613,1.B.1.a Coal mining and handling,historic,true
+CAN,1998,78.9396459584867,1.B.1.a Coal mining and handling,historic,true
+CAN,1999,66.6299361391545,1.B.1.a Coal mining and handling,historic,true
+CAN,2000,68.76550217061116,1.B.1.a Coal mining and handling,historic,true
+CAN,2001,69.66353567759003,1.B.1.a Coal mining and handling,historic,true
+CAN,2002,62.2444127019491,1.B.1.a Coal mining and handling,historic,true
+CAN,2003,56.2842214385918,1.B.1.a Coal mining and handling,historic,true
+CAN,2004,59.6285554796579,1.B.1.a Coal mining and handling,historic,true
+CAN,2005,55.69166236100402,1.B.1.a Coal mining and handling,historic,true
+CAN,2006,49.70727682669557,1.B.1.a Coal mining and handling,historic,true
+CAN,2007,53.39763864283052,1.B.1.a Coal mining and handling,historic,true
+CAN,2008,52.17842497825943,1.B.1.a Coal mining and handling,historic,true
+CAN,2009,48.02164941547856,1.B.1.a Coal mining and handling,historic,true
+CAN,2010,55.20861502603892,1.B.1.a Coal mining and handling,historic,true
+CAN,2011,54.8569478302787,1.B.1.a Coal mining and handling,historic,true
+CAN,2012,55.73485287277684,1.B.1.a Coal mining and handling,historic,true
+CAN,2013,61.34394963486728,1.B.1.a Coal mining and handling,historic,true
+CAN,2014,51.79785451704733,1.B.1.a Coal mining and handling,historic,true
+CAN,2015,45.6924933769325,1.B.1.a Coal mining and handling,historic,true
+CAN,2016,50.46107706813351,1.B.1.a Coal mining and handling,historic,true
+CAN,2017,48.64524811572084,1.B.1.a Coal mining and handling,historic,true
+CAN,2018,53.3531143747395,1.B.1.a Coal mining and handling,historic,true
+CAN,2019,55.76070367331977,1.B.1.a Coal mining and handling,historic,true
+CAN,2020,42.72226507108691,1.B.1.a Coal mining and handling,historic,true
+CAN,2021,48.47223920707322,1.B.1.a Coal mining and handling (unreviewed draft submission),CAN-CRT-2024-V0.1-2021-20241013-185747_started.xlsx,true
+CAN,2022,54.42637361559655,1.B.1.a Coal mining and handling (unreviewed draft submission),CAN-CRT-2024-V0.1-2022-20241013-185747_started.xlsx,true
+CHE,1990,,1.B.1.a Coal mining and handling,historic,true
+CHE,1991,,1.B.1.a Coal mining and handling,historic,true
+CHE,1992,,1.B.1.a Coal mining and handling,historic,true
+CHE,1993,,1.B.1.a Coal mining and handling,historic,true
+CHE,1994,,1.B.1.a Coal mining and handling,historic,true
+CHE,1995,,1.B.1.a Coal mining and handling,historic,true
+CHE,1996,,1.B.1.a Coal mining and handling,historic,true
+CHE,1997,,1.B.1.a Coal mining and handling,historic,true
+CHE,1998,,1.B.1.a Coal mining and handling,historic,true
+CHE,1999,,1.B.1.a Coal mining and handling,historic,true
+CHE,2000,,1.B.1.a Coal mining and handling,historic,true
+CHE,2001,,1.B.1.a Coal mining and handling,historic,true
+CHE,2002,,1.B.1.a Coal mining and handling,historic,true
+CHE,2003,,1.B.1.a Coal mining and handling,historic,true
+CHE,2004,,1.B.1.a Coal mining and handling,historic,true
+CHE,2005,,1.B.1.a Coal mining and handling,historic,true
+CHE,2006,,1.B.1.a Coal mining and handling,historic,true
+CHE,2007,,1.B.1.a Coal mining and handling,historic,true
+CHE,2008,,1.B.1.a Coal mining and handling,historic,true
+CHE,2009,,1.B.1.a Coal mining and handling,historic,true
+CHE,2010,,1.B.1.a Coal mining and handling,historic,true
+CHE,2011,,1.B.1.a Coal mining and handling,historic,true
+CHE,2012,,1.B.1.a Coal mining and handling,historic,true
+CHE,2013,,1.B.1.a Coal mining and handling,historic,true
+CHE,2014,,1.B.1.a Coal mining and handling,historic,true
+CHE,2015,,1.B.1.a Coal mining and handling,historic,true
+CHE,2016,,1.B.1.a Coal mining and handling,historic,true
+CHE,2017,,1.B.1.a Coal mining and handling,historic,true
+CHE,2018,,1.B.1.a Coal mining and handling,historic,true
+CHE,2019,,1.B.1.a Coal mining and handling,historic,true
+CHE,2020,,1.B.1.a Coal mining and handling,historic,true
+CHE,2021,,1.B.1.a Coal mining and handling,CHE-CRT-2024-V1.0-2021-20241211-180354.xlsx,true
+CHE,2022,,1.B.1.a Coal mining and handling,CHE-CRT-2024-V1.0-2022-20241211-180354.xlsx,true
+CHE,2023,,1.B.1.a Coal mining and handling,CHE-CRT-2025-V1.0-2023-20250409-144413_awaiting submission.xlsx,true
+CHE,2024,,1.B.1.a Coal mining and handling,CHE-CRT-2026-V1.0-2024.xlsx,true
+CHL,1990,34.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+CHL,1994,14.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+CHL,2000,5.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+CHL,2006,1.8,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+CHL,2010,2.8,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+CHL,2013,6.5,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+CHL,2016,5.5,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+CHL,2018,3.7,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+CHL,2020,0.7,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+CHL,2021,0.38,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+CHL,2022,0.31,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+CHN,1994,7100.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+CHN,2010,22870.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+CHN,2012,23847.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+CHN,2014,21015.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+CHN,2017,25187.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+CHN,2020,24863.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+CHN,2021,,1.B.1.a Coal mining and handling,CHN-CRT-2024-V0.5-2021-20241231-154423_started.xlsx,true
+CHN,2021,25030.34,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+CIV,2021,,1.B.1.a Coal mining and handling,CIV-CRT-2024-V1.4-2021-20251110-150925_started.xlsx,true
+CIV,2022,,1.B.1.a Coal mining and handling,CIV-CRT-2024-V1.4-2022-20251110-150925_started.xlsx,true
+COL,1990,88.4,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+COL,1994,94.9,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+COL,2000,156.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+COL,2004,219.9,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+COL,2010,105.75,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+COL,2014,122.39,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+COL,2018,122.69,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+COL,2019,115.89,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+COL,2020,83.67,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+COL,2021,79.4997432760193,1.B.1.a Coal mining and handling,COL-CRT-2024-V0.2-2021-20241216-102326_started.xlsx,true
+COL,2021,79.5,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+COL,2022,130.0017860132992,1.B.1.a Coal mining and handling,COL-CRT-2026-V1.0-2022.xlsx,true
+COL,2023,120.46435419620809,1.B.1.a Coal mining and handling,COL-CRT-2026-V1.0-2023.xlsx,true
+COL,2024,82.85197341770194,1.B.1.a Coal mining and handling,COL-CRT-2026-V1.0-2024.xlsx,true
+CRI,2021,,1.B.1.a Coal mining and handling (unreviewed draft submission),CRI-CRT-2024-V0.1-2021-20250901-122258_started.xlsx,true
+CUB,2021,,1.B.1.a Coal mining and handling (unreviewed draft submission),CUB-CRT-2024-V0.3-2021-20250414-101016_started.xlsx,true
+CUB,2022,,1.B.1.a Coal mining and handling (unreviewed draft submission),CUB-CRT-2024-V0.3-2022-20250414-101016_started.xlsx,true
+CYP,1990,,1.B.1.a Coal mining and handling,historic,true
+CYP,1991,,1.B.1.a Coal mining and handling,historic,true
+CYP,1992,,1.B.1.a Coal mining and handling,historic,true
+CYP,1993,,1.B.1.a Coal mining and handling,historic,true
+CYP,1994,,1.B.1.a Coal mining and handling,historic,true
+CYP,1995,,1.B.1.a Coal mining and handling,historic,true
+CYP,1996,,1.B.1.a Coal mining and handling,historic,true
+CYP,1997,,1.B.1.a Coal mining and handling,historic,true
+CYP,1998,,1.B.1.a Coal mining and handling,historic,true
+CYP,1999,,1.B.1.a Coal mining and handling,historic,true
+CYP,2000,,1.B.1.a Coal mining and handling,historic,true
+CYP,2001,,1.B.1.a Coal mining and handling,historic,true
+CYP,2002,,1.B.1.a Coal mining and handling,historic,true
+CYP,2003,,1.B.1.a Coal mining and handling,historic,true
+CYP,2004,,1.B.1.a Coal mining and handling,historic,true
+CYP,2005,,1.B.1.a Coal mining and handling,historic,true
+CYP,2006,,1.B.1.a Coal mining and handling,historic,true
+CYP,2007,,1.B.1.a Coal mining and handling,historic,true
+CYP,2008,,1.B.1.a Coal mining and handling,historic,true
+CYP,2009,,1.B.1.a Coal mining and handling,historic,true
+CYP,2010,,1.B.1.a Coal mining and handling,historic,true
+CYP,2011,,1.B.1.a Coal mining and handling,historic,true
+CYP,2012,,1.B.1.a Coal mining and handling,historic,true
+CYP,2013,,1.B.1.a Coal mining and handling,historic,true
+CYP,2014,,1.B.1.a Coal mining and handling,historic,true
+CYP,2015,,1.B.1.a Coal mining and handling,historic,true
+CYP,2016,,1.B.1.a Coal mining and handling,historic,true
+CYP,2017,,1.B.1.a Coal mining and handling,historic,true
+CYP,2018,,1.B.1.a Coal mining and handling,historic,true
+CYP,2019,,1.B.1.a Coal mining and handling,historic,true
+CYP,2020,,1.B.1.a Coal mining and handling,historic,true
+CYP,2021,,1.B.1.a Coal mining and handling,CYP-CRT-2025-V1.0-2021-20250930-144143_submitted.xlsx,true
+CYP,2022,,1.B.1.a Coal mining and handling,CYP-CRT-2025-V1.0-2022-20250930-144143_submitted.xlsx,true
+CYP,2023,,1.B.1.a Coal mining and handling,CYP-CRT-2025-V1.0-2023-20250930-144143_submitted.xlsx,true
+CYP,2024,,1.B.1.a Coal mining and handling (unreviewed draft submission),CYP-CRT-2026-V0.2-2024-20260417-221902_started.xlsx,true
+CZE,1990,435.01967700000006,1.B.1.a Coal mining and handling,historic,true
+CZE,1991,403.99720300000007,1.B.1.a Coal mining and handling,historic,true
+CZE,1992,371.670976,1.B.1.a Coal mining and handling,historic,true
+CZE,1993,385.09087500000004,1.B.1.a Coal mining and handling,historic,true
+CZE,1994,361.589955,1.B.1.a Coal mining and handling,historic,true
+CZE,1995,356.43336700000003,1.B.1.a Coal mining and handling,historic,true
+CZE,1996,355.12123900000006,1.B.1.a Coal mining and handling,historic,true
+CZE,1997,344.269249,1.B.1.a Coal mining and handling,historic,true
+CZE,1998,325.589917,1.B.1.a Coal mining and handling,historic,true
+CZE,1999,291.535157,1.B.1.a Coal mining and handling,historic,true
+CZE,2000,258.99175002952927,1.B.1.a Coal mining and handling,historic,true
+CZE,2001,234.22180090746372,1.B.1.a Coal mining and handling,historic,true
+CZE,2002,222.45232223362936,1.B.1.a Coal mining and handling,historic,true
+CZE,2003,220.2512447647996,1.B.1.a Coal mining and handling,historic,true
+CZE,2004,211.77119460104578,1.B.1.a Coal mining and handling,historic,true
+CZE,2005,225.6310385067455,1.B.1.a Coal mining and handling,historic,true
+CZE,2006,233.93409516849692,1.B.1.a Coal mining and handling,historic,true
+CZE,2007,216.1827724200729,1.B.1.a Coal mining and handling,historic,true
+CZE,2008,215.14520534571287,1.B.1.a Coal mining and handling,historic,true
+CZE,2009,184.42134637264388,1.B.1.a Coal mining and handling,historic,true
+CZE,2010,184.5626719944151,1.B.1.a Coal mining and handling,historic,true
+CZE,2011,185.31639853071707,1.B.1.a Coal mining and handling,historic,true
+CZE,2012,182.42373982242944,1.B.1.a Coal mining and handling,historic,true
+CZE,2013,149.87496143751872,1.B.1.a Coal mining and handling,historic,true
+CZE,2014,149.59612724284432,1.B.1.a Coal mining and handling,historic,true
+CZE,2015,144.66197527710182,1.B.1.a Coal mining and handling,historic,true
+CZE,2016,128.36719150882618,1.B.1.a Coal mining and handling,historic,true
+CZE,2017,115.69045065197577,1.B.1.a Coal mining and handling,historic,true
+CZE,2018,106.72654154724914,1.B.1.a Coal mining and handling,historic,true
+CZE,2019,93.40383997254465,1.B.1.a Coal mining and handling,historic,true
+CZE,2020,67.27128339371437,1.B.1.a Coal mining and handling,historic,true
+CZE,2021,22.955920109340003,1.B.1.a Coal mining and handling,CZE-CRT-2026-V1.0-2021.xlsx,true
+CZE,2022,19.748435985469996,1.B.1.a Coal mining and handling,CZE-CRT-2026-V1.0-2022.xlsx,true
+CZE,2023,17.38414079009,1.B.1.a Coal mining and handling,CZE-CRT-2026-V1.0-2023.xlsx,true
+CZE,2024,16.94888473556,1.B.1.a Coal mining and handling,CZE-CRT-2026-V1.0-2024.xlsx,true
+DEU,1990,1019.7755099300001,1.B.1.a Coal mining and handling,historic,true
+DEU,1991,972.4410004,1.B.1.a Coal mining and handling,historic,true
+DEU,1992,845.76117191,1.B.1.a Coal mining and handling,historic,true
+DEU,1993,857.5227621,1.B.1.a Coal mining and handling,historic,true
+DEU,1994,759.97788342,1.B.1.a Coal mining and handling,historic,true
+DEU,1995,772.19095048,1.B.1.a Coal mining and handling,historic,true
+DEU,1996,734.34175409,1.B.1.a Coal mining and handling,historic,true
+DEU,1997,725.2035151199999,1.B.1.a Coal mining and handling,historic,true
+DEU,1998,628.00561165,1.B.1.a Coal mining and handling,historic,true
+DEU,1999,683.2761273,1.B.1.a Coal mining and handling,historic,true
+DEU,2000,662.44365169,1.B.1.a Coal mining and handling,historic,true
+DEU,2001,575.58596498,1.B.1.a Coal mining and handling,historic,true
+DEU,2002,539.7182333,1.B.1.a Coal mining and handling,historic,true
+DEU,2003,474.72629614,1.B.1.a Coal mining and handling,historic,true
+DEU,2004,372.86441639,1.B.1.a Coal mining and handling,historic,true
+DEU,2005,302.88526456,1.B.1.a Coal mining and handling,historic,true
+DEU,2006,234.00256214,1.B.1.a Coal mining and handling,historic,true
+DEU,2007,192.59069656,1.B.1.a Coal mining and handling,historic,true
+DEU,2008,181.25782937,1.B.1.a Coal mining and handling,historic,true
+DEU,2009,134.67056368,1.B.1.a Coal mining and handling,historic,true
+DEU,2010,134.64031649,1.B.1.a Coal mining and handling,historic,true
+DEU,2011,127.45236167,1.B.1.a Coal mining and handling,historic,true
+DEU,2012,162.16432279,1.B.1.a Coal mining and handling,historic,true
+DEU,2013,140.83343685999998,1.B.1.a Coal mining and handling,historic,true
+DEU,2014,111.61619473,1.B.1.a Coal mining and handling,historic,true
+DEU,2015,123.48966300000001,1.B.1.a Coal mining and handling,historic,true
+DEU,2016,99.249941,1.B.1.a Coal mining and handling,historic,true
+DEU,2017,99.28678674,1.B.1.a Coal mining and handling,historic,true
+DEU,2018,64.4773,1.B.1.a Coal mining and handling,historic,true
+DEU,2019,4.02565528,1.B.1.a Coal mining and handling,historic,true
+DEU,2020,3.69064986,1.B.1.a Coal mining and handling,historic,true
+DEU,2021,3.75492253,1.B.1.a Coal mining and handling,DEU-CRT-2024-V1.1-2021-20241206-101928_started.xlsx,true
+DEU,2022,3.66151222,1.B.1.a Coal mining and handling,DEU-CRT-2024-V1.1-2022-20241206-101928_started.xlsx,true
+DEU,2023,3.2013,1.B.1.a Coal mining and handling,DEU-CRT-2025-V1.0-2023-20250415-091708_awaiting submission.xlsx,true
+DEU,2024,2.3843408,1.B.1.a Coal mining and handling,DEU-CRT-2026-V1.0-2024.xlsx,true
+DNK,1990,,1.B.1.a Coal mining and handling,historic,true
+DNK,1991,,1.B.1.a Coal mining and handling,historic,true
+DNK,1992,,1.B.1.a Coal mining and handling,historic,true
+DNK,1993,,1.B.1.a Coal mining and handling,historic,true
+DNK,1994,,1.B.1.a Coal mining and handling,historic,true
+DNK,1995,,1.B.1.a Coal mining and handling,historic,true
+DNK,1996,,1.B.1.a Coal mining and handling,historic,true
+DNK,1997,,1.B.1.a Coal mining and handling,historic,true
+DNK,1998,,1.B.1.a Coal mining and handling,historic,true
+DNK,1999,,1.B.1.a Coal mining and handling,historic,true
+DNK,2000,,1.B.1.a Coal mining and handling,historic,true
+DNK,2001,,1.B.1.a Coal mining and handling,historic,true
+DNK,2002,,1.B.1.a Coal mining and handling,historic,true
+DNK,2003,,1.B.1.a Coal mining and handling,historic,true
+DNK,2004,,1.B.1.a Coal mining and handling,historic,true
+DNK,2005,,1.B.1.a Coal mining and handling,historic,true
+DNK,2006,,1.B.1.a Coal mining and handling,historic,true
+DNK,2007,,1.B.1.a Coal mining and handling,historic,true
+DNK,2008,,1.B.1.a Coal mining and handling,historic,true
+DNK,2009,,1.B.1.a Coal mining and handling,historic,true
+DNK,2010,,1.B.1.a Coal mining and handling,historic,true
+DNK,2011,,1.B.1.a Coal mining and handling,historic,true
+DNK,2012,,1.B.1.a Coal mining and handling,historic,true
+DNK,2013,,1.B.1.a Coal mining and handling,historic,true
+DNK,2014,,1.B.1.a Coal mining and handling,historic,true
+DNK,2015,,1.B.1.a Coal mining and handling,historic,true
+DNK,2016,,1.B.1.a Coal mining and handling,historic,true
+DNK,2017,,1.B.1.a Coal mining and handling,historic,true
+DNK,2018,,1.B.1.a Coal mining and handling,historic,true
+DNK,2019,,1.B.1.a Coal mining and handling,historic,true
+DNK,2020,,1.B.1.a Coal mining and handling,historic,true
+DNK,2021,,1.B.1.a Coal mining and handling,DNK-CRT-2026-V2.0-2021.xlsx,true
+DNK,2022,,1.B.1.a Coal mining and handling,DNK-CRT-2026-V2.0-2022.xlsx,true
+DNK,2023,,1.B.1.a Coal mining and handling,DNK-CRT-2026-V2.0-2023.xlsx,true
+DNK,2024,,1.B.1.a Coal mining and handling,DNK-CRT-2026-V2.0-2024.xlsx,true
+DZA,2021,,1.B.1.a Coal mining and handling (unreviewed draft submission),DZA-CRT-2024-V0.1-2021-20241225-153939_started.xlsx,true
+DZA,2022,,1.B.1.a Coal mining and handling (unreviewed draft submission),DZA-CRT-2024-V0.1-2022-20241225-153939_started.xlsx,true
+EGY,2021,,1.B.1.a Coal mining and handling (unreviewed draft submission),EGY-CRT-2024-V0.4-2021-20241230-110251_started.xlsx,true
+EGY,2022,,1.B.1.a Coal mining and handling (unreviewed draft submission),EGY-CRT-2024-V0.4-2022-20241230-110251_started.xlsx,true
+ESP,1990,64.81341214,1.B.1.a Coal mining and handling,historic,true
+ESP,1991,51.71018386299999,1.B.1.a Coal mining and handling,historic,true
+ESP,1992,57.73776202699999,1.B.1.a Coal mining and handling,historic,true
+ESP,1993,53.048940428,1.B.1.a Coal mining and handling,historic,true
+ESP,1994,48.992088029,1.B.1.a Coal mining and handling,historic,true
+ESP,1995,44.97847003200001,1.B.1.a Coal mining and handling,historic,true
+ESP,1996,45.918023156,1.B.1.a Coal mining and handling,historic,true
+ESP,1997,45.286329631,1.B.1.a Coal mining and handling,historic,true
+ESP,1998,36.054359453,1.B.1.a Coal mining and handling,historic,true
+ESP,1999,34.332653994,1.B.1.a Coal mining and handling,historic,true
+ESP,2000,33.398893556,1.B.1.a Coal mining and handling,historic,true
+ESP,2001,32.601667057,1.B.1.a Coal mining and handling,historic,true
+ESP,2002,30.28447903,1.B.1.a Coal mining and handling,historic,true
+ESP,2003,29.098691364,1.B.1.a Coal mining and handling,historic,true
+ESP,2004,26.427908862,1.B.1.a Coal mining and handling,historic,true
+ESP,2005,24.126250259,1.B.1.a Coal mining and handling,historic,true
+ESP,2006,23.052410433,1.B.1.a Coal mining and handling,historic,true
+ESP,2007,21.244612543,1.B.1.a Coal mining and handling,historic,true
+ESP,2008,19.044532956,1.B.1.a Coal mining and handling,historic,true
+ESP,2009,16.269782205,1.B.1.a Coal mining and handling,historic,true
+ESP,2010,13.989585488,1.B.1.a Coal mining and handling,historic,true
+ESP,2011,11.367285158,1.B.1.a Coal mining and handling,historic,true
+ESP,2012,9.037735998,1.B.1.a Coal mining and handling,historic,true
+ESP,2013,8.556356536,1.B.1.a Coal mining and handling,historic,true
+ESP,2014,6.2852,1.B.1.a Coal mining and handling,historic,true
+ESP,2015,4.21449426,1.B.1.a Coal mining and handling,historic,true
+ESP,2016,3.341072028,1.B.1.a Coal mining and handling,historic,true
+ESP,2017,3.290281779,1.B.1.a Coal mining and handling,historic,true
+ESP,2018,3.016124514,1.B.1.a Coal mining and handling,historic,true
+ESP,2019,0.633405681,1.B.1.a Coal mining and handling,historic,true
+ESP,2020,1.066189619,1.B.1.a Coal mining and handling,historic,true
+ESP,2021,0.949675666,1.B.1.a Coal mining and handling,ESP-CRT-2026-V1.0-2021.xlsx,true
+ESP,2022,0.883107035,1.B.1.a Coal mining and handling,ESP-CRT-2026-V1.0-2022.xlsx,true
+ESP,2023,0.836472762,1.B.1.a Coal mining and handling,ESP-CRT-2026-V1.0-2023.xlsx,true
+ESP,2024,0.800501758,1.B.1.a Coal mining and handling,ESP-CRT-2026-V1.0-2024.xlsx,true
+EST,1990,,1.B.1.a Coal mining and handling,historic,true
+EST,1991,,1.B.1.a Coal mining and handling,historic,true
+EST,1992,,1.B.1.a Coal mining and handling,historic,true
+EST,1993,,1.B.1.a Coal mining and handling,historic,true
+EST,1994,,1.B.1.a Coal mining and handling,historic,true
+EST,1995,,1.B.1.a Coal mining and handling,historic,true
+EST,1996,,1.B.1.a Coal mining and handling,historic,true
+EST,1997,,1.B.1.a Coal mining and handling,historic,true
+EST,1998,,1.B.1.a Coal mining and handling,historic,true
+EST,1999,,1.B.1.a Coal mining and handling,historic,true
+EST,2000,,1.B.1.a Coal mining and handling,historic,true
+EST,2001,,1.B.1.a Coal mining and handling,historic,true
+EST,2002,,1.B.1.a Coal mining and handling,historic,true
+EST,2003,,1.B.1.a Coal mining and handling,historic,true
+EST,2004,,1.B.1.a Coal mining and handling,historic,true
+EST,2005,,1.B.1.a Coal mining and handling,historic,true
+EST,2006,,1.B.1.a Coal mining and handling,historic,true
+EST,2007,,1.B.1.a Coal mining and handling,historic,true
+EST,2008,,1.B.1.a Coal mining and handling,historic,true
+EST,2009,,1.B.1.a Coal mining and handling,historic,true
+EST,2010,,1.B.1.a Coal mining and handling,historic,true
+EST,2011,,1.B.1.a Coal mining and handling,historic,true
+EST,2012,,1.B.1.a Coal mining and handling,historic,true
+EST,2013,,1.B.1.a Coal mining and handling,historic,true
+EST,2014,,1.B.1.a Coal mining and handling,historic,true
+EST,2015,,1.B.1.a Coal mining and handling,historic,true
+EST,2016,,1.B.1.a Coal mining and handling,historic,true
+EST,2017,,1.B.1.a Coal mining and handling,historic,true
+EST,2018,,1.B.1.a Coal mining and handling,historic,true
+EST,2019,,1.B.1.a Coal mining and handling,historic,true
+EST,2020,,1.B.1.a Coal mining and handling,historic,true
+EST,2021,,1.B.1.a Coal mining and handling,EST-CRT-2024-V1.0-2021-20241220-135059_awaiting submission.xlsx,true
+EST,2022,,1.B.1.a Coal mining and handling,EST-CRT-2024-V1.0-2022-20241220-135059_awaiting submission.xlsx,true
+EST,2023,,1.B.1.a Coal mining and handling,EST-CRT-2025-V1.0-2023-20250415-152116_awaiting submission.xlsx,true
+EST,2024,,1.B.1.a Coal mining and handling,EST-CRT-2026-V1.0-2024.xlsx,true
+ETH,2008,0.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ETH,2009,0.5,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ETH,2010,0.8,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ETH,2011,0.4,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ETH,2012,0.4,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ETH,2013,0.4,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+EU,2021,908.1408243523964,1.B.1.a Coal mining and handling,EUA_CRT_2021.xlsx,true
+EU,2022,888.3571188860647,1.B.1.a Coal mining and handling,EUA_CRT_2022.xlsx,true
+FIN,1990,,1.B.1.a Coal mining and handling,historic,true
+FIN,1991,,1.B.1.a Coal mining and handling,historic,true
+FIN,1992,,1.B.1.a Coal mining and handling,historic,true
+FIN,1993,,1.B.1.a Coal mining and handling,historic,true
+FIN,1994,,1.B.1.a Coal mining and handling,historic,true
+FIN,1995,,1.B.1.a Coal mining and handling,historic,true
+FIN,1996,,1.B.1.a Coal mining and handling,historic,true
+FIN,1997,,1.B.1.a Coal mining and handling,historic,true
+FIN,1998,,1.B.1.a Coal mining and handling,historic,true
+FIN,1999,,1.B.1.a Coal mining and handling,historic,true
+FIN,2000,,1.B.1.a Coal mining and handling,historic,true
+FIN,2001,,1.B.1.a Coal mining and handling,historic,true
+FIN,2002,,1.B.1.a Coal mining and handling,historic,true
+FIN,2003,,1.B.1.a Coal mining and handling,historic,true
+FIN,2004,,1.B.1.a Coal mining and handling,historic,true
+FIN,2005,,1.B.1.a Coal mining and handling,historic,true
+FIN,2006,,1.B.1.a Coal mining and handling,historic,true
+FIN,2007,,1.B.1.a Coal mining and handling,historic,true
+FIN,2008,,1.B.1.a Coal mining and handling,historic,true
+FIN,2009,,1.B.1.a Coal mining and handling,historic,true
+FIN,2010,,1.B.1.a Coal mining and handling,historic,true
+FIN,2011,,1.B.1.a Coal mining and handling,historic,true
+FIN,2012,,1.B.1.a Coal mining and handling,historic,true
+FIN,2013,,1.B.1.a Coal mining and handling,historic,true
+FIN,2014,,1.B.1.a Coal mining and handling,historic,true
+FIN,2015,,1.B.1.a Coal mining and handling,historic,true
+FIN,2016,,1.B.1.a Coal mining and handling,historic,true
+FIN,2017,,1.B.1.a Coal mining and handling,historic,true
+FIN,2018,,1.B.1.a Coal mining and handling,historic,true
+FIN,2019,,1.B.1.a Coal mining and handling,historic,true
+FIN,2020,,1.B.1.a Coal mining and handling,historic,true
+FIN,2021,,1.B.1.a Coal mining and handling,FIN-CRT-2024-V1.0-2021-20241216-165950_awaiting submission.xlsx,true
+FIN,2022,,1.B.1.a Coal mining and handling,FIN-CRT-2024-V1.0-2022-20241216-165950_awaiting submission.xlsx,true
+FIN,2023,,1.B.1.a Coal mining and handling,FIN-CRT-2025-V1.0-2023-20250411-085701_awaiting submission.xlsx,true
+FIN,2024,,1.B.1.a Coal mining and handling,FIN-CRT-2026-V1.0-2024.xlsx,true
+FRA,1990,191.218,1.B.1.a Coal mining and handling,historic,true
+FRA,1991,177.44773118448165,1.B.1.a Coal mining and handling,historic,true
+FRA,1992,185.31264239210918,1.B.1.a Coal mining and handling,historic,true
+FRA,1993,193.5915151166511,1.B.1.a Coal mining and handling,historic,true
+FRA,1994,197.921800135107,1.B.1.a Coal mining and handling,historic,true
+FRA,1995,196.12403894175802,1.B.1.a Coal mining and handling,historic,true
+FRA,1996,149.06462746456228,1.B.1.a Coal mining and handling,historic,true
+FRA,1997,126.85802452245328,1.B.1.a Coal mining and handling,historic,true
+FRA,1998,123.08990253001942,1.B.1.a Coal mining and handling,historic,true
+FRA,1999,116.93839821555893,1.B.1.a Coal mining and handling,historic,true
+FRA,2000,80.1835587037855,1.B.1.a Coal mining and handling,historic,true
+FRA,2001,72.09925381805749,1.B.1.a Coal mining and handling,historic,true
+FRA,2002,47.93735638528254,1.B.1.a Coal mining and handling,historic,true
+FRA,2003,45.74800572325302,1.B.1.a Coal mining and handling,historic,true
+FRA,2004,26.65813911197264,1.B.1.a Coal mining and handling,historic,true
+FRA,2005,14.807,1.B.1.a Coal mining and handling,historic,true
+FRA,2006,9.447,1.B.1.a Coal mining and handling,historic,true
+FRA,2007,1.407,1.B.1.a Coal mining and handling,historic,true
+FRA,2008,1.407,1.B.1.a Coal mining and handling,historic,true
+FRA,2009,1.407,1.B.1.a Coal mining and handling,historic,true
+FRA,2010,1.407,1.B.1.a Coal mining and handling,historic,true
+FRA,2011,1.072,1.B.1.a Coal mining and handling,historic,true
+FRA,2012,0.469,1.B.1.a Coal mining and handling,historic,true
+FRA,2013,0.536,1.B.1.a Coal mining and handling,historic,true
+FRA,2014,0.402,1.B.1.a Coal mining and handling,historic,true
+FRA,2015,0.402,1.B.1.a Coal mining and handling,historic,true
+FRA,2016,0.402,1.B.1.a Coal mining and handling,historic,true
+FRA,2017,0.402,1.B.1.a Coal mining and handling,historic,true
+FRA,2018,0.402,1.B.1.a Coal mining and handling,historic,true
+FRA,2019,0.402,1.B.1.a Coal mining and handling,historic,true
+FRA,2020,0.402,1.B.1.a Coal mining and handling,historic,true
+FRA,2021,0.0468999999999999,1.B.1.a Coal mining and handling,FRA-CRT-2025-V1.0-2021-20250415-170700_awaiting submission.xlsx,true
+FRA,2022,0.0468999999999999,1.B.1.a Coal mining and handling,FRA-CRT-2025-V1.0-2022-20250415-170700_awaiting submission.xlsx,true
+FRA,2023,0.0468999999999999,1.B.1.a Coal mining and handling,FRA-CRT-2025-V1.0-2023-20250415-170700_awaiting submission.xlsx,true
+FRA,2024,0.067,1.B.1.a Coal mining and handling,FRAJ-CRT-2026-V1.0-2024.xlsx,true
+GAB,2021,,1.B.1.a Coal mining and handling,GAB-CRT-2024-V1.0-2021-20260306-091606_awaiting submission.xlsx,true
+GAB,2022,,1.B.1.a Coal mining and handling,GAB-CRT-2024-V1.0-2022-20260306-091606_awaiting submission.xlsx,true
+GBR,1990,872.3575138825006,1.B.1.a Coal mining and handling,historic,true
+GBR,1991,897.1569631783191,1.B.1.a Coal mining and handling,historic,true
+GBR,1992,889.7417057704713,1.B.1.a Coal mining and handling,historic,true
+GBR,1993,828.282277417713,1.B.1.a Coal mining and handling,historic,true
+GBR,1994,549.9089688103475,1.B.1.a Coal mining and handling,historic,true
+GBR,1995,601.8326447317282,1.B.1.a Coal mining and handling,historic,true
+GBR,1996,557.0392792247583,1.B.1.a Coal mining and handling,historic,true
+GBR,1997,533.7335843133548,1.B.1.a Coal mining and handling,historic,true
+GBR,1998,454.6362915797626,1.B.1.a Coal mining and handling,historic,true
+GBR,1999,376.44502410401765,1.B.1.a Coal mining and handling,historic,true
+GBR,2000,323.7488360131606,1.B.1.a Coal mining and handling,historic,true
+GBR,2001,287.50382283721854,1.B.1.a Coal mining and handling,historic,true
+GBR,2002,282.6506444887524,1.B.1.a Coal mining and handling,historic,true
+GBR,2003,232.7669449696974,1.B.1.a Coal mining and handling,historic,true
+GBR,2004,209.0347102754518,1.B.1.a Coal mining and handling,historic,true
+GBR,2005,154.2372143522941,1.B.1.a Coal mining and handling,historic,true
+GBR,2006,139.356128372249,1.B.1.a Coal mining and handling,historic,true
+GBR,2007,112.90838411188099,1.B.1.a Coal mining and handling,historic,true
+GBR,2008,113.1729007010846,1.B.1.a Coal mining and handling,historic,true
+GBR,2009,109.4760938157334,1.B.1.a Coal mining and handling,historic,true
+GBR,2010,101.7708010318951,1.B.1.a Coal mining and handling,historic,true
+GBR,2011,97.4753795679179,1.B.1.a Coal mining and handling,historic,true
+GBR,2012,98.200874894048,1.B.1.a Coal mining and handling,historic,true
+GBR,2013,67.6975842191469,1.B.1.a Coal mining and handling,historic,true
+GBR,2014,66.8129350202836,1.B.1.a Coal mining and handling,historic,true
+GBR,2015,54.9902225060132,1.B.1.a Coal mining and handling,historic,true
+GBR,2016,19.98393898730185,1.B.1.a Coal mining and handling,historic,true
+GBR,2017,19.23258471098072,1.B.1.a Coal mining and handling,historic,true
+GBR,2018,18.55501882341641,1.B.1.a Coal mining and handling,historic,true
+GBR,2019,19.28696011712457,1.B.1.a Coal mining and handling,historic,true
+GBR,2020,18.72248530494655,1.B.1.a Coal mining and handling,historic,true
+GBR,2021,18.11897308968011,1.B.1.a Coal mining and handling,GBR-CRT-2024-V1.1-2021-20241227-053246_started.xlsx,true
+GBR,2022,17.244408658638932,1.B.1.a Coal mining and handling,GBR-CRT-2024-V1.1-2022-20241227-053246_started.xlsx,true
+GBR,2023,23.937948363916018,1.B.1.a Coal mining and handling,GBR-CRT-2026-V1.0-2023.xlsx,true
+GBR,2024,28.68939385942171,1.B.1.a Coal mining and handling,GBR-CRT-2026-V1.0-2024.xlsx,true
+GEO,1990,32.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+GEO,2000,0.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+GEO,2006,0.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+GEO,2007,0.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+GEO,2008,0.8,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+GEO,2009,2.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+GEO,2010,3.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+GEO,2011,4.7,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+GEO,2012,5.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+GEO,2013,5.4,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+GEO,2014,6.35,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+GEO,2015,6.49,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+GEO,2016,6.29,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+GEO,2017,0.48,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+GEO,2018,3.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+GEO,2019,0.81,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+GEO,2020,2.43,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+GEO,2021,0.89,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+GEO,2021,0.89445,1.B.1.a Coal mining and handling,GEO-CRT-2024-V1.0-2021-20241231-131945_awaiting submission.xlsx,true
+GEO,2022,3.33,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+GEO,2022,3.334657,1.B.1.a Coal mining and handling,GEO-CRT-2024-V1.0-2022-20241231-131945_awaiting submission.xlsx,true
+GHA,2021,,1.B.1.a Coal mining and handling (unreviewed draft submission),GHA-CRT-2024-V0.1-2021-20241225-110923_started.xlsx,true
+GHA,2022,,1.B.1.a Coal mining and handling (unreviewed draft submission),GHA-CRT-2024-V0.1-2022-20241225-110923_started.xlsx,true
+GNB,2021,,1.B.1.a Coal mining and handling (unreviewed draft submission),GNB-CRT-2024-V0.7-2021-20250101-134400_started.xlsx,true
+GNB,2022,,1.B.1.a Coal mining and handling (unreviewed draft submission),GNB-CRT-2024-V0.7-2022-20250101-134400_started.xlsx,true
+GRC,1990,45.201416,1.B.1.a Coal mining and handling,historic,true
+GRC,1991,45.897345,1.B.1.a Coal mining and handling,historic,true
+GRC,1992,47.949421,1.B.1.a Coal mining and handling,historic,true
+GRC,1993,47.74560700000001,1.B.1.a Coal mining and handling,historic,true
+GRC,1994,49.361312,1.B.1.a Coal mining and handling,historic,true
+GRC,1995,50.22360200000001,1.B.1.a Coal mining and handling,historic,true
+GRC,1996,52.069251,1.B.1.a Coal mining and handling,historic,true
+GRC,1997,51.25312400000001,1.B.1.a Coal mining and handling,historic,true
+GRC,1998,53.029964,1.B.1.a Coal mining and handling,historic,true
+GRC,1999,54.046421,1.B.1.a Coal mining and handling,historic,true
+GRC,2000,55.645577,1.B.1.a Coal mining and handling,historic,true
+GRC,2001,57.78562400000001,1.B.1.a Coal mining and handling,historic,true
+GRC,2002,61.37762800000001,1.B.1.a Coal mining and handling,historic,true
+GRC,2003,59.488429,1.B.1.a Coal mining and handling,historic,true
+GRC,2004,61.005711,1.B.1.a Coal mining and handling,historic,true
+GRC,2005,60.44565800000001,1.B.1.a Coal mining and handling,historic,true
+GRC,2006,56.19692000000001,1.B.1.a Coal mining and handling,historic,true
+GRC,2007,57.890144,1.B.1.a Coal mining and handling,historic,true
+GRC,2008,57.24212,1.B.1.a Coal mining and handling,historic,true
+GRC,2009,56.52180300000001,1.B.1.a Coal mining and handling,historic,true
+GRC,2010,49.22892,1.B.1.a Coal mining and handling,historic,true
+GRC,2011,51.098086,1.B.1.a Coal mining and handling,historic,true
+GRC,2012,54.83467600000001,1.B.1.a Coal mining and handling,historic,true
+GRC,2013,46.967804,1.B.1.a Coal mining and handling,historic,true
+GRC,2014,44.285995,1.B.1.a Coal mining and handling,historic,true
+GRC,2015,40.280266,1.B.1.a Coal mining and handling,historic,true
+GRC,2016,28.427698,1.B.1.a Coal mining and handling,historic,true
+GRC,2017,32.864004108,1.B.1.a Coal mining and handling,historic,true
+GRC,2018,31.78174480000001,1.B.1.a Coal mining and handling,historic,true
+GRC,2019,23.84401695,1.B.1.a Coal mining and handling,historic,true
+GRC,2020,12.2406856,1.B.1.a Coal mining and handling,historic,true
+GRC,2021,10.798629257,1.B.1.a Coal mining and handling,GRC-CRT-2025-V1.0-2021-20250408-170446_awaiting submission.xlsx,true
+GRC,2022,12.41248164,1.B.1.a Coal mining and handling,GRC-CRT-2025-V1.0-2022-20250408-170446_awaiting submission.xlsx,true
+GRC,2023,9.381262280000001,1.B.1.a Coal mining and handling,GRC-CRT-2025-V1.0-2023-20250408-170446_awaiting submission.xlsx,true
+GRC,2024,5.758640504760001,1.B.1.a Coal mining and handling,GRC-CRT-2026-V1.0-2024.xlsx,true
+GTM,2021,,1.B.1.a Coal mining and handling (unreviewed draft submission),GTM-CRT-2024-V0.3-2021-20250304-084824_started.xlsx,true
+GTM,2022,,1.B.1.a Coal mining and handling (unreviewed draft submission),GTM-CRT-2024-V0.3-2022-20250304-084824_started.xlsx,true
+GUY,2021,,1.B.1.a Coal mining and handling,GUY-CRT-2024-V0.3-2021-20240927-212745_started.xlsx,true
+GUY,2022,,1.B.1.a Coal mining and handling,GUY-CRT-2024-V0.3-2022-20240927-213052_started.xlsx,true
+HRV,1990,2.3857695,1.B.1.a Coal mining and handling,historic,true
+HRV,1991,2.126136795,1.B.1.a Coal mining and handling,historic,true
+HRV,1992,1.65196339,1.B.1.a Coal mining and handling,historic,true
+HRV,1993,1.5808985,1.B.1.a Coal mining and handling,historic,true
+HRV,1994,1.417520675,1.B.1.a Coal mining and handling,historic,true
+HRV,1995,1.129017,1.B.1.a Coal mining and handling,historic,true
+HRV,1996,0.9106305,1.B.1.a Coal mining and handling,historic,true
+HRV,1997,0.6661475,1.B.1.a Coal mining and handling,historic,true
+HRV,1998,0.697738,1.B.1.a Coal mining and handling,historic,true
+HRV,1999,0.2101455,1.B.1.a Coal mining and handling,historic,true
+HRV,2000,,1.B.1.a Coal mining and handling,historic,true
+HRV,2001,,1.B.1.a Coal mining and handling,historic,true
+HRV,2002,,1.B.1.a Coal mining and handling,historic,true
+HRV,2003,,1.B.1.a Coal mining and handling,historic,true
+HRV,2004,,1.B.1.a Coal mining and handling,historic,true
+HRV,2005,,1.B.1.a Coal mining and handling,historic,true
+HRV,2006,,1.B.1.a Coal mining and handling,historic,true
+HRV,2007,,1.B.1.a Coal mining and handling,historic,true
+HRV,2008,,1.B.1.a Coal mining and handling,historic,true
+HRV,2009,,1.B.1.a Coal mining and handling,historic,true
+HRV,2010,,1.B.1.a Coal mining and handling,historic,true
+HRV,2011,,1.B.1.a Coal mining and handling,historic,true
+HRV,2012,,1.B.1.a Coal mining and handling,historic,true
+HRV,2013,,1.B.1.a Coal mining and handling,historic,true
+HRV,2014,,1.B.1.a Coal mining and handling,historic,true
+HRV,2015,,1.B.1.a Coal mining and handling,historic,true
+HRV,2016,,1.B.1.a Coal mining and handling,historic,true
+HRV,2017,,1.B.1.a Coal mining and handling,historic,true
+HRV,2018,,1.B.1.a Coal mining and handling,historic,true
+HRV,2019,,1.B.1.a Coal mining and handling,historic,true
+HRV,2020,,1.B.1.a Coal mining and handling,historic,true
+HRV,2021,,1.B.1.a Coal mining and handling,HRV-CRT-2026-V1.0-2021.xlsx,true
+HRV,2022,,1.B.1.a Coal mining and handling,HRV-CRT-2026-V1.0-2022.xlsx,true
+HRV,2023,,1.B.1.a Coal mining and handling,HRV-CRT-2026-V1.0-2023.xlsx,true
+HRV,2024,,1.B.1.a Coal mining and handling,HRV-CRT-2026-V1.0-2024.xlsx,true
+HUN,1990,42.183286,1.B.1.a Coal mining and handling,historic,true
+HUN,1991,40.19913,1.B.1.a Coal mining and handling,historic,true
+HUN,1992,29.63521,1.B.1.a Coal mining and handling,historic,true
+HUN,1993,24.47929,1.B.1.a Coal mining and handling,historic,true
+HUN,1994,25.80211,1.B.1.a Coal mining and handling,historic,true
+HUN,1995,22.307804,1.B.1.a Coal mining and handling,historic,true
+HUN,1996,22.958794,1.B.1.a Coal mining and handling,historic,true
+HUN,1997,21.769908,1.B.1.a Coal mining and handling,historic,true
+HUN,1998,20.649534,1.B.1.a Coal mining and handling,historic,true
+HUN,1999,18.995505,1.B.1.a Coal mining and handling,historic,true
+HUN,2000,18.830484,1.B.1.a Coal mining and handling,historic,true
+HUN,2001,15.551571,1.B.1.a Coal mining and handling,historic,true
+HUN,2002,16.773919,1.B.1.a Coal mining and handling,historic,true
+HUN,2003,15.350035,1.B.1.a Coal mining and handling,historic,true
+HUN,2004,8.248236,1.B.1.a Coal mining and handling,historic,true
+HUN,2005,3.228462,1.B.1.a Coal mining and handling,historic,true
+HUN,2006,3.05658891,1.B.1.a Coal mining and handling,historic,true
+HUN,2007,3.03317777,1.B.1.a Coal mining and handling,historic,true
+HUN,2008,2.90952726,1.B.1.a Coal mining and handling,historic,true
+HUN,2009,2.43805228,1.B.1.a Coal mining and handling,historic,true
+HUN,2010,2.32870292,1.B.1.a Coal mining and handling,historic,true
+HUN,2011,1.84403765,1.B.1.a Coal mining and handling,historic,true
+HUN,2012,1.88172783,1.B.1.a Coal mining and handling,historic,true
+HUN,2013,1.75217797,1.B.1.a Coal mining and handling,historic,true
+HUN,2014,1.7172590775,1.B.1.a Coal mining and handling,historic,true
+HUN,2015,1.3817270975,1.B.1.a Coal mining and handling,historic,true
+HUN,2016,1.27377519,1.B.1.a Coal mining and handling,historic,true
+HUN,2017,1.1902414325,1.B.1.a Coal mining and handling,historic,true
+HUN,2018,1.1895101275,1.B.1.a Coal mining and handling,historic,true
+HUN,2019,1.2319030375,1.B.1.a Coal mining and handling,historic,true
+HUN,2020,1.14597428125,1.B.1.a Coal mining and handling,historic,true
+HUN,2021,1.11068111,1.B.1.a Coal mining and handling,HUN-CRT-2024-V1.0-2021-20250221-153240_awaiting submission.xlsx,true
+HUN,2022,1.0971313649999999,1.B.1.a Coal mining and handling,HUN-CRT-2024-V1.0-2022-20250221-153240_awaiting submission.xlsx,true
+HUN,2023,1.087209,1.B.1.a Coal mining and handling,HUN-CRT-2025-V1.0-2023-20250610-201747_awaiting submission.xlsx,true
+HUN,2024,1.0705930000000001,1.B.1.a Coal mining and handling,HUN-CRT-2026-V1.0-2024.xlsx,true
+IDN,1994,20.4,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+IDN,2000,17.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+IDN,2016,94.76,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+IDN,2019,128.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+IDN,2020,151.08,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+IDN,2021,164.55,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+IDN,2022,151.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+IND,1994,650.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+IND,2000,585.7,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+IND,2010,772.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+IND,2011,780.38,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+IND,2012,766.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+IND,2013,741.33,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+IND,2014,787.95,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+IND,2015,791.14,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+IND,2016,815.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+IND,2017,765.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+IND,2018,802.95,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+IND,2019,810.36,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+IND,2020,796.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+IRL,1990,2.2222627,1.B.1.a Coal mining and handling,historic,true
+IRL,1991,1.7973755,1.B.1.a Coal mining and handling,historic,true
+IRL,1992,1.6296879,1.B.1.a Coal mining and handling,historic,true
+IRL,1993,1.505062597222,1.B.1.a Coal mining and handling,historic,true
+IRL,1994,1.410015,1.B.1.a Coal mining and handling,historic,true
+IRL,1995,1.3331928,1.B.1.a Coal mining and handling,historic,true
+IRL,1996,1.2608596,1.B.1.a Coal mining and handling,historic,true
+IRL,1997,1.2056583,1.B.1.a Coal mining and handling,historic,true
+IRL,1998,1.1584166,1.B.1.a Coal mining and handling,historic,true
+IRL,1999,1.1165349,1.B.1.a Coal mining and handling,historic,true
+IRL,2000,1.0808306,1.B.1.a Coal mining and handling,historic,true
+IRL,2001,1.0475249,1.B.1.a Coal mining and handling,historic,true
+IRL,2002,1.0169997,1.B.1.a Coal mining and handling,historic,true
+IRL,2003,0.9898714,1.B.1.a Coal mining and handling,historic,true
+IRL,2004,0.9659591,1.B.1.a Coal mining and handling,historic,true
+IRL,2005,0.9418659,1.B.1.a Coal mining and handling,historic,true
+IRL,2006,0.9218061,1.B.1.a Coal mining and handling,historic,true
+IRL,2007,0.9011098,1.B.1.a Coal mining and handling,historic,true
+IRL,2008,0.883194,1.B.1.a Coal mining and handling,historic,true
+IRL,2009,0.8663502,1.B.1.a Coal mining and handling,historic,true
+IRL,2010,0.8493255,1.B.1.a Coal mining and handling,historic,true
+IRL,2011,0.8346257,1.B.1.a Coal mining and handling,historic,true
+IRL,2012,0.8199259,1.B.1.a Coal mining and handling,historic,true
+IRL,2013,0.8058626,1.B.1.a Coal mining and handling,historic,true
+IRL,2014,0.7934877,1.B.1.a Coal mining and handling,historic,true
+IRL,2015,0.7815684,1.B.1.a Coal mining and handling,historic,true
+IRL,2016,0.7696491,1.B.1.a Coal mining and handling,historic,true
+IRL,2017,0.7345813,1.B.1.a Coal mining and handling,historic,true
+IRL,2018,0.724806,1.B.1.a Coal mining and handling,historic,true
+IRL,2019,0.7150307,1.B.1.a Coal mining and handling,historic,true
+IRL,2020,0.7065083,1.B.1.a Coal mining and handling,historic,true
+IRL,2021,0.6978050000000001,1.B.1.a Coal mining and handling,IRL-CRT-2024-V1.0-2021-20241217-102401_awaiting submission.xlsx,true
+IRL,2022,0.6908102000000002,1.B.1.a Coal mining and handling,IRL-CRT-2024-V1.0-2022-20241217-102401_awaiting submission.xlsx,true
+IRL,2023,0.6822878000000002,1.B.1.a Coal mining and handling,IRL-CRT-2025-V1.2-2023-20250314-111705_awaiting approval.xlsx,true
+IRL,2024,0.6746565000000002,1.B.1.a Coal mining and handling,IRL-CRT-2026-V1.0-2024.xlsx,true
+IRN,1994,14.5,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+IRN,2000,6.7,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+IRN,2010,14.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+IRQ,2021,,1.B.1.a Coal mining and handling (unreviewed draft submission),IRQ-CRT-2024-V0.1-2021-20241216-142723_started.xlsx,true
+ISL,1990,,1.B.1.a Coal mining and handling,historic,true
+ISL,1991,,1.B.1.a Coal mining and handling,historic,true
+ISL,1992,,1.B.1.a Coal mining and handling,historic,true
+ISL,1993,,1.B.1.a Coal mining and handling,historic,true
+ISL,1994,,1.B.1.a Coal mining and handling,historic,true
+ISL,1995,,1.B.1.a Coal mining and handling,historic,true
+ISL,1996,,1.B.1.a Coal mining and handling,historic,true
+ISL,1997,,1.B.1.a Coal mining and handling,historic,true
+ISL,1998,,1.B.1.a Coal mining and handling,historic,true
+ISL,1999,,1.B.1.a Coal mining and handling,historic,true
+ISL,2000,,1.B.1.a Coal mining and handling,historic,true
+ISL,2001,,1.B.1.a Coal mining and handling,historic,true
+ISL,2002,,1.B.1.a Coal mining and handling,historic,true
+ISL,2003,,1.B.1.a Coal mining and handling,historic,true
+ISL,2004,,1.B.1.a Coal mining and handling,historic,true
+ISL,2005,,1.B.1.a Coal mining and handling,historic,true
+ISL,2006,,1.B.1.a Coal mining and handling,historic,true
+ISL,2007,,1.B.1.a Coal mining and handling,historic,true
+ISL,2008,,1.B.1.a Coal mining and handling,historic,true
+ISL,2009,,1.B.1.a Coal mining and handling,historic,true
+ISL,2010,,1.B.1.a Coal mining and handling,historic,true
+ISL,2011,,1.B.1.a Coal mining and handling,historic,true
+ISL,2012,,1.B.1.a Coal mining and handling,historic,true
+ISL,2013,,1.B.1.a Coal mining and handling,historic,true
+ISL,2014,,1.B.1.a Coal mining and handling,historic,true
+ISL,2015,,1.B.1.a Coal mining and handling,historic,true
+ISL,2016,,1.B.1.a Coal mining and handling,historic,true
+ISL,2017,,1.B.1.a Coal mining and handling,historic,true
+ISL,2018,,1.B.1.a Coal mining and handling,historic,true
+ISL,2019,,1.B.1.a Coal mining and handling,historic,true
+ISL,2020,,1.B.1.a Coal mining and handling,historic,true
+ISL,2021,,1.B.1.a Coal mining and handling,ISL-CRT-2024-V1.0-2021-20241219-110923_awaiting submission.xlsx,true
+ISL,2022,,1.B.1.a Coal mining and handling,ISL-CRT-2024-V1.0-2022-20241219-110923_awaiting submission.xlsx,true
+ISL,2023,,1.B.1.a Coal mining and handling,ISL-CRT-2025-V1.0-2023-20250408-150630_awaiting submission.xlsx,true
+ISL,2024,,1.B.1.a Coal mining and handling,ISL-CRT-2026-V2.0-2024.xlsx,true
+ITA,1990,2.104001,1.B.1.a Coal mining and handling,historic,true
+ITA,1991,1.641969,1.B.1.a Coal mining and handling,historic,true
+ITA,1992,2.473104,1.B.1.a Coal mining and handling,historic,true
+ITA,1993,1.003995,1.B.1.a Coal mining and handling,historic,true
+ITA,1994,0.606618,1.B.1.a Coal mining and handling,historic,true
+ITA,1995,0.37570392810229,1.B.1.a Coal mining and handling,historic,true
+ITA,1996,0.30705208130986,1.B.1.a Coal mining and handling,historic,true
+ITA,1997,0.19814426333468,1.B.1.a Coal mining and handling,historic,true
+ITA,1998,0.05866035828297,1.B.1.a Coal mining and handling,historic,true
+ITA,1999,0.05111107098496,1.B.1.a Coal mining and handling,historic,true
+ITA,2000,1.619189,1.B.1.a Coal mining and handling,historic,true
+ITA,2001,1.909165,1.B.1.a Coal mining and handling,historic,true
+ITA,2002,2.238805,1.B.1.a Coal mining and handling,historic,true
+ITA,2003,3.43375,1.B.1.a Coal mining and handling,historic,true
+ITA,2004,1.34603,1.B.1.a Coal mining and handling,historic,true
+ITA,2005,1.304825,1.B.1.a Coal mining and handling,historic,true
+ITA,2006,0.288435,1.B.1.a Coal mining and handling,historic,true
+ITA,2007,2.17013,1.B.1.a Coal mining and handling,historic,true
+ITA,2008,1.606995,1.B.1.a Coal mining and handling,historic,true
+ITA,2009,0.98892,1.B.1.a Coal mining and handling,historic,true
+ITA,2010,1.387235,1.B.1.a Coal mining and handling,historic,true
+ITA,2011,1.26362,1.B.1.a Coal mining and handling,historic,true
+ITA,2012,1.0988,1.B.1.a Coal mining and handling,historic,true
+ITA,2013,1.002655,1.B.1.a Coal mining and handling,historic,true
+ITA,2014,1.18121,1.B.1.a Coal mining and handling,historic,true
+ITA,2015,1.112535,1.B.1.a Coal mining and handling,historic,true
+ITA,2016,0.97686,1.B.1.a Coal mining and handling,historic,true
+ITA,2017,0.50906904217943,1.B.1.a Coal mining and handling,historic,true
+ITA,2018,0.39881225860988,1.B.1.a Coal mining and handling,historic,true
+ITA,2019,0.34210563301091,1.B.1.a Coal mining and handling,historic,true
+ITA,2020,0.30582650209208,1.B.1.a Coal mining and handling,historic,true
+ITA,2021,0.27995277,1.B.1.a Coal mining and handling,ITA-CRT-2024-V1.0-2021-20241115-162239_awaiting submission.xlsx,true
+ITA,2022,0.26024736,1.B.1.a Coal mining and handling,ITA-CRT-2024-V1.0-2022-20241115-162239_awaiting submission.xlsx,true
+ITA,2023,0.2445623044741805,1.B.1.a Coal mining and handling,ITA-CRT-2025-V1.0-2023-20250404-160328_awaiting submission.xlsx,true
+ITA,2024,0.23167441102521086,1.B.1.a Coal mining and handling,ITA-CRT-2026-V1.0-2024.xlsx,true
+JPN,1990,192.43470774416784,1.B.1.a Coal mining and handling,historic,true
+JPN,1991,178.13549727221036,1.B.1.a Coal mining and handling,historic,true
+JPN,1992,144.4581569154492,1.B.1.a Coal mining and handling,historic,true
+JPN,1993,121.59013057272028,1.B.1.a Coal mining and handling,historic,true
+JPN,1994,111.68631515815946,1.B.1.a Coal mining and handling,historic,true
+JPN,1995,97.47731017341852,1.B.1.a Coal mining and handling,historic,true
+JPN,1996,84.26687720545242,1.B.1.a Coal mining and handling,historic,true
+JPN,1997,78.01537075919173,1.B.1.a Coal mining and handling,historic,true
+JPN,1998,71.82969655314871,1.B.1.a Coal mining and handling,historic,true
+JPN,1999,69.12294049045386,1.B.1.a Coal mining and handling,historic,true
+JPN,2000,63.26010890272995,1.B.1.a Coal mining and handling,historic,true
+JPN,2001,54.23041872631122,1.B.1.a Coal mining and handling,historic,true
+JPN,2002,30.91206286690983,1.B.1.a Coal mining and handling,historic,true
+JPN,2003,28.17170438137523,1.B.1.a Coal mining and handling,historic,true
+JPN,2004,27.07755714897163,1.B.1.a Coal mining and handling,historic,true
+JPN,2005,26.33686118659929,1.B.1.a Coal mining and handling,historic,true
+JPN,2006,25.83529074736482,1.B.1.a Coal mining and handling,historic,true
+JPN,2007,24.3229477259522,1.B.1.a Coal mining and handling,historic,true
+JPN,2008,23.44775312732819,1.B.1.a Coal mining and handling,historic,true
+JPN,2009,23.09567065931006,1.B.1.a Coal mining and handling,historic,true
+JPN,2010,22.61323647637652,1.B.1.a Coal mining and handling,historic,true
+JPN,2011,22.14127158990064,1.B.1.a Coal mining and handling,historic,true
+JPN,2012,21.85811995596838,1.B.1.a Coal mining and handling,historic,true
+JPN,2013,21.39772450801323,1.B.1.a Coal mining and handling,historic,true
+JPN,2014,21.66282206111361,1.B.1.a Coal mining and handling,historic,true
+JPN,2015,20.9096775653095,1.B.1.a Coal mining and handling,historic,true
+JPN,2016,20.65104491281026,1.B.1.a Coal mining and handling,historic,true
+JPN,2017,21.24899422632971,1.B.1.a Coal mining and handling,historic,true
+JPN,2018,19.07424058336134,1.B.1.a Coal mining and handling,historic,true
+JPN,2019,18.25559113496036,1.B.1.a Coal mining and handling,historic,true
+JPN,2020,17.962316732652,1.B.1.a Coal mining and handling,historic,true
+JPN,2021,18.087400016344393,1.B.1.a Coal mining and handling,JPN-CRT-2024-V1.0-2021-20241203-155039_awaiting submission.xlsx,true
+JPN,2022,17.538192115855594,1.B.1.a Coal mining and handling,JPN-CRT-2024-V1.0-2022-20241203-155039_awaiting submission.xlsx,true
+JPN,2023,17.42628593043071,1.B.1.a Coal mining and handling,JPN-CRT-2025-V1.0-2023-20250424-195712_awaiting submission.xlsx,true
+JPN,2024,16.712986074882757,1.B.1.a Coal mining and handling,JPN-CRT-2026-V1.0-2024.xlsx,true
+KAZ,1990,1255.849005,1.B.1.a Coal mining and handling,historic,true
+KAZ,1991,1052.88155,1.B.1.a Coal mining and handling,historic,true
+KAZ,1992,966.26998,1.B.1.a Coal mining and handling,historic,true
+KAZ,1993,836.5090700000001,1.B.1.a Coal mining and handling,historic,true
+KAZ,1994,731.3545800000002,1.B.1.a Coal mining and handling,historic,true
+KAZ,1995,471.74164,1.B.1.a Coal mining and handling,historic,true
+KAZ,1996,431.17783,1.B.1.a Coal mining and handling,historic,true
+KAZ,1997,461.222506,1.B.1.a Coal mining and handling,historic,true
+KAZ,1998,425.6644,1.B.1.a Coal mining and handling,historic,true
+KAZ,1999,361.19231,1.B.1.a Coal mining and handling,historic,true
+KAZ,2000,436.40986000000004,1.B.1.a Coal mining and handling,historic,true
+KAZ,2001,296.80062,1.B.1.a Coal mining and handling,historic,true
+KAZ,2002,304.03126,1.B.1.a Coal mining and handling,historic,true
+KAZ,2003,356.96863,1.B.1.a Coal mining and handling,historic,true
+KAZ,2004,357.8671,1.B.1.a Coal mining and handling,historic,true
+KAZ,2005,327.29031,1.B.1.a Coal mining and handling,historic,true
+KAZ,2006,351.49339,1.B.1.a Coal mining and handling,historic,true
+KAZ,2007,364.10815,1.B.1.a Coal mining and handling,historic,true
+KAZ,2008,360.10088,1.B.1.a Coal mining and handling,historic,true
+KAZ,2009,343.40180000000004,1.B.1.a Coal mining and handling,historic,true
+KAZ,2010,378.74818600000003,1.B.1.a Coal mining and handling,historic,true
+KAZ,2011,417.380855,1.B.1.a Coal mining and handling,historic,true
+KAZ,2012,372.0834749,1.B.1.a Coal mining and handling,historic,true
+KAZ,2013,372.20644,1.B.1.a Coal mining and handling,historic,true
+KAZ,2014,373.35549,1.B.1.a Coal mining and handling,historic,true
+KAZ,2015,349.32058,1.B.1.a Coal mining and handling,historic,true
+KAZ,2016,344.44499,1.B.1.a Coal mining and handling,historic,true
+KAZ,2017,347.85462,1.B.1.a Coal mining and handling,historic,true
+KAZ,2018,357.10129,1.B.1.a Coal mining and handling,historic,true
+KAZ,2019,346.5687694,1.B.1.a Coal mining and handling,historic,true
+KAZ,2020,330.082937,1.B.1.a Coal mining and handling,historic,true
+KAZ,2021,308.042400322,1.B.1.a Coal mining and handling,KAZ-CRT-2025-V1.0-2021-20250415-143602_awaiting submission.xlsx,true
+KAZ,2022,341.2833672,1.B.1.a Coal mining and handling,KAZ-CRT-2025-V1.0-2022-20250415-143602_awaiting submission.xlsx,true
+KAZ,2023,324.8797438,1.B.1.a Coal mining and handling,KAZ-CRT-2025-V1.0-2023-20250415-143602_awaiting submission.xlsx,true
+KAZ,2024,310.19866360000003,1.B.1.a Coal mining and handling,KAZ-CRT-2026-V1.0-2024.xlsx,true
+KEN,2021,,1.B.1.a Coal mining and handling (unreviewed draft submission),KEN-CRT-2024-V0.4-2021-20250130-151128_awaiting approval.xlsx,true
+KEN,2022,,1.B.1.a Coal mining and handling (unreviewed draft submission),KEN-CRT-2024-V0.4-2022-20250130-151128_awaiting approval.xlsx,true
+KGZ,1990,12.8,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,1991,12.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,1992,8.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,1993,6.4,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,1994,2.7,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,1995,1.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,1996,1.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,1997,1.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,1998,0.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,1999,0.5,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,2000,1.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,2001,1.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,2002,1.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,2003,1.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,2004,1.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,2005,1.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,2006,1.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,2007,1.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,2008,1.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,2009,1.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,2010,1.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,2011,0.615,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,2012,0.963,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,2013,1.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,2014,2.019,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,2015,2.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,2016,1.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,2017,1.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,2018,1.857,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,2019,2.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KGZ,2020,4.196,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,1990,230.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,1991,201.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,1992,160.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,1993,125.7,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,1994,98.9,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,1995,76.5,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,1996,66.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,1997,60.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,1998,58.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,1999,56.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,2000,55.5,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,2001,51.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,2002,44.4,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,2003,44.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,2004,42.7,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,2005,37.9,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,2006,37.8,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,2007,38.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,2008,37.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,2009,33.7,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,2010,27.9,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,2011,27.9,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,2012,28.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,2013,24.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,2014,23.4,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,2015,23.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,2016,23.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,2017,19.9,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,2018,16.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,2020,92.85,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,2021,89.28,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+KOR,2022,85.71,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+LAO,2000,0.04,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+LBN,2021,,1.B.1.a Coal mining and handling (unreviewed draft submission),LBN-CRT-2024-V0.2-2021-20241219-142232_started.xlsx,true
+LBN,2022,,1.B.1.a Coal mining and handling (unreviewed draft submission),LBN-CRT-2024-V0.2-2022-20241219-142232_started.xlsx,true
+LIE,1990,,1.B.1.a Coal mining and handling,historic,true
+LIE,1991,,1.B.1.a Coal mining and handling,historic,true
+LIE,1992,,1.B.1.a Coal mining and handling,historic,true
+LIE,1993,,1.B.1.a Coal mining and handling,historic,true
+LIE,1994,,1.B.1.a Coal mining and handling,historic,true
+LIE,1995,,1.B.1.a Coal mining and handling,historic,true
+LIE,1996,,1.B.1.a Coal mining and handling,historic,true
+LIE,1997,,1.B.1.a Coal mining and handling,historic,true
+LIE,1998,,1.B.1.a Coal mining and handling,historic,true
+LIE,1999,,1.B.1.a Coal mining and handling,historic,true
+LIE,2000,,1.B.1.a Coal mining and handling,historic,true
+LIE,2001,,1.B.1.a Coal mining and handling,historic,true
+LIE,2002,,1.B.1.a Coal mining and handling,historic,true
+LIE,2003,,1.B.1.a Coal mining and handling,historic,true
+LIE,2004,,1.B.1.a Coal mining and handling,historic,true
+LIE,2005,,1.B.1.a Coal mining and handling,historic,true
+LIE,2006,,1.B.1.a Coal mining and handling,historic,true
+LIE,2007,,1.B.1.a Coal mining and handling,historic,true
+LIE,2008,,1.B.1.a Coal mining and handling,historic,true
+LIE,2009,,1.B.1.a Coal mining and handling,historic,true
+LIE,2010,,1.B.1.a Coal mining and handling,historic,true
+LIE,2011,,1.B.1.a Coal mining and handling,historic,true
+LIE,2012,,1.B.1.a Coal mining and handling,historic,true
+LIE,2013,,1.B.1.a Coal mining and handling,historic,true
+LIE,2014,,1.B.1.a Coal mining and handling,historic,true
+LIE,2015,,1.B.1.a Coal mining and handling,historic,true
+LIE,2016,,1.B.1.a Coal mining and handling,historic,true
+LIE,2017,,1.B.1.a Coal mining and handling,historic,true
+LIE,2018,,1.B.1.a Coal mining and handling,historic,true
+LIE,2019,,1.B.1.a Coal mining and handling,historic,true
+LIE,2020,,1.B.1.a Coal mining and handling,historic,true
+LIE,2021,,1.B.1.a Coal mining and handling,LIE-CRT-2024-V1.0-2021-20250210-164414_submitted.xlsx,true
+LIE,2022,,1.B.1.a Coal mining and handling,LIE-CRT-2024-V1.0-2022-20250210-164414_submitted.xlsx,true
+LIE,2023,,1.B.1.a Coal mining and handling,LIE-CRT-2025-V1.0-2023-20250411-102030_awaiting submission.xlsx,true
+LIE,2024,,1.B.1.a Coal mining and handling,LIE-CRT-2026-V1.0-2024.xlsx,true
+LTU,1990,,1.B.1.a Coal mining and handling,historic,true
+LTU,1991,,1.B.1.a Coal mining and handling,historic,true
+LTU,1992,,1.B.1.a Coal mining and handling,historic,true
+LTU,1993,,1.B.1.a Coal mining and handling,historic,true
+LTU,1994,,1.B.1.a Coal mining and handling,historic,true
+LTU,1995,,1.B.1.a Coal mining and handling,historic,true
+LTU,1996,,1.B.1.a Coal mining and handling,historic,true
+LTU,1997,,1.B.1.a Coal mining and handling,historic,true
+LTU,1998,,1.B.1.a Coal mining and handling,historic,true
+LTU,1999,,1.B.1.a Coal mining and handling,historic,true
+LTU,2000,,1.B.1.a Coal mining and handling,historic,true
+LTU,2001,,1.B.1.a Coal mining and handling,historic,true
+LTU,2002,,1.B.1.a Coal mining and handling,historic,true
+LTU,2003,,1.B.1.a Coal mining and handling,historic,true
+LTU,2004,,1.B.1.a Coal mining and handling,historic,true
+LTU,2005,,1.B.1.a Coal mining and handling,historic,true
+LTU,2006,,1.B.1.a Coal mining and handling,historic,true
+LTU,2007,,1.B.1.a Coal mining and handling,historic,true
+LTU,2008,,1.B.1.a Coal mining and handling,historic,true
+LTU,2009,,1.B.1.a Coal mining and handling,historic,true
+LTU,2010,,1.B.1.a Coal mining and handling,historic,true
+LTU,2011,,1.B.1.a Coal mining and handling,historic,true
+LTU,2012,,1.B.1.a Coal mining and handling,historic,true
+LTU,2013,,1.B.1.a Coal mining and handling,historic,true
+LTU,2014,,1.B.1.a Coal mining and handling,historic,true
+LTU,2015,,1.B.1.a Coal mining and handling,historic,true
+LTU,2016,,1.B.1.a Coal mining and handling,historic,true
+LTU,2017,,1.B.1.a Coal mining and handling,historic,true
+LTU,2018,,1.B.1.a Coal mining and handling,historic,true
+LTU,2019,,1.B.1.a Coal mining and handling,historic,true
+LTU,2020,,1.B.1.a Coal mining and handling,historic,true
+LTU,2021,,1.B.1.a Coal mining and handling,LTU-CRT-2025-V1.0-2021-20250415-185318_awaiting submission.xlsx,true
+LTU,2022,,1.B.1.a Coal mining and handling,LTU-CRT-2025-V1.0-2022-20250415-185318_awaiting submission.xlsx,true
+LTU,2023,,1.B.1.a Coal mining and handling,LTU-CRT-2025-V1.0-2023-20250415-185318_awaiting submission.xlsx,true
+LTU,2024,,1.B.1.a Coal mining and handling,LTU-CRT-2026-V1.0-2024.xlsx,true
+LUX,1990,,1.B.1.a Coal mining and handling,historic,true
+LUX,1991,,1.B.1.a Coal mining and handling,historic,true
+LUX,1992,,1.B.1.a Coal mining and handling,historic,true
+LUX,1993,,1.B.1.a Coal mining and handling,historic,true
+LUX,1994,,1.B.1.a Coal mining and handling,historic,true
+LUX,1995,,1.B.1.a Coal mining and handling,historic,true
+LUX,1996,,1.B.1.a Coal mining and handling,historic,true
+LUX,1997,,1.B.1.a Coal mining and handling,historic,true
+LUX,1998,,1.B.1.a Coal mining and handling,historic,true
+LUX,1999,,1.B.1.a Coal mining and handling,historic,true
+LUX,2000,,1.B.1.a Coal mining and handling,historic,true
+LUX,2001,,1.B.1.a Coal mining and handling,historic,true
+LUX,2002,,1.B.1.a Coal mining and handling,historic,true
+LUX,2003,,1.B.1.a Coal mining and handling,historic,true
+LUX,2004,,1.B.1.a Coal mining and handling,historic,true
+LUX,2005,,1.B.1.a Coal mining and handling,historic,true
+LUX,2006,,1.B.1.a Coal mining and handling,historic,true
+LUX,2007,,1.B.1.a Coal mining and handling,historic,true
+LUX,2008,,1.B.1.a Coal mining and handling,historic,true
+LUX,2009,,1.B.1.a Coal mining and handling,historic,true
+LUX,2010,,1.B.1.a Coal mining and handling,historic,true
+LUX,2011,,1.B.1.a Coal mining and handling,historic,true
+LUX,2012,,1.B.1.a Coal mining and handling,historic,true
+LUX,2013,,1.B.1.a Coal mining and handling,historic,true
+LUX,2014,,1.B.1.a Coal mining and handling,historic,true
+LUX,2015,,1.B.1.a Coal mining and handling,historic,true
+LUX,2016,,1.B.1.a Coal mining and handling,historic,true
+LUX,2017,,1.B.1.a Coal mining and handling,historic,true
+LUX,2018,,1.B.1.a Coal mining and handling,historic,true
+LUX,2019,,1.B.1.a Coal mining and handling,historic,true
+LUX,2020,,1.B.1.a Coal mining and handling,historic,true
+LUX,2021,,1.B.1.a Coal mining and handling,LUX-CRT-2024-V1.0-2021-20250116-080735_awaiting submission.xlsx,true
+LUX,2022,,1.B.1.a Coal mining and handling,LUX-CRT-2024-V1.0-2022-20250116-080735_awaiting submission.xlsx,true
+LUX,2023,,1.B.1.a Coal mining and handling,LUX-CRT-2025-V1.0-2023-20250415-115925_awaiting submission.xlsx,true
+LUX,2024,,1.B.1.a Coal mining and handling,LUX-CRT-2026-V1.0-2024.xlsx,true
+LVA,1990,,1.B.1.a Coal mining and handling,historic,true
+LVA,1991,,1.B.1.a Coal mining and handling,historic,true
+LVA,1992,,1.B.1.a Coal mining and handling,historic,true
+LVA,1993,,1.B.1.a Coal mining and handling,historic,true
+LVA,1994,,1.B.1.a Coal mining and handling,historic,true
+LVA,1995,,1.B.1.a Coal mining and handling,historic,true
+LVA,1996,,1.B.1.a Coal mining and handling,historic,true
+LVA,1997,,1.B.1.a Coal mining and handling,historic,true
+LVA,1998,,1.B.1.a Coal mining and handling,historic,true
+LVA,1999,,1.B.1.a Coal mining and handling,historic,true
+LVA,2000,,1.B.1.a Coal mining and handling,historic,true
+LVA,2001,,1.B.1.a Coal mining and handling,historic,true
+LVA,2002,,1.B.1.a Coal mining and handling,historic,true
+LVA,2003,,1.B.1.a Coal mining and handling,historic,true
+LVA,2004,,1.B.1.a Coal mining and handling,historic,true
+LVA,2005,,1.B.1.a Coal mining and handling,historic,true
+LVA,2006,,1.B.1.a Coal mining and handling,historic,true
+LVA,2007,,1.B.1.a Coal mining and handling,historic,true
+LVA,2008,,1.B.1.a Coal mining and handling,historic,true
+LVA,2009,,1.B.1.a Coal mining and handling,historic,true
+LVA,2010,,1.B.1.a Coal mining and handling,historic,true
+LVA,2011,,1.B.1.a Coal mining and handling,historic,true
+LVA,2012,,1.B.1.a Coal mining and handling,historic,true
+LVA,2013,,1.B.1.a Coal mining and handling,historic,true
+LVA,2014,,1.B.1.a Coal mining and handling,historic,true
+LVA,2015,,1.B.1.a Coal mining and handling,historic,true
+LVA,2016,,1.B.1.a Coal mining and handling,historic,true
+LVA,2017,,1.B.1.a Coal mining and handling,historic,true
+LVA,2018,,1.B.1.a Coal mining and handling,historic,true
+LVA,2019,,1.B.1.a Coal mining and handling,historic,true
+LVA,2020,,1.B.1.a Coal mining and handling,historic,true
+LVA,2021,,1.B.1.a Coal mining and handling,LVA-CRT-2026-V1.0-2021.xlsx,true
+LVA,2022,,1.B.1.a Coal mining and handling,LVA-CRT-2026-V1.0-2022.xlsx,true
+LVA,2023,,1.B.1.a Coal mining and handling,LVA-CRT-2026-V1.0-2023.xlsx,true
+LVA,2024,,1.B.1.a Coal mining and handling,LVA-CRT-2026-V1.0-2024.xlsx,true
+MAR,2000,0.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MAR,2010,0.354,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MAR,2012,0.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MAR,2014,0.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MAR,2016,0.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MAR,2018,0.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MAR,2020,0.28,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MAR,2021,0.28,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MAR,2022,0.27,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MCO,1990,,1.B.1.a Coal mining and handling,historic,true
+MCO,1991,,1.B.1.a Coal mining and handling,historic,true
+MCO,1992,,1.B.1.a Coal mining and handling,historic,true
+MCO,1993,,1.B.1.a Coal mining and handling,historic,true
+MCO,1994,,1.B.1.a Coal mining and handling,historic,true
+MCO,1995,,1.B.1.a Coal mining and handling,historic,true
+MCO,1996,,1.B.1.a Coal mining and handling,historic,true
+MCO,1997,,1.B.1.a Coal mining and handling,historic,true
+MCO,1998,,1.B.1.a Coal mining and handling,historic,true
+MCO,1999,,1.B.1.a Coal mining and handling,historic,true
+MCO,2000,,1.B.1.a Coal mining and handling,historic,true
+MCO,2001,,1.B.1.a Coal mining and handling,historic,true
+MCO,2002,,1.B.1.a Coal mining and handling,historic,true
+MCO,2003,,1.B.1.a Coal mining and handling,historic,true
+MCO,2004,,1.B.1.a Coal mining and handling,historic,true
+MCO,2005,,1.B.1.a Coal mining and handling,historic,true
+MCO,2006,,1.B.1.a Coal mining and handling,historic,true
+MCO,2007,,1.B.1.a Coal mining and handling,historic,true
+MCO,2008,,1.B.1.a Coal mining and handling,historic,true
+MCO,2009,,1.B.1.a Coal mining and handling,historic,true
+MCO,2010,,1.B.1.a Coal mining and handling,historic,true
+MCO,2011,,1.B.1.a Coal mining and handling,historic,true
+MCO,2012,,1.B.1.a Coal mining and handling,historic,true
+MCO,2013,,1.B.1.a Coal mining and handling,historic,true
+MCO,2014,,1.B.1.a Coal mining and handling,historic,true
+MCO,2015,,1.B.1.a Coal mining and handling,historic,true
+MCO,2016,,1.B.1.a Coal mining and handling,historic,true
+MCO,2017,,1.B.1.a Coal mining and handling,historic,true
+MCO,2018,,1.B.1.a Coal mining and handling,historic,true
+MCO,2019,,1.B.1.a Coal mining and handling,historic,true
+MCO,2020,,1.B.1.a Coal mining and handling,historic,true
+MCO,2021,,1.B.1.a Coal mining and handling,MCO-CRT-2025-V1.0-2021-20250414-162808_awaiting submission.xlsx,true
+MCO,2022,,1.B.1.a Coal mining and handling,MCO-CRT-2025-V1.0-2022-20250414-162808_awaiting submission.xlsx,true
+MCO,2023,,1.B.1.a Coal mining and handling,MCO-CRT-2025-V1.0-2023-20250414-162808_awaiting submission.xlsx,true
+MCO,2024,,1.B.1.a Coal mining and handling,MCO-CRT-2026-V1.0-2024.xlsx,true
+MDA,2021,,1.B.1.a Coal mining and handling,MDA-CRT-2024-V1.0-2021-20250407-094136_awaiting submission.xlsx,true
+MDA,2022,,1.B.1.a Coal mining and handling,MDA-CRT-2024-V1.0-2022-20250407-094136_awaiting submission.xlsx,true
+MEX,1990,112.7,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,1991,101.4,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,1992,91.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,1993,108.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,1994,114.7,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,1995,114.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,1996,140.7,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,1997,128.7,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,1998,127.8,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,1999,135.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,2000,151.4,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,2001,128.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,2002,120.9,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,2003,143.5,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,2004,124.9,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,2005,121.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,2006,112.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,2007,123.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,2008,160.5,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,2009,260.7,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,2010,312.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,2011,395.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,2012,331.8,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,2013,342.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,2014,155.7,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,2015,102.96,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,2016,105.97,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,2017,102.13,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,2019,52.93,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,2020,63.37,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,2021,63.370000000000005,1.B.1.a Coal mining and handling,MEX-CRT-2024-V1.2-2021-20250902-121844_started.xlsx,true
+MEX,2021,63.37,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,2022,55.98,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MEX,2022,55.980000000000004,1.B.1.a Coal mining and handling,MEX-CRT-2024-V1.2-2022-20250902-121844_started.xlsx,true
+MKD,1990,7.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MKD,1991,6.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MKD,1992,6.4,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MKD,1993,6.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MKD,1994,7.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MKD,1995,7.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MKD,1996,7.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MKD,1997,7.5,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MKD,1998,8.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MKD,1999,7.4,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MKD,2000,7.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MKD,2001,8.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MKD,2002,7.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MKD,2003,8.7,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MKD,2004,8.4,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MKD,2005,8.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MKD,2006,8.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MKD,2007,8.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MKD,2008,9.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MKD,2009,8.8,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MKD,2014,6.393,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MKD,2015,5.857,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MKD,2016,5.071,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MKD,2017,5.036,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MKD,2018,4.928,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MKD,2019,5.393,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MLT,1990,,1.B.1.a Coal mining and handling,historic,true
+MLT,1991,,1.B.1.a Coal mining and handling,historic,true
+MLT,1992,,1.B.1.a Coal mining and handling,historic,true
+MLT,1993,,1.B.1.a Coal mining and handling,historic,true
+MLT,1994,,1.B.1.a Coal mining and handling,historic,true
+MLT,1995,,1.B.1.a Coal mining and handling,historic,true
+MLT,1996,,1.B.1.a Coal mining and handling,historic,true
+MLT,1997,,1.B.1.a Coal mining and handling,historic,true
+MLT,1998,,1.B.1.a Coal mining and handling,historic,true
+MLT,1999,,1.B.1.a Coal mining and handling,historic,true
+MLT,2000,,1.B.1.a Coal mining and handling,historic,true
+MLT,2001,,1.B.1.a Coal mining and handling,historic,true
+MLT,2002,,1.B.1.a Coal mining and handling,historic,true
+MLT,2003,,1.B.1.a Coal mining and handling,historic,true
+MLT,2004,,1.B.1.a Coal mining and handling,historic,true
+MLT,2005,,1.B.1.a Coal mining and handling,historic,true
+MLT,2006,,1.B.1.a Coal mining and handling,historic,true
+MLT,2007,,1.B.1.a Coal mining and handling,historic,true
+MLT,2008,,1.B.1.a Coal mining and handling,historic,true
+MLT,2009,,1.B.1.a Coal mining and handling,historic,true
+MLT,2010,,1.B.1.a Coal mining and handling,historic,true
+MLT,2011,,1.B.1.a Coal mining and handling,historic,true
+MLT,2012,,1.B.1.a Coal mining and handling,historic,true
+MLT,2013,,1.B.1.a Coal mining and handling,historic,true
+MLT,2014,,1.B.1.a Coal mining and handling,historic,true
+MLT,2015,,1.B.1.a Coal mining and handling,historic,true
+MLT,2016,,1.B.1.a Coal mining and handling,historic,true
+MLT,2017,,1.B.1.a Coal mining and handling,historic,true
+MLT,2018,,1.B.1.a Coal mining and handling,historic,true
+MLT,2019,,1.B.1.a Coal mining and handling,historic,true
+MLT,2020,,1.B.1.a Coal mining and handling,historic,true
+MLT,2021,,1.B.1.a Coal mining and handling (unreviewed draft submission),MLT-CRT-2024-V0.1-2021-20240913-160338_started.xlsx,true
+MLT,2022,,1.B.1.a Coal mining and handling (unreviewed draft submission),MLT-CRT-2024-V0.1-2022-20240913-160338_started.xlsx,true
+MLT,2023,,1.B.1.a Coal mining and handling (unreviewed draft submission),MLT-CRT-2025-V0.5-2023-20250220-144216_started.xlsx,true
+MLT,2024,,1.B.1.a Coal mining and handling (unreviewed draft submission),MLT-CRT-2026-V0.3-2024-20260312-105307_started.xlsx,true
+MMR,2000,0.5,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MMR,2001,0.4,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MMR,2002,0.4,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MMR,2003,0.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MMR,2004,0.8,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MMR,2005,0.7,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,1990,1.88,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,1991,1.58,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,1992,1.85,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,1993,1.96,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,1994,1.78,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,1995,1.54,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,1996,0.69,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,1997,1.39,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,1998,1.39,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,1999,1.42,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,2000,1.36,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,2001,1.17,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,2002,2.28,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,2003,1.41,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,2004,1.46,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,2005,1.25,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,2006,1.45,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,2007,1.14,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,2008,1.52,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,2009,0.83,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,2010,1.69,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,2011,1.7,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,2012,1.72,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,2013,1.47,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,2014,1.44,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,2015,1.77,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,2016,1.83,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,2017,1.99,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,2018,2.12,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,2019,1.96,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,2020,0.442,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,2021,0.405,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNE,2022,0.445,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNG,1990,9.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNG,1991,8.4,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNG,1992,6.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNG,1993,5.5,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNG,1994,4.8,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNG,1995,4.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNG,1996,4.4,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNG,1997,4.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNG,1998,4.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNG,2006,7.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNG,2020,32.99,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MNG,2021,,1.B.1.a Coal mining and handling,MNG-CRT-2024-V1.7-2021-20250418-100941_started.xlsx,true
+MNG,2022,,1.B.1.a Coal mining and handling,MNG-CRT-2024-V1.7-2022-20250418-100941_started.xlsx,true
+MUS,2021,,1.B.1.a Coal mining and handling,MUS-CRT-2024-V0.1-2021-20241224-103202_started.xlsx,true
+MUS,2022,,1.B.1.a Coal mining and handling,MUS-CRT-2024-V0.1-2022-20241224-103202_started.xlsx,true
+MWI,1990,0.8,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MWI,2010,9.969,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,1990,0.09,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,1991,0.06,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,1992,0.07,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,1993,0.21,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,1994,0.14,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,1995,0.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,1996,0.07,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,1997,0.09,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,1998,0.28,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,1999,0.24,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,2000,0.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,2001,0.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,2002,0.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,2003,0.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,2004,0.5,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,2005,0.9,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,2006,0.9,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,2007,1.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,2008,1.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,2009,1.4,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,2010,1.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,2011,2.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,2012,1.08,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,2013,1.96,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,2014,1.27,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,2015,0.91,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,2016,0.79,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,2017,0.82,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,2018,0.73,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,2019,0.95,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,2020,0.89,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+MYS,2021,1.15,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+NAM,2021,,1.B.1.a Coal mining and handling (unreviewed draft submission),NAM-CRT-2024-V0.1-2021-20241107-111227_started.xlsx,true
+NAM,2022,,1.B.1.a Coal mining and handling (unreviewed draft submission),NAM-CRT-2024-V0.1-2022-20241107-111227_started.xlsx,true
+NER,2019,0.0455,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+NER,2020,0.042,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+NER,2022,0.0489,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+NGA,1994,136.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+NGA,2017,0.758,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+NGA,2018,2.81,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+NGA,2019,2.85,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+NGA,2020,2.46,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+NGA,2021,2.62,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+NGA,2022,3.18,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+NLD,1990,,1.B.1.a Coal mining and handling,historic,true
+NLD,1991,,1.B.1.a Coal mining and handling,historic,true
+NLD,1992,,1.B.1.a Coal mining and handling,historic,true
+NLD,1993,,1.B.1.a Coal mining and handling,historic,true
+NLD,1994,,1.B.1.a Coal mining and handling,historic,true
+NLD,1995,,1.B.1.a Coal mining and handling,historic,true
+NLD,1996,,1.B.1.a Coal mining and handling,historic,true
+NLD,1997,,1.B.1.a Coal mining and handling,historic,true
+NLD,1998,,1.B.1.a Coal mining and handling,historic,true
+NLD,1999,,1.B.1.a Coal mining and handling,historic,true
+NLD,2000,,1.B.1.a Coal mining and handling,historic,true
+NLD,2001,,1.B.1.a Coal mining and handling,historic,true
+NLD,2002,,1.B.1.a Coal mining and handling,historic,true
+NLD,2003,,1.B.1.a Coal mining and handling,historic,true
+NLD,2004,,1.B.1.a Coal mining and handling,historic,true
+NLD,2005,,1.B.1.a Coal mining and handling,historic,true
+NLD,2006,,1.B.1.a Coal mining and handling,historic,true
+NLD,2007,,1.B.1.a Coal mining and handling,historic,true
+NLD,2008,,1.B.1.a Coal mining and handling,historic,true
+NLD,2009,,1.B.1.a Coal mining and handling,historic,true
+NLD,2010,,1.B.1.a Coal mining and handling,historic,true
+NLD,2011,,1.B.1.a Coal mining and handling,historic,true
+NLD,2012,,1.B.1.a Coal mining and handling,historic,true
+NLD,2013,,1.B.1.a Coal mining and handling,historic,true
+NLD,2014,,1.B.1.a Coal mining and handling,historic,true
+NLD,2015,,1.B.1.a Coal mining and handling,historic,true
+NLD,2016,,1.B.1.a Coal mining and handling,historic,true
+NLD,2017,,1.B.1.a Coal mining and handling,historic,true
+NLD,2018,,1.B.1.a Coal mining and handling,historic,true
+NLD,2019,,1.B.1.a Coal mining and handling,historic,true
+NLD,2020,,1.B.1.a Coal mining and handling,historic,true
+NLD,2021,,1.B.1.a Coal mining and handling,NLD-CRT-2025-V0.9-2021.xlsx,true
+NLD,2022,,1.B.1.a Coal mining and handling,NLD-CRT-2025-V0.9-2022.xlsx,true
+NLD,2023,,1.B.1.a Coal mining and handling,NLD-CRT-2025-V0.9-2023.xlsx,true
+NLD,2024,,1.B.1.a Coal mining and handling,NLD-CRT-2026-V1.0-2024.xlsx,true
+NOR,1990,6.53693144,1.B.1.a Coal mining and handling,historic,true
+NOR,1991,6.379672344,1.B.1.a Coal mining and handling,historic,true
+NOR,1992,5.66986136,1.B.1.a Coal mining and handling,historic,true
+NOR,1993,5.757801488,1.B.1.a Coal mining and handling,historic,true
+NOR,1994,5.617662376,1.B.1.a Coal mining and handling,historic,true
+NOR,1995,5.468933624,1.B.1.a Coal mining and handling,historic,true
+NOR,1996,5.430908064,1.B.1.a Coal mining and handling,historic,true
+NOR,1997,5.019356048,1.B.1.a Coal mining and handling,historic,true
+NOR,1998,5.040986728,1.B.1.a Coal mining and handling,historic,true
+NOR,1999,5.659864392,1.B.1.a Coal mining and handling,historic,true
+NOR,2000,5.891007008,1.B.1.a Coal mining and handling,historic,true
+NOR,2001,5.523955976,1.B.1.a Coal mining and handling,historic,true
+NOR,2002,5.2412494,1.B.1.a Coal mining and handling,historic,true
+NOR,2003,6.710721616,1.B.1.a Coal mining and handling,historic,true
+NOR,2004,5.109151792,1.B.1.a Coal mining and handling,historic,true
+NOR,2005,4.30200972,1.B.1.a Coal mining and handling,historic,true
+NOR,2006,4.214591992,1.B.1.a Coal mining and handling,historic,true
+NOR,2007,5.35522264,1.B.1.a Coal mining and handling,historic,true
+NOR,2008,4.348196048,1.B.1.a Coal mining and handling,historic,true
+NOR,2009,3.83947052,1.B.1.a Coal mining and handling,historic,true
+NOR,2010,3.628223952,1.B.1.a Coal mining and handling,historic,true
+NOR,2011,3.956565072,1.B.1.a Coal mining and handling,historic,true
+NOR,2012,3.4016554,1.B.1.a Coal mining and handling,historic,true
+NOR,2013,4.249909024,1.B.1.a Coal mining and handling,historic,true
+NOR,2014,4.166300832,1.B.1.a Coal mining and handling,historic,true
+NOR,2015,3.513612968,1.B.1.a Coal mining and handling,historic,true
+NOR,2016,3.297220656,1.B.1.a Coal mining and handling,historic,true
+NOR,2017,2.894356088,1.B.1.a Coal mining and handling,historic,true
+NOR,2018,2.880779744,1.B.1.a Coal mining and handling,historic,true
+NOR,2019,2.844244912,1.B.1.a Coal mining and handling,historic,true
+NOR,2020,2.80014444,1.B.1.a Coal mining and handling,historic,true
+NOR,2021,2.809436,1.B.1.a Coal mining and handling,NOR-CRT-2025-V1.0-2021-20250314-104902_awaiting submission.xlsx,true
+NOR,2022,2.792686,1.B.1.a Coal mining and handling,NOR-CRT-2025-V1.0-2022-20250314-104902_awaiting submission.xlsx,true
+NOR,2023,2.77526332,1.B.1.a Coal mining and handling,NOR-CRT-2025-V1.0-2023-20250314-104902_awaiting submission.xlsx,true
+NPL,2021,,1.B.1.a Coal mining and handling,NPL-CRT-2024-V1.0-2021-20250605-154236_awaiting submission.xlsx,true
+NPL,2022,,1.B.1.a Coal mining and handling,NPL-CRT-2024-V1.0-2022-20250605-154236_awaiting submission.xlsx,true
+NZL,1990,13.121311373,1.B.1.a Coal mining and handling,historic,true
+NZL,1991,8.806462775,1.B.1.a Coal mining and handling,historic,true
+NZL,1992,9.029060114,1.B.1.a Coal mining and handling,historic,true
+NZL,1993,8.93649076,1.B.1.a Coal mining and handling,historic,true
+NZL,1994,10.270822447,1.B.1.a Coal mining and handling,historic,true
+NZL,1995,13.112219218,1.B.1.a Coal mining and handling,historic,true
+NZL,1996,18.976480647,1.B.1.a Coal mining and handling,historic,true
+NZL,1997,13.89126697,1.B.1.a Coal mining and handling,historic,true
+NZL,1998,15.472580913,1.B.1.a Coal mining and handling,historic,true
+NZL,1999,17.140840943,1.B.1.a Coal mining and handling,historic,true
+NZL,2000,16.720527548,1.B.1.a Coal mining and handling,historic,true
+NZL,2001,17.075727825,1.B.1.a Coal mining and handling,historic,true
+NZL,2002,16.981737118,1.B.1.a Coal mining and handling,historic,true
+NZL,2003,15.97654069,1.B.1.a Coal mining and handling,historic,true
+NZL,2004,15.002000189,1.B.1.a Coal mining and handling,historic,true
+NZL,2005,15.870661854,1.B.1.a Coal mining and handling,historic,true
+NZL,2006,20.19229093,1.B.1.a Coal mining and handling,historic,true
+NZL,2007,12.934504152,1.B.1.a Coal mining and handling,historic,true
+NZL,2008,16.289203653,1.B.1.a Coal mining and handling,historic,true
+NZL,2009,19.522800909057,1.B.1.a Coal mining and handling,historic,true
+NZL,2010,23.64932109936,1.B.1.a Coal mining and handling,historic,true
+NZL,2011,16.52493942,1.B.1.a Coal mining and handling,historic,true
+NZL,2012,11.518744589728,1.B.1.a Coal mining and handling,historic,true
+NZL,2013,10.82958632520624,1.B.1.a Coal mining and handling,historic,true
+NZL,2014,9.01432106954474,1.B.1.a Coal mining and handling,historic,true
+NZL,2015,7.61228052136,1.B.1.a Coal mining and handling,historic,true
+NZL,2016,6.96108733990545,1.B.1.a Coal mining and handling,historic,true
+NZL,2017,2.542068373,1.B.1.a Coal mining and handling,historic,true
+NZL,2018,2.814025058,1.B.1.a Coal mining and handling,historic,true
+NZL,2019,2.642599193,1.B.1.a Coal mining and handling,historic,true
+NZL,2020,2.455072022,1.B.1.a Coal mining and handling,historic,true
+NZL,2021,2.4976885582349997,1.B.1.a Coal mining and handling,NZL-CRT-2024-V1.1-2021-20241203-174908_awaiting approval.xlsx,true
+NZL,2022,2.29724165697,1.B.1.a Coal mining and handling,NZL-CRT-2024-V1.1-2022-20241203-174908_awaiting approval.xlsx,true
+NZL,2023,2.2646732685199997,1.B.1.a Coal mining and handling,NZL-CRT-2025-V1.1-2023-20250709-122114_approved.xlsx,true
+NZL,2024,2.1857099240599998,1.B.1.a Coal mining and handling,NZL-CRT-2026-V1.0-2024.xlsx,true
+OMN,2021,,1.B.1.a Coal mining and handling (unreviewed draft submission),OMN-CRT-2025-V0.4-2021-20251101-094413_started.xlsx,true
+OMN,2022,,1.B.1.a Coal mining and handling (unreviewed draft submission),OMN-CRT-2025-V0.4-2022-20251101-094413_started.xlsx,true
+PAK,2021,26.07,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+PAN,2021,,1.B.1.a Coal mining and handling (unreviewed draft submission),PAN-CRT-2024-V0.3-2021-20250110-115408_started.xlsx,true
+PER,1994,0.9,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+PER,2000,0.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+PER,2010,1.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+PER,2012,3.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+PER,2021,9.31,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+PHL,1994,10.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+PHL,2000,1.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+POL,1990,842.1748271835932,1.B.1.a Coal mining and handling,historic,true
+POL,1991,726.572728248445,1.B.1.a Coal mining and handling,historic,true
+POL,1992,729.7747110338777,1.B.1.a Coal mining and handling,historic,true
+POL,1993,687.42938,1.B.1.a Coal mining and handling,historic,true
+POL,1994,702.058495,1.B.1.a Coal mining and handling,historic,true
+POL,1995,691.585457,1.B.1.a Coal mining and handling,historic,true
+POL,1996,688.926495,1.B.1.a Coal mining and handling,historic,true
+POL,1997,697.735454,1.B.1.a Coal mining and handling,historic,true
+POL,1998,658.771135,1.B.1.a Coal mining and handling,historic,true
+POL,1999,645.188359,1.B.1.a Coal mining and handling,historic,true
+POL,2000,645.1474890000001,1.B.1.a Coal mining and handling,historic,true
+POL,2001,738.783942,1.B.1.a Coal mining and handling,historic,true
+POL,2002,696.3876150000001,1.B.1.a Coal mining and handling,historic,true
+POL,2003,710.218425,1.B.1.a Coal mining and handling,historic,true
+POL,2004,710.556373,1.B.1.a Coal mining and handling,historic,true
+POL,2005,717.534356,1.B.1.a Coal mining and handling,historic,true
+POL,2006,713.217479,1.B.1.a Coal mining and handling,historic,true
+POL,2007,697.248498,1.B.1.a Coal mining and handling,historic,true
+POL,2008,698.6544930000001,1.B.1.a Coal mining and handling,historic,true
+POL,2009,665.781278,1.B.1.a Coal mining and handling,historic,true
+POL,2010,647.94226,1.B.1.a Coal mining and handling,historic,true
+POL,2011,643.063521,1.B.1.a Coal mining and handling,historic,true
+POL,2012,640.80676,1.B.1.a Coal mining and handling,historic,true
+POL,2013,643.842329,1.B.1.a Coal mining and handling,historic,true
+POL,2014,648.039477,1.B.1.a Coal mining and handling,historic,true
+POL,2015,686.117788,1.B.1.a Coal mining and handling,historic,true
+POL,2016,683.712421,1.B.1.a Coal mining and handling,historic,true
+POL,2017,675.62580441,1.B.1.a Coal mining and handling,historic,true
+POL,2018,656.298689275,1.B.1.a Coal mining and handling,historic,true
+POL,2019,580.108524663,1.B.1.a Coal mining and handling,historic,true
+POL,2020,575.7921343510001,1.B.1.a Coal mining and handling,historic,true
+POL,2021,561.879499998,1.B.1.a Coal mining and handling,POL-CRT-2025-V1.0-2021-20250414-090023_awaiting submission.xlsx,true
+POL,2022,541.68241271,1.B.1.a Coal mining and handling,POL-CRT-2025-V1.0-2022-20250414-090023_awaiting submission.xlsx,true
+POL,2023,508.374813461,1.B.1.a Coal mining and handling,POL-CRT-2025-V1.0-2023-20250414-090023_awaiting submission.xlsx,true
+POL,2024,478.90571918500007,1.B.1.a Coal mining and handling,POL-CRT-2026-V2.0-2024.xlsx,true
+PRK,1990,819.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+PRK,1994,613.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+PRK,2000,311.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+PRK,2002,322.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+PRT,1990,5.59268497,1.B.1.a Coal mining and handling,historic,true
+PRT,1991,5.21298726,1.B.1.a Coal mining and handling,historic,true
+PRT,1992,4.73280228,1.B.1.a Coal mining and handling,historic,true
+PRT,1993,4.64429729,1.B.1.a Coal mining and handling,historic,true
+PRT,1994,3.63383612,1.B.1.a Coal mining and handling,historic,true
+PRT,1995,1.07745045,1.B.1.a Coal mining and handling,historic,true
+PRT,1996,1.0307682,1.B.1.a Coal mining and handling,historic,true
+PRT,1997,0.9907759,1.B.1.a Coal mining and handling,historic,true
+PRT,1998,0.95647525,1.B.1.a Coal mining and handling,historic,true
+PRT,1999,0.9257926,1.B.1.a Coal mining and handling,historic,true
+PRT,2000,0.8997095,1.B.1.a Coal mining and handling,historic,true
+PRT,2001,0.87481565,1.B.1.a Coal mining and handling,historic,true
+PRT,2002,0.852173,1.B.1.a Coal mining and handling,historic,true
+PRT,2003,0.8318787,1.B.1.a Coal mining and handling,historic,true
+PRT,2004,0.8137552,1.B.1.a Coal mining and handling,historic,true
+PRT,2005,0.79545415,1.B.1.a Coal mining and handling,historic,true
+PRT,2006,0.78030545,1.B.1.a Coal mining and handling,historic,true
+PRT,2007,0.76435275,1.B.1.a Coal mining and handling,historic,true
+PRT,2008,0.75065125,1.B.1.a Coal mining and handling,historic,true
+PRT,2009,0.73767335,1.B.1.a Coal mining and handling,historic,true
+PRT,2010,0.7245179,1.B.1.a Coal mining and handling,historic,true
+PRT,2011,0.7129872,1.B.1.a Coal mining and handling,historic,true
+PRT,2012,0.7014565,1.B.1.a Coal mining and handling,historic,true
+PRT,2013,0.6907298,1.B.1.a Coal mining and handling,historic,true
+PRT,2014,0.68082385,1.B.1.a Coal mining and handling,historic,true
+PRT,2015,0.67154435,1.B.1.a Coal mining and handling,historic,true
+PRT,2016,0.66226485,1.B.1.a Coal mining and handling,historic,true
+PRT,2017,0.63698575,1.B.1.a Coal mining and handling,historic,true
+PRT,2018,0.62915345,1.B.1.a Coal mining and handling,historic,true
+PRT,2019,0.62132115,1.B.1.a Coal mining and handling,historic,true
+PRT,2020,0.61439,1.B.1.a Coal mining and handling,historic,true
+PRT,2021,0.6072813,1.B.1.a Coal mining and handling,PRT-CRT-2026-V1.0-2021.xlsx,true
+PRT,2022,0.6017002,1.B.1.a Coal mining and handling,PRT-CRT-2026-V1.0-2022.xlsx,true
+PRT,2023,0.59476905,1.B.1.a Coal mining and handling,PRT-CRT-2026-V1.0-2023.xlsx,true
+PRT,2024,0.58838395,1.B.1.a Coal mining and handling,PRT-CRT-2026-V1.0-2024.xlsx,true
+PRY,2021,,1.B.1.a Coal mining and handling,PRY-CRT-2024-V0.2-2021-20241115-140828_started.xlsx,true
+ROU,1990,233.00526604923132,1.B.1.a Coal mining and handling,historic,true
+ROU,1991,218.6805702522101,1.B.1.a Coal mining and handling,historic,true
+ROU,1992,263.2414413256165,1.B.1.a Coal mining and handling,historic,true
+ROU,1993,231.12096814779167,1.B.1.a Coal mining and handling,historic,true
+ROU,1994,248.4684628535057,1.B.1.a Coal mining and handling,historic,true
+ROU,1995,277.74052598305286,1.B.1.a Coal mining and handling,historic,true
+ROU,1996,278.2238735963846,1.B.1.a Coal mining and handling,historic,true
+ROU,1997,534.3014350304086,1.B.1.a Coal mining and handling,historic,true
+ROU,1998,505.4389969262142,1.B.1.a Coal mining and handling,historic,true
+ROU,1999,496.05687784260186,1.B.1.a Coal mining and handling,historic,true
+ROU,2000,447.2384910569352,1.B.1.a Coal mining and handling,historic,true
+ROU,2001,417.2614613619941,1.B.1.a Coal mining and handling,historic,true
+ROU,2002,453.7914441769342,1.B.1.a Coal mining and handling,historic,true
+ROU,2003,475.93383625368836,1.B.1.a Coal mining and handling,historic,true
+ROU,2004,450.8841450382079,1.B.1.a Coal mining and handling,historic,true
+ROU,2005,455.8494424936003,1.B.1.a Coal mining and handling,historic,true
+ROU,2006,418.62674213385543,1.B.1.a Coal mining and handling,historic,true
+ROU,2007,383.3477419520971,1.B.1.a Coal mining and handling,historic,true
+ROU,2008,368.9256318710227,1.B.1.a Coal mining and handling,historic,true
+ROU,2009,341.8938975008651,1.B.1.a Coal mining and handling,historic,true
+ROU,2010,318.28437802131737,1.B.1.a Coal mining and handling,historic,true
+ROU,2011,310.7959738977846,1.B.1.a Coal mining and handling,historic,true
+ROU,2012,296.91796404075666,1.B.1.a Coal mining and handling,historic,true
+ROU,2013,277.9685707325709,1.B.1.a Coal mining and handling,historic,true
+ROU,2014,264.7214750998922,1.B.1.a Coal mining and handling,historic,true
+ROU,2015,259.3391904007694,1.B.1.a Coal mining and handling,historic,true
+ROU,2016,245.1724953128034,1.B.1.a Coal mining and handling,historic,true
+ROU,2017,238.2655826066243,1.B.1.a Coal mining and handling,historic,true
+ROU,2018,228.32142270634665,1.B.1.a Coal mining and handling,historic,true
+ROU,2019,235.20057737317853,1.B.1.a Coal mining and handling,historic,true
+ROU,2020,218.47741324711757,1.B.1.a Coal mining and handling,historic,true
+ROU,2021,212.69240341723278,1.B.1.a Coal mining and handling,ROU-CRT-2025-V1.8-2021-20250227-141057_started.xlsx,true
+ROU,2022,208.31362417408002,1.B.1.a Coal mining and handling,ROU-CRT-2025-V1.8-2022-20250227-141057_started.xlsx,true
+ROU,2023,200.69672424025566,1.B.1.a Coal mining and handling,ROU-CRT-2025-V1.8-2023-20250227-141057_started.xlsx,true
+ROU,2024,50.261518889456205,1.B.1.a Coal mining and handling,ROU-CRT-2026-V1.0-2024.xlsx,true
+RUS,1990,3505.164650148555,1.B.1.a Coal mining and handling,historic,true
+RUS,1991,2941.8521677519607,1.B.1.a Coal mining and handling,historic,true
+RUS,1992,2938.100439405139,1.B.1.a Coal mining and handling,historic,true
+RUS,1993,2679.202827760578,1.B.1.a Coal mining and handling,historic,true
+RUS,1994,2425.4280831843953,1.B.1.a Coal mining and handling,historic,true
+RUS,1995,2343.230805931936,1.B.1.a Coal mining and handling,historic,true
+RUS,1996,2207.332594316268,1.B.1.a Coal mining and handling,historic,true
+RUS,1997,2060.6946969880664,1.B.1.a Coal mining and handling,historic,true
+RUS,1998,1861.7682249941038,1.B.1.a Coal mining and handling,historic,true
+RUS,1999,1981.61155246421,1.B.1.a Coal mining and handling,historic,true
+RUS,2000,2019.8701682781193,1.B.1.a Coal mining and handling,historic,true
+RUS,2001,2109.76401811079,1.B.1.a Coal mining and handling,historic,true
+RUS,2002,1920.7258132633176,1.B.1.a Coal mining and handling,historic,true
+RUS,2003,2035.1453368961652,1.B.1.a Coal mining and handling,historic,true
+RUS,2004,2110.9077727209788,1.B.1.a Coal mining and handling,historic,true
+RUS,2005,2187.165385392825,1.B.1.a Coal mining and handling,historic,true
+RUS,2006,2303.5975503641184,1.B.1.a Coal mining and handling,historic,true
+RUS,2007,2309.5629107292325,1.B.1.a Coal mining and handling,historic,true
+RUS,2008,2354.1945211686984,1.B.1.a Coal mining and handling,historic,true
+RUS,2009,2183.983991694159,1.B.1.a Coal mining and handling,historic,true
+RUS,2010,2233.9783227949465,1.B.1.a Coal mining and handling,historic,true
+RUS,2011,2272.7007505907336,1.B.1.a Coal mining and handling,historic,true
+RUS,2012,2397.5466790833125,1.B.1.a Coal mining and handling,historic,true
+RUS,2013,2345.5374124050563,1.B.1.a Coal mining and handling,historic,true
+RUS,2014,2406.055043551889,1.B.1.a Coal mining and handling,historic,true
+RUS,2015,2452.930368037789,1.B.1.a Coal mining and handling,historic,true
+RUS,2016,2418.401207430377,1.B.1.a Coal mining and handling,historic,true
+RUS,2017,2602.614255225235,1.B.1.a Coal mining and handling,historic,true
+RUS,2018,2739.72859784365,1.B.1.a Coal mining and handling,historic,true
+RUS,2019,2729.9117920773388,1.B.1.a Coal mining and handling,historic,true
+RUS,2020,2558.9269282898676,1.B.1.a Coal mining and handling,historic,true
+RUS,2021,2802.7389555539644,1.B.1.a Coal mining and handling,RUS-CRT-2024-V1.0-2021-20241220-120706_awaiting submission.xlsx,true
+RUS,2022,2736.5060039710734,1.B.1.a Coal mining and handling,RUS-CRT-2024-V1.0-2022-20241220-120706_awaiting submission.xlsx,true
+RUS,2023,1534.5410659999998,1.B.1.a Coal mining and handling,RUS-CRT-2025-V1.0-2023-20250419-003747_awaiting submission.xlsx,true
+RUS,2024,1496.9688797,1.B.1.a Coal mining and handling,RUS-CRT-2026-V1.0-2024.xlsx,true
+RWA,2021,,1.B.1.a Coal mining and handling,RWA-CRT-2024-V0.5-2021-20250620-063608_started.xlsx,true
+RWA,2022,,1.B.1.a Coal mining and handling,RWA-CRT-2024-V0.5-2022-20250620-064550_started.xlsx,true
+SAU,2021,,1.B.1.a Coal mining and handling,SAU-CRT-2024-V0.6-2021.xlsx,true
+SGP,2021,,1.B.1.a Coal mining and handling,SGP-CRT-2024-V0.3-2021-20241108-153202_started.xlsx,true
+SGP,2022,,1.B.1.a Coal mining and handling,SGP-CRT-2024-V0.3-2022-20241108-153202_started.xlsx,true
+SRB,1990,61.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+SRB,1998,56.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+SRB,2000,40.89,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+SRB,2005,38.21,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+SRB,2010,40.18,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+SRB,2015,40.14,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+SRB,2016,40.39,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+SRB,2017,41.07,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+SRB,2018,38.36,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+SRB,2019,40.36,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+SRB,2020,39.43,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+SRB,2021,36.14,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+SRB,2021,36.1370615018109,1.B.1.a Coal mining and handling,SRB-CRT-2024-V0.2-2021-20241217-134712_started.xlsx,true
+SRB,2022,35.14,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+SRB,2022,35.13619822300001,1.B.1.a Coal mining and handling,SRB-CRT-2024-V0.2-2022-20241217-134732_started.xlsx,true
+SRB,2023,32.3707873216961,1.B.1.a Coal mining and handling,SRB-CRT-2025-V0.1-2023-20250327-084852_started.xlsx,true
+SVK,1990,27.197634633364,1.B.1.a Coal mining and handling,historic,true
+SVK,1991,28.8266596244249,1.B.1.a Coal mining and handling,historic,true
+SVK,1992,29.9323505,1.B.1.a Coal mining and handling,historic,true
+SVK,1993,28.6121289,1.B.1.a Coal mining and handling,historic,true
+SVK,1994,29.9118954,1.B.1.a Coal mining and handling,historic,true
+SVK,1995,29.7041083,1.B.1.a Coal mining and handling,historic,true
+SVK,1996,30.0757573,1.B.1.a Coal mining and handling,historic,true
+SVK,1997,30.6129566,1.B.1.a Coal mining and handling,historic,true
+SVK,1998,31.167663,1.B.1.a Coal mining and handling,historic,true
+SVK,1999,29.4959795,1.B.1.a Coal mining and handling,historic,true
+SVK,2000,28.8208339,1.B.1.a Coal mining and handling,historic,true
+SVK,2001,26.330062,1.B.1.a Coal mining and handling,historic,true
+SVK,2002,25.693763,1.B.1.a Coal mining and handling,historic,true
+SVK,2003,21.11403361,1.B.1.a Coal mining and handling,historic,true
+SVK,2004,19.772591316075,1.B.1.a Coal mining and handling,historic,true
+SVK,2005,16.1726,1.B.1.a Coal mining and handling,historic,true
+SVK,2006,14.670857943,1.B.1.a Coal mining and handling,historic,true
+SVK,2007,13.518059667616,1.B.1.a Coal mining and handling,historic,true
+SVK,2008,16.164643999,1.B.1.a Coal mining and handling,historic,true
+SVK,2009,16.923957235,1.B.1.a Coal mining and handling,historic,true
+SVK,2010,15.2952140236,1.B.1.a Coal mining and handling,historic,true
+SVK,2011,16.2268277476,1.B.1.a Coal mining and handling,historic,true
+SVK,2012,15.963869170104,1.B.1.a Coal mining and handling,historic,true
+SVK,2013,16.190858296984,1.B.1.a Coal mining and handling,historic,true
+SVK,2014,15.222094299,1.B.1.a Coal mining and handling,historic,true
+SVK,2015,12.757716225,1.B.1.a Coal mining and handling,historic,true
+SVK,2016,12.39581939,1.B.1.a Coal mining and handling,historic,true
+SVK,2017,10.889902,1.B.1.a Coal mining and handling,historic,true
+SVK,2018,9.085329,1.B.1.a Coal mining and handling,historic,true
+SVK,2019,9.701740228,1.B.1.a Coal mining and handling,historic,true
+SVK,2020,7.0284439781971,1.B.1.a Coal mining and handling,historic,true
+SVK,2021,5.2632971133329995,1.B.1.a Coal mining and handling,SVK-CRT-2025-V1.0-2021-20250411-143132_awaiting submission.xlsx,true
+SVK,2022,5.63338948,1.B.1.a Coal mining and handling,SVK-CRT-2025-V1.0-2022-20250411-143132_awaiting submission.xlsx,true
+SVK,2023,4.5498695,1.B.1.a Coal mining and handling,SVK-CRT-2025-V1.0-2023-20250411-143132_awaiting submission.xlsx,true
+SVK,2024,7.161295,1.B.1.a Coal mining and handling,SVK-CRT-2026-V2.0-2024.xlsx,true
+SVN,1990,14.43390783196588,1.B.1.a Coal mining and handling,historic,true
+SVN,1991,13.46535965186288,1.B.1.a Coal mining and handling,historic,true
+SVN,1992,14.5848042478717,1.B.1.a Coal mining and handling,historic,true
+SVN,1993,13.38832030447698,1.B.1.a Coal mining and handling,historic,true
+SVN,1994,12.77943408997855,1.B.1.a Coal mining and handling,historic,true
+SVN,1995,12.96541129022718,1.B.1.a Coal mining and handling,historic,true
+SVN,1996,12.46720559835155,1.B.1.a Coal mining and handling,historic,true
+SVN,1997,13.34228172510487,1.B.1.a Coal mining and handling,historic,true
+SVN,1998,13.48465065727492,1.B.1.a Coal mining and handling,historic,true
+SVN,1999,12.53963670326763,1.B.1.a Coal mining and handling,historic,true
+SVN,2000,12.27544998897281,1.B.1.a Coal mining and handling,historic,true
+SVN,2001,11.31349217455352,1.B.1.a Coal mining and handling,historic,true
+SVN,2002,12.77061920570784,1.B.1.a Coal mining and handling,historic,true
+SVN,2003,13.13357628871292,1.B.1.a Coal mining and handling,historic,true
+SVN,2004,13.06189672643806,1.B.1.a Coal mining and handling,historic,true
+SVN,2005,12.32556056994839,1.B.1.a Coal mining and handling,historic,true
+SVN,2006,12.26569725950263,1.B.1.a Coal mining and handling,historic,true
+SVN,2007,12.25416955725849,1.B.1.a Coal mining and handling,historic,true
+SVN,2008,12.24303843231582,1.B.1.a Coal mining and handling,historic,true
+SVN,2009,11.98992407478971,1.B.1.a Coal mining and handling,historic,true
+SVN,2010,11.98731388577152,1.B.1.a Coal mining and handling,historic,true
+SVN,2011,12.17166496235927,1.B.1.a Coal mining and handling,historic,true
+SVN,2012,11.56833567008546,1.B.1.a Coal mining and handling,historic,true
+SVN,2013,10.67548283034836,1.B.1.a Coal mining and handling,historic,true
+SVN,2014,8.59759220523853,1.B.1.a Coal mining and handling,historic,true
+SVN,2015,8.723130700226,1.B.1.a Coal mining and handling,historic,true
+SVN,2016,9.18267261712622,1.B.1.a Coal mining and handling,historic,true
+SVN,2017,9.18148329232651,1.B.1.a Coal mining and handling,historic,true
+SVN,2018,8.793735440521,1.B.1.a Coal mining and handling,historic,true
+SVN,2019,8.58296725236362,1.B.1.a Coal mining and handling,historic,true
+SVN,2020,8.65745303168944,1.B.1.a Coal mining and handling,historic,true
+SVN,2021,7.14074680918152,1.B.1.a Coal mining and handling,SVN-CRT-2025-V1.1-2021-20250414-111326_started.xlsx,true
+SVN,2022,6.45203240984817,1.B.1.a Coal mining and handling,SVN-CRT-2025-V1.1-2022-20250414-111326_started.xlsx,true
+SVN,2023,7.01608793013114,1.B.1.a Coal mining and handling,SVN-CRT-2025-V1.1-2023-20250414-111326_started.xlsx,true
+SVN,2024,6.00991409346314,1.B.1.a Coal mining and handling,SVN-CRT-2026-V1.0-2024.xlsx,true
+SWE,1990,,1.B.1.a Coal mining and handling,historic,true
+SWE,1991,,1.B.1.a Coal mining and handling,historic,true
+SWE,1992,,1.B.1.a Coal mining and handling,historic,true
+SWE,1993,,1.B.1.a Coal mining and handling,historic,true
+SWE,1994,,1.B.1.a Coal mining and handling,historic,true
+SWE,1995,,1.B.1.a Coal mining and handling,historic,true
+SWE,1996,,1.B.1.a Coal mining and handling,historic,true
+SWE,1997,,1.B.1.a Coal mining and handling,historic,true
+SWE,1998,,1.B.1.a Coal mining and handling,historic,true
+SWE,1999,,1.B.1.a Coal mining and handling,historic,true
+SWE,2000,,1.B.1.a Coal mining and handling,historic,true
+SWE,2001,,1.B.1.a Coal mining and handling,historic,true
+SWE,2002,,1.B.1.a Coal mining and handling,historic,true
+SWE,2003,,1.B.1.a Coal mining and handling,historic,true
+SWE,2004,,1.B.1.a Coal mining and handling,historic,true
+SWE,2005,,1.B.1.a Coal mining and handling,historic,true
+SWE,2006,,1.B.1.a Coal mining and handling,historic,true
+SWE,2007,,1.B.1.a Coal mining and handling,historic,true
+SWE,2008,,1.B.1.a Coal mining and handling,historic,true
+SWE,2009,,1.B.1.a Coal mining and handling,historic,true
+SWE,2010,,1.B.1.a Coal mining and handling,historic,true
+SWE,2011,,1.B.1.a Coal mining and handling,historic,true
+SWE,2012,,1.B.1.a Coal mining and handling,historic,true
+SWE,2013,,1.B.1.a Coal mining and handling,historic,true
+SWE,2014,,1.B.1.a Coal mining and handling,historic,true
+SWE,2015,,1.B.1.a Coal mining and handling,historic,true
+SWE,2016,,1.B.1.a Coal mining and handling,historic,true
+SWE,2017,,1.B.1.a Coal mining and handling,historic,true
+SWE,2018,,1.B.1.a Coal mining and handling,historic,true
+SWE,2019,,1.B.1.a Coal mining and handling,historic,true
+SWE,2020,,1.B.1.a Coal mining and handling,historic,true
+SWE,2021,,1.B.1.a Coal mining and handling,SWE-CRT-2024-V1.3-2021-20250310-143309_started.xlsx,true
+SWE,2022,,1.B.1.a Coal mining and handling,SWE-CRT-2024-V1.3-2022-20250310-143309_started.xlsx,true
+SWE,2023,,1.B.1.a Coal mining and handling,SWE-CRT-2026-V0.2-2023-20260112-142137_started.xlsx,true
+SWE,2024,,1.B.1.a Coal mining and handling,SWE-CRT-2026-V0.2-2024-20260112-142137_started.xlsx,true
+SWZ,1994,3.9,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+SWZ,2018,1.45,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+SWZ,2020,0.43,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+SWZ,2021,0.31,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+SWZ,2021,,1.B.1.a Coal mining and handling (unreviewed draft submission),SWZ-CRT-2024-V0.5-2021-20241221-223528_started.xlsx,true
+SWZ,2022,0.43,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+SWZ,2022,,1.B.1.a Coal mining and handling (unreviewed draft submission),SWZ-CRT-2024-V0.5-2022-20241221-223528_started.xlsx,true
+THA,1994,16.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+THA,2013,31.8,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+THA,2019,20.74,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+THA,2020,19.53,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+THA,2021,20.96,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+THA,2021,20.962598602,1.B.1.a Coal mining and handling (unreviewed draft submission),THA-CRT-2025-V0.5-2021-20250611-173334_started.xlsx,true
+THA,2022,20.11,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+THA,2022,20.107251142000003,1.B.1.a Coal mining and handling (unreviewed draft submission),THA-CRT-2025-V0.5-2022-20250611-173334_started.xlsx,true
+TJK,1990,5.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TJK,1991,3.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TJK,1992,2.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TJK,1993,2.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TJK,1994,1.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TJK,2003,1.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TJK,2005,1.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TJK,2006,1.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TJK,2007,1.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TJK,2008,1.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TJK,2009,1.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TJK,2010,1.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TJK,2016,1.186,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TJK,2017,0.8,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TJK,2018,1.17,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TJK,2019,1.45,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TJK,2020,2.01,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TJK,2021,2.62,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TJK,2021,2.618534468,1.B.1.a Coal mining and handling,TJK-CRT-2024-V0.2-2021-20241225-123348_started.xlsx,true
+TJK,2022,6.4,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TJK,2022,6.40414676,1.B.1.a Coal mining and handling,TJK-CRT-2024-V0.2-2022-20241225-123348_started.xlsx,true
+TUR,1990,143.927122,1.B.1.a Coal mining and handling,historic,true
+TUR,1991,128.7679464259215,1.B.1.a Coal mining and handling,historic,true
+TUR,1992,127.085680062484,1.B.1.a Coal mining and handling,historic,true
+TUR,1993,124.55666352288566,1.B.1.a Coal mining and handling,historic,true
+TUR,1994,119.9322679879432,1.B.1.a Coal mining and handling,historic,true
+TUR,1995,119.39608519664785,1.B.1.a Coal mining and handling,historic,true
+TUR,1996,118.69263344631315,1.B.1.a Coal mining and handling,historic,true
+TUR,1997,127.48660914370298,1.B.1.a Coal mining and handling,historic,true
+TUR,1998,142.58799779795086,1.B.1.a Coal mining and handling,historic,true
+TUR,1999,179.25152621438843,1.B.1.a Coal mining and handling,historic,true
+TUR,2000,193.45290586973886,1.B.1.a Coal mining and handling,historic,true
+TUR,2001,175.4839089585588,1.B.1.a Coal mining and handling,historic,true
+TUR,2002,162.3797181604625,1.B.1.a Coal mining and handling,historic,true
+TUR,2003,146.57184605105138,1.B.1.a Coal mining and handling,historic,true
+TUR,2004,142.72930912907495,1.B.1.a Coal mining and handling,historic,true
+TUR,2005,157.62670688624877,1.B.1.a Coal mining and handling,historic,true
+TUR,2006,164.77946028681166,1.B.1.a Coal mining and handling,historic,true
+TUR,2007,229.016674282557,1.B.1.a Coal mining and handling,historic,true
+TUR,2008,244.7340214421118,1.B.1.a Coal mining and handling,historic,true
+TUR,2009,242.4410482725928,1.B.1.a Coal mining and handling,historic,true
+TUR,2010,246.02529630792512,1.B.1.a Coal mining and handling,historic,true
+TUR,2011,266.46595080938135,1.B.1.a Coal mining and handling,historic,true
+TUR,2012,274.03547107094124,1.B.1.a Coal mining and handling,historic,true
+TUR,2013,252.97812596703946,1.B.1.a Coal mining and handling,historic,true
+TUR,2014,292.73593127028397,1.B.1.a Coal mining and handling,historic,true
+TUR,2015,109.30934648132688,1.B.1.a Coal mining and handling,historic,true
+TUR,2016,235.82991933829987,1.B.1.a Coal mining and handling,historic,true
+TUR,2017,147.2565168589374,1.B.1.a Coal mining and handling,historic,true
+TUR,2018,195.39799484360069,1.B.1.a Coal mining and handling,historic,true
+TUR,2019,270.80400116693335,1.B.1.a Coal mining and handling,historic,true
+TUR,2020,222.32531430661757,1.B.1.a Coal mining and handling,historic,true
+TUR,2021,284.6058743473361,1.B.1.a Coal mining and handling,TUR-CRT-2025-V2.0-2021-20250603-165137_awaiting submission.xlsx,true
+TUR,2022,297.57371435443025,1.B.1.a Coal mining and handling,TUR-CRT-2025-V2.0-2022-20250603-165137_awaiting submission.xlsx,true
+TUR,2023,140.97782362001203,1.B.1.a Coal mining and handling,TUR-CRT-2025-V2.0-2023-20250603-165137_awaiting submission.xlsx,true
+TUR,2024,260.05844086870513,1.B.1.a Coal mining and handling,TUR-CRT-2026-V1.0-2024.xlsx,true
+TZA,1990,0.8,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TZA,1994,0.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TZA,1995,0.60434,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TZA,1996,0.782895,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TZA,1997,0.38458,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TZA,1998,0.618075,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TZA,1999,1.030125,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TZA,2000,1.085065,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TZA,2001,1.07133,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TZA,2002,1.085065,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TZA,2003,0.755425,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TZA,2004,0.260965,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+TZA,2005,0.821435,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UKR,1990,2476.61088,1.B.1.a Coal mining and handling,historic,true
+UKR,1991,2386.68298,1.B.1.a Coal mining and handling,historic,true
+UKR,1992,2211.1599800000004,1.B.1.a Coal mining and handling,historic,true
+UKR,1993,2036.90025,1.B.1.a Coal mining and handling,historic,true
+UKR,1994,1804.9957600000002,1.B.1.a Coal mining and handling,historic,true
+UKR,1995,1521.58519,1.B.1.a Coal mining and handling,historic,true
+UKR,1996,1428.1286900000002,1.B.1.a Coal mining and handling,historic,true
+UKR,1997,1374.75413,1.B.1.a Coal mining and handling,historic,true
+UKR,1998,1353.4075899999998,1.B.1.a Coal mining and handling,historic,true
+UKR,1999,1355.1987800000002,1.B.1.a Coal mining and handling,historic,true
+UKR,2000,1309.4778600000002,1.B.1.a Coal mining and handling,historic,true
+UKR,2001,1274.7309014997304,1.B.1.a Coal mining and handling,historic,true
+UKR,2002,1192.406386571203,1.B.1.a Coal mining and handling,historic,true
+UKR,2003,1136.8140300000002,1.B.1.a Coal mining and handling,historic,true
+UKR,2004,1105.22665,1.B.1.a Coal mining and handling,historic,true
+UKR,2005,1028.818724,1.B.1.a Coal mining and handling,historic,true
+UKR,2006,1003.9107369788,1.B.1.a Coal mining and handling,historic,true
+UKR,2007,968.3717707328001,1.B.1.a Coal mining and handling,historic,true
+UKR,2008,966.6367647946001,1.B.1.a Coal mining and handling,historic,true
+UKR,2009,940.5894270288,1.B.1.a Coal mining and handling,historic,true
+UKR,2010,930.0196332515,1.B.1.a Coal mining and handling,historic,true
+UKR,2011,927.0670988419001,1.B.1.a Coal mining and handling,historic,true
+UKR,2012,943.2002532347069,1.B.1.a Coal mining and handling,historic,true
+UKR,2013,922.592188829724,1.B.1.a Coal mining and handling,historic,true
+UKR,2014,735.0249599433193,1.B.1.a Coal mining and handling,historic,true
+UKR,2015,566.1483352152443,1.B.1.a Coal mining and handling,historic,true
+UKR,2016,653.5068798380807,1.B.1.a Coal mining and handling,historic,true
+UKR,2017,510.9134754920663,1.B.1.a Coal mining and handling,historic,true
+UKR,2018,515.6875407637758,1.B.1.a Coal mining and handling,historic,true
+UKR,2019,498.0606991139205,1.B.1.a Coal mining and handling,historic,true
+UKR,2020,429.0574223765,1.B.1.a Coal mining and handling,historic,true
+UKR,2021,438.4855013692716,1.B.1.a Coal mining and handling,UKR-CRT-2025-V1.0-2021-20250402-101025_awaiting submission.xlsx,true
+UKR,2022,438.4855013692716,1.B.1.a Coal mining and handling,UKR-CRT-2025-V1.0-2022-20250402-101025_awaiting submission.xlsx,true
+UKR,2023,438.485501363,1.B.1.a Coal mining and handling,UKR-CRT-2025-V1.0-2023-20250402-101025_awaiting submission.xlsx,true
+UKR,2024,438.485501,1.B.1.a Coal mining and handling,UKR-CRT-2026-V2.0-2024.xlsx,true
+URY,2021,,1.B.1.a Coal mining and handling (unreviewed draft submission),URY-CRT-2024-V0.3-2021-20241231-095653_started.xlsx,true
+URY,2022,,1.B.1.a Coal mining and handling (unreviewed draft submission),URY-CRT-2024-V0.3-2022-20241231-095653_started.xlsx,true
+USA,1990,4147.457490785334,1.B.1.a Coal mining and handling,historic,true
+USA,1991,4023.741789381572,1.B.1.a Coal mining and handling,historic,true
+USA,1992,3944.2576286124463,1.B.1.a Coal mining and handling,historic,true
+USA,1993,3418.4353863534748,1.B.1.a Coal mining and handling,historic,true
+USA,1994,3491.1182020588394,1.B.1.a Coal mining and handling,historic,true
+USA,1995,3448.165210730895,1.B.1.a Coal mining and handling,historic,true
+USA,1996,3441.854040150114,1.B.1.a Coal mining and handling,historic,true
+USA,1997,3377.0629596884173,1.B.1.a Coal mining and handling,historic,true
+USA,1998,3358.327807769219,1.B.1.a Coal mining and handling,historic,true
+USA,1999,3180.473510005001,1.B.1.a Coal mining and handling,historic,true
+USA,2000,3080.6321980195567,1.B.1.a Coal mining and handling,historic,true
+USA,2001,3038.5814929795965,1.B.1.a Coal mining and handling,historic,true
+USA,2002,2845.722260195401,1.B.1.a Coal mining and handling,historic,true
+USA,2003,2845.2264870200697,1.B.1.a Coal mining and handling,historic,true
+USA,2004,2887.375685774422,1.B.1.a Coal mining and handling,historic,true
+USA,2005,2829.533242542666,1.B.1.a Coal mining and handling,historic,true
+USA,2006,2883.916686879227,1.B.1.a Coal mining and handling,historic,true
+USA,2007,2845.035230161785,1.B.1.a Coal mining and handling,historic,true
+USA,2008,3278.804562985511,1.B.1.a Coal mining and handling,historic,true
+USA,2009,3448.7263175785774,1.B.1.a Coal mining and handling,historic,true
+USA,2010,3549.319104639147,1.B.1.a Coal mining and handling,historic,true
+USA,2011,3102.900568935974,1.B.1.a Coal mining and handling,historic,true
+USA,2012,2854.1350553699795,1.B.1.a Coal mining and handling,historic,true
+USA,2013,2833.4833001379507,1.B.1.a Coal mining and handling,historic,true
+USA,2014,2836.1360331122182,1.B.1.a Coal mining and handling,historic,true
+USA,2015,2704.171905474876,1.B.1.a Coal mining and handling,historic,true
+USA,2016,2421.587156577201,1.B.1.a Coal mining and handling,historic,true
+USA,2017,2449.9100112300366,1.B.1.a Coal mining and handling,historic,true
+USA,2018,2357.7090025714724,1.B.1.a Coal mining and handling,historic,true
+USA,2019,2129.407539087992,1.B.1.a Coal mining and handling,historic,true
+USA,2020,1880.1542425913044,1.B.1.a Coal mining and handling,historic,true
+USA,2021,1818.8805470780585,1.B.1.a Coal mining and handling (unreviewed draft submission),USA-CRT-2024-V0.5-2021-20241218-112924_started.xlsx,true
+USA,2022,1783.0674870508383,1.B.1.a Coal mining and handling (unreviewed draft submission),USA-CRT-2024-V0.5-2022-20241218-112924_started.xlsx,true
+UZB,1990,22.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,1991,20.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,1992,17.5,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,1993,16.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,1994,13.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,1995,12.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,1996,12.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,1997,10.8,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,1998,12.4,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,1999,11.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,2000,10.7,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,2001,11.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,2002,9.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,2003,7.9,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,2004,9.9,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,2005,6.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,2006,9.4,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,2007,8.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,2008,9.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,2009,9.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,2010,7.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,2011,6.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,2012,5.7,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,2015,4.67,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,2016,5.427,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,2017,5.106,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,2018,5.965,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,2019,6.64,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,2020,7.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,2021,7.9429237,1.B.1.a Coal mining and handling,UZB-CRT-2024-V0.5-2021-20241230-141505_started.xlsx,true
+UZB,2021,7.94,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+UZB,2022,8.2967574,1.B.1.a Coal mining and handling,UZB-CRT-2024-V0.5-2022-20241230-141505_started.xlsx,true
+VAT,2021,,1.B.1.a Coal mining and handling (unreviewed draft submission),VAT-CRT-2024-V0.2-2021-20241218-150748_awaiting approval.xlsx,true
+VAT,2022,,1.B.1.a Coal mining and handling (unreviewed draft submission),VAT-CRT-2024-V0.2-2022-20241218-150748_awaiting approval.xlsx,true
+VEN,1999,4.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+VEN,2010,4.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+VNM,1994,39.8,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+VNM,2000,89.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+VNM,2010,106.8,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+VNM,2013,92.8,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+VNM,2014,109.34,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+VNM,2016,94.76,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZAF,1990,323.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZAF,1994,316.9,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZAF,2000,67.7,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZAF,2001,69.4,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZAF,2002,73.5,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZAF,2003,74.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZAF,2004,74.9,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZAF,2005,74.8,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZAF,2006,75.7,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZAF,2007,77.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZAF,2008,76.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZAF,2009,90.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZAF,2010,83.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZAF,2011,76.7,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZAF,2012,75.6,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZAF,2013,76.9,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZAF,2014,79.5,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZAF,2015,74.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZAF,2016,72.3,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZAF,2017,73.9,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZAF,2020,137.8,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZAF,2021,60.7,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZAF,2021,60.70019627071514,1.B.1.a Coal mining and handling (unreviewed draft submission),ZAF-CRT-2024-V0.3-2021-20250429-155928_awaiting approval.xlsx,true
+ZAF,2022,59.7289931303837,1.B.1.a Coal mining and handling (unreviewed draft submission),ZAF-CRT-2024-V0.3-2022-20250429-155928_awaiting approval.xlsx,true
+ZAF,2022,59.73,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZMB,1994,0.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZMB,2000,0.1,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZMB,2016,0.08,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZWE,1994,13.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZWE,2000,27.0,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZWE,2006,7.2,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZWE,2010,4.91,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZWE,2011,0.38,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZWE,2012,0.39,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZWE,2013,0.39,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZWE,2014,0.4,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZWE,2015,0.39,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZWE,2016,0.39,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZWE,2017,0.39,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZWE,2018,0.41,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZWE,2019,0.41,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZWE,2020,0.43,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZWE,2021,0.48,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZWE,2021,0.0070348584959999995,1.B.1.a Coal mining and handling (unreviewed draft submission),ZWE-CRT-2024-V0.1-2021-20250211-160026_started.xlsx,true
+ZWE,2022,0.44,1.B.1.a Coal mining and handling,UNFCCC Non Annex (manual sheet),false
+ZWE,2022,0.008654570505504,1.B.1.a Coal mining and handling (unreviewed draft submission),ZWE-CRT-2024-V0.1-2022-20250211-160026_started.xlsx,true

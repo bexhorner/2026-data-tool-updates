@@ -1,0 +1,114 @@
+"""Combine reported EIA coal production with the IEA Coal 2025 forecast.
+
+Reads:
+  * eia_coal_production.csv            (from eia_coal_production.py)
+  * iea_coal_production_forecast.csv   (from iea_coal_production_forecast.py)
+
+Writes a single stacked table, coal_production_combined.csv (+ .parquet), in the
+same schema Ember's methane pipeline uses for `methane.mart_coal_production`:
+
+    YEAR  COUNTRY_CODE  PRODUCTION_METALLURGICAL_MT  PRODUCTION_TOTAL_MT
+          PRODUCTION_OTHER_MT  FORECAST_FLAG  SOURCE
+
+The IEA rows are transformed exactly like
+`src/pipelines/methane/transformations_sources/iea.py :: transform_iea_production`:
+  PRODUCTION_TOTAL_MT      = Production (kt) / 1000
+  PRODUCTION_METALLURGICAL_MT = null   (IEA forecast is total coal only)
+  PRODUCTION_OTHER_MT        = null
+  FORECAST_FLAG           = Year >= IEA_FORECAST_START_YEAR  (2025)
+  SOURCE                  = "IEA"
+
+The EIA rows already carry FORECAST_FLAG = False and SOURCE = "EIA".
+Both sources are kept (not de-duplicated) and told apart by SOURCE /
+FORECAST_FLAG, matching how the pipeline concatenates them.
+
+Usage:
+    python coal_production_combined.py
+    python coal_production_combined.py --indir . --outdir .
+"""
+
+from __future__ import annotations
+
+import argparse
+import sys
+from pathlib import Path
+
+import polars as pl
+
+IEA_FORECAST_START_YEAR = 2025
+
+# Canonical column order (matches eia_coal_production.csv / mart_coal_production).
+COLUMNS = [
+    "YEAR",
+    "COUNTRY_CODE",
+    "PRODUCTION_METALLURGICAL_MT",
+    "PRODUCTION_TOTAL_MT",
+    "PRODUCTION_OTHER_MT",
+    "FORECAST_FLAG",
+    "SOURCE",
+]
+
+
+def load_eia(path: Path) -> pl.DataFrame:
+    df = pl.read_csv(path)
+    missing = set(COLUMNS) - set(df.columns)
+    if missing:
+        raise SystemExit(f"{path.name}: missing columns {sorted(missing)}")
+    return df.select(COLUMNS)
+
+
+def load_iea_forecast(path: Path) -> pl.DataFrame:
+    raw = pl.read_csv(path)  # Code, Year, Production (kt)
+    return raw.select(
+        pl.col("Year").cast(pl.Int64).alias("YEAR"),
+        pl.col("Code").alias("COUNTRY_CODE"),
+        pl.lit(None, dtype=pl.Float64).alias("PRODUCTION_METALLURGICAL_MT"),
+        (
+            pl.col("Production").cast(pl.Utf8).str.replace_all(",", "").cast(pl.Float64)
+            / 1000
+        ).alias("PRODUCTION_TOTAL_MT"),
+        pl.lit(None, dtype=pl.Float64).alias("PRODUCTION_OTHER_MT"),
+        (pl.col("Year").cast(pl.Int64) >= IEA_FORECAST_START_YEAR).alias("FORECAST_FLAG"),
+        pl.lit("IEA").alias("SOURCE"),
+    ).select(COLUMNS)
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser(description=__doc__)
+    here = Path(__file__).parent
+    ap.add_argument("--indir", default=str(here))
+    ap.add_argument("--outdir", default=str(here))
+    args = ap.parse_args()
+
+    indir, outdir = Path(args.indir), Path(args.outdir)
+    outdir.mkdir(parents=True, exist_ok=True)
+
+    eia = load_eia(indir / "eia_coal_production.csv")
+    iea = load_iea_forecast(indir / "iea_coal_production_forecast.csv")
+
+    combined = pl.concat([eia, iea], how="vertical").sort(
+        ["COUNTRY_CODE", "YEAR", "SOURCE"]
+    )
+
+    out_csv = outdir / "coal_production_combined.csv"
+    combined.write_csv(out_csv)
+    combined.write_parquet(outdir / "coal_production_combined.parquet")
+
+    by_src = combined.group_by("SOURCE").agg(
+        pl.len().alias("rows"),
+        pl.col("YEAR").min().alias("year_min"),
+        pl.col("YEAR").max().alias("year_max"),
+        pl.col("FORECAST_FLAG").sum().alias("forecast_rows"),
+    )
+    overlap = (
+        eia.select("COUNTRY_CODE", "YEAR")
+        .join(iea.select("COUNTRY_CODE", "YEAR"), on=["COUNTRY_CODE", "YEAR"], how="inner")
+        .height
+    )
+    print(f"wrote {combined.height} rows -> {out_csv}", file=sys.stderr)
+    print(by_src.sort("SOURCE"), file=sys.stderr)
+    print(f"country-year pairs present in both sources: {overlap}", file=sys.stderr)
+
+
+if __name__ == "__main__":
+    main()

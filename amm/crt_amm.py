@@ -11,7 +11,20 @@ the parent 1.B.1.a "Coal mining and handling":
 
     < floor year (default 2022)   UNFCCC DI, Annex I only - as di_amm_long.csv
                                    already did (non-Annex parties don't report
-                                   this subcategory in the DI at all)
+                                   this subcategory in the DI at all). DEFAULT
+                                   SOURCE is --di-source github (see
+                                   load_di_github_historic): the chronological
+                                   commit history of openclimatedata/unfccc-
+                                   detailed-data-by-party, taking the FIRST
+                                   reported value per (country, year) rather
+                                   than the live DI/Zenodo mirror's current
+                                   (possibly later-revised) one - that repo's
+                                   own CHANGELOG.md documents past commits
+                                   silently changing old figures (GWP
+                                   recalculations, removed "other"-category
+                                   data, etc.), which --di-source zenodo/api
+                                   would otherwise bake in. --di-source
+                                   zenodo/api remain available as fallbacks.
     >= floor year                 UNFCCC CRT, parsed the same way as
                                    crt_methane.py (Table1.B.1, same workbook -
                                    just a different row of it), NOT limited to
@@ -134,6 +147,13 @@ IEA SHEET + SOURCE COLUMN
     filename is unambiguous, and the gap-fill/IEA rows get their own
     distinct FILENAME values too).
 
+WORLD ROLLUP (COUNTRY_CODE="WLD", see add_world_rows): one row per (YEAR,
+    SOURCE) pair actually present in the output - i.e. a "UNFCCC" world row
+    (sum of the CRT+DI+non-Annex+gap-fill series) and an "IEA" world row (sum
+    of the standalone IEA AMM sheet extra), reusing the same two-value SOURCE
+    vocabulary above rather than inventing a third label. Pass --no-world to
+    skip these.
+
 Reuses crt_methane.py's CRT-round discovery/parsing, DI-pull, non-Annex
 sheet and name-matching plumbing verbatim (discover_rounds, read_round,
 coalesce_join, load_di_historic, load_non_annex_sheet,
@@ -164,6 +184,7 @@ import polars as pl
 sys.path.insert(0, str(Path(__file__).parent.parent / "emissions"))
 from crt_methane import (  # noqa: E402
     OUTPUT_COLUMNS,
+    EUA_REMAP,
     _ANNEX_ONE,
     _debug_frame,
     _NON_ANNEX_FILENAME,
@@ -186,6 +207,141 @@ _AMM_IEA_TAB = "Sheet1"
 _AMM_IEA_YEAR = 2025
 _AMM_IEA_SOURCE_LABEL = "IEA"
 _AMM_IEA_FILENAME = "IEA AMM (Google Sheet)"
+
+# --- pre-floor-year historic, sourced from GitHub commit history instead of
+# the live DI/Zenodo mirror - see load_di_github_historic for why. ------------
+_DI_GITHUB_REPO = "openclimatedata/unfccc-detailed-data-by-party"
+_DI_GITHUB_DATA_PATH = "data/detailed-data-by-country-annex-one.csv"
+# Party names this repo uses that pycountry's lookup (country_name_to_code)
+# doesn't resolve on its own - checked by hand against the live file's unique
+# Party list for the abandoned-mines/CH4 rows. Both EU variants (the
+# Convention-basis and Kyoto-Protocol-basis aggregates) collapse to "EUA",
+# same as EUA_REMAP already does for the DI API's own party-code scheme.
+_DI_GITHUB_NAME_OVERRIDES = {
+    "Turkey": "TUR",
+    "European Union (Convention)": "EUA",
+    "European Union (KP)": "EUA",
+}
+
+
+def _github_name_to_code(name: str) -> str | None:
+    return country_name_to_code(name) or _DI_GITHUB_NAME_OVERRIDES.get(name)
+
+
+def _github_commits(repo: str, path: str, debug: bool) -> list[dict]:
+    """Every commit that touched `path`, oldest first (the GitHub commits API
+    returns newest-first)."""
+    import requests
+
+    resp = requests.get(
+        f"https://api.github.com/repos/{repo}/commits",
+        params={"path": path, "per_page": 100},
+        timeout=60,
+    )
+    resp.raise_for_status()
+    commits = resp.json()
+    if not isinstance(commits, list):
+        sys.exit(f"GitHub API error listing commits for {repo}/{path}: {commits}")
+    if len(commits) == 100:
+        sys.exit(
+            f"{repo}/{path} has >=100 commits - pagination isn't implemented, "
+            "results would silently miss the oldest ones"
+        )
+    ordered = list(reversed(commits))
+    if debug:
+        for c in ordered:
+            log(f"    {c['sha'][:10]} {c['commit']['author']['date'][:10]} "
+                f"{c['commit']['message'].splitlines()[0]}")
+    return ordered
+
+
+def load_di_github_historic(
+    floor_year: int,
+    label: str,
+    keep_eua: bool,
+    debug: bool,
+) -> pl.DataFrame:
+    """Pre-floor-year AMM history, sourced from the chronological commit
+    history of {_DI_GITHUB_REPO}'s Annex-I CSV - NOT the live DI API / Zenodo
+    mirror load_di_historic uses. Per the user's explicit request: that repo's
+    own CHANGELOG.md shows each "download" (commit) can both add new country-
+    years AND silently revise previously-reported ones (GWP recalculations,
+    removed "other"-category data, etc. - see e.g. the 2021-04-27 entry). We
+    want the FIRST reported value for each (COUNTRY_CODE, YEAR), never a later
+    commit's revision overwriting it - the same "older wins, newer only fills
+    gaps" policy this file already applies to CRT submission rounds via
+    merge_amm_rounds, just applied to this repo's commit history instead of
+    submission rounds.
+
+    Category is matched by text ("abandoned underground mines", case-
+    insensitive substring) rather than the numeric prefix, because the
+    numbering changed partway through this repo's history too: pre-2018
+    commits use "1.B.1.a.1.iii", current ones "1.B.1.a.i.3" (same era split
+    di_pull.py documents for the live DI). Gas is matched against both "CH4"
+    and the unicode "CH₄" spelling the newer files use - a plain
+    non-alphanumeric strip doesn't work here since the subscript digit isn't
+    ASCII and survives an [^A-Za-z0-9] filter unchanged.
+
+    Each leaf category appears twice in this repo's wide table, once under
+    each of its two parent-category paths (e.g. both "1.B.1.a Coal Mining and
+    Handling" and "1.B.1.a.i Underground Mines" as parent of the same
+    Abandoned Underground Mines leaf) - identical values both times; deduped
+    by just taking one.
+    """
+    import requests
+
+    remap = {} if keep_eua else EUA_REMAP
+    commits = _github_commits(_DI_GITHUB_REPO, _DI_GITHUB_DATA_PATH, debug)
+    log(f"  {len(commits)} commit(s) touching {_DI_GITHUB_DATA_PATH} on {_DI_GITHUB_REPO}")
+
+    snapshots: list[pl.DataFrame] = []
+    unresolved: set[str] = set()
+    for c in commits:
+        sha, date = c["sha"], c["commit"]["author"]["date"][:10]
+        url = f"https://raw.githubusercontent.com/{_DI_GITHUB_REPO}/{sha}/{_DI_GITHUB_DATA_PATH}"
+        resp = requests.get(url, timeout=120)
+        resp.raise_for_status()
+        raw = pd.read_csv(io.StringIO(resp.text))
+
+        cat = raw["Category"].astype(str).str.lower()
+        gas = raw["Gas"].astype(str).str.upper()
+        year_cols = [col for col in raw.columns if col.strip().isdigit()]
+        match = raw.loc[
+            cat.str.contains("abandoned underground mines") & gas.isin(["CH4", "CH₄"]),
+            ["Party", *year_cols],
+        ]
+        if match.empty:
+            log(f"  ! {sha[:10]} ({date}): no matching rows, skipped")
+            continue
+
+        long = match.melt(id_vars=["Party"], var_name="YEAR", value_name="EMISSIONS_CH4_KT")
+        codes = long["Party"].map(_github_name_to_code)
+        unresolved |= set(long.loc[codes.isna(), "Party"].unique())
+
+        snap = (
+            pl.from_pandas(long.assign(_code=codes))
+            .with_columns(
+                pl.col("YEAR").cast(pl.Int64),
+                pl.col("EMISSIONS_CH4_KT").cast(pl.Float64, strict=False),
+                pl.col("_code").cast(pl.Utf8).replace(remap).alias("COUNTRY_CODE"),
+            )
+            .drop_nulls(["COUNTRY_CODE", "EMISSIONS_CH4_KT"])
+            .filter(pl.col("YEAR") < floor_year)
+            .group_by(["COUNTRY_CODE", "YEAR"])
+            .agg(pl.col("EMISSIONS_CH4_KT").first())
+            .with_columns(
+                pl.lit(label).alias("SOURCE"),
+                pl.lit(f"{_DI_GITHUB_REPO}@{date}").alias("FILENAME"),
+            )
+        )
+        log(f"  {sha[:10]} ({date}): {snap.height} country-year row(s)")
+        snapshots.append(snap)
+
+    if unresolved:
+        log(f"  ! {len(unresolved)} party name(s) never resolved to a COUNTRY_CODE, dropped: {sorted(unresolved)}")
+
+    merged = reduce(merge_amm_rounds, snapshots)
+    return merged.with_columns(pl.lit(None, dtype=pl.Boolean).alias("ANNEX_FLAG")).select(OUTPUT_COLUMNS)
 
 
 def clean_amm(df_raw: pd.DataFrame) -> pl.DataFrame:
@@ -363,6 +519,33 @@ def load_iea_amm(
     return out
 
 
+def add_world_rows(out: pl.DataFrame) -> pl.DataFrame:
+    """Append COUNTRY_CODE="WLD" rollup rows, one per (YEAR, SOURCE) pair
+    actually present - i.e. a "UNFCCC" world row (the CRT+DI+non-Annex+gap-
+    fill series) and an "IEA" world row (the standalone IEA AMM sheet extra,
+    --iea-source-label's value), same two-value SOURCE vocabulary the rest of
+    this file already uses - no invented "WORLD" label, and since UNFCCC and
+    IEA never share a year in this file's data (UNFCCC through 2024, IEA
+    2025) there's no ambiguity about which bucket a year's total belongs to.
+    FILENAME/ANNEX_FLAG don't aggregate sensibly and are left null."""
+    world = (
+        out.group_by(["YEAR", "SOURCE"])
+        .agg(
+            pl.when(pl.col("EMISSIONS_CH4_KT").count() == 0)
+            .then(None)
+            .otherwise(pl.col("EMISSIONS_CH4_KT").sum())
+            .alias("EMISSIONS_CH4_KT")
+        )
+        .with_columns(
+            pl.lit("WLD").alias("COUNTRY_CODE"),
+            pl.lit(None, dtype=pl.String).alias("FILENAME"),
+            pl.lit(None, dtype=pl.Boolean).alias("ANNEX_FLAG"),
+        )
+        .select(out.columns)
+    )
+    return pl.concat([out, world], how="vertical_relaxed").sort(["COUNTRY_CODE", "YEAR", "SOURCE"])
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
@@ -390,10 +573,15 @@ def main() -> None:
     ap.add_argument("--di-only", action="store_true", help="DI only, skip CRT parsing")
     ap.add_argument(
         "--di-source",
-        choices=["api", "zenodo"],
-        default="zenodo",
-        help="'zenodo' (default) = the maintainers' Zenodo mirror, no WAF; "
-        "'api' = live di.unfccc.int (Imperva-walled, needs --cookies)",
+        choices=["github", "api", "zenodo"],
+        default="github",
+        help="'github' (default) = chronological commit history of "
+        f"{_DI_GITHUB_REPO} - earliest reported value per (country, year) "
+        "wins, later commits only fill gaps, so a later revision never "
+        "overwrites an earlier submission (see load_di_github_historic); "
+        "'zenodo' = the maintainers' Zenodo mirror of the live DI, no WAF, "
+        "but only the CURRENT (possibly revised) value per cell; "
+        "'api' = live di.unfccc.int (Imperva-walled, needs --cookies), same caveat",
     )
     ap.add_argument("--keep-eua", action="store_true", help="do not remap DI party code EUA -> EU")
     ap.add_argument(
@@ -452,6 +640,11 @@ def main() -> None:
         "--iea-source-label", default=_AMM_IEA_SOURCE_LABEL, help="SOURCE label for --iea-sheet rows"
     )
     ap.add_argument("--no-iea", action="store_true", help="skip the IEA sheet pull")
+    ap.add_argument(
+        "--no-world",
+        action="store_true",
+        help="skip the COUNTRY_CODE=WLD world-total rows (one per SOURCE present, e.g. UNFCCC/IEA)",
+    )
     ap.add_argument("--list-rounds", action="store_true", help="print discovered rounds and exit")
     ap.add_argument("--debug", action="store_true", help="print extraction diagnostics")
     args = ap.parse_args()
@@ -516,16 +709,25 @@ def main() -> None:
         parts.append(crt)
 
     if not args.no_di:
-        di = load_di_historic(
-            args.floor_year,
-            args.category_label,
-            args.keep_eua,
-            args.debug,
-            args.cookies,
-            args.di_source,
-            "annex-one",
-            _AMM_DI_CATEGORY,
-        )
+        if args.di_source == "github":
+            log(f"DI historic source: {_DI_GITHUB_REPO} (chronological commits, earliest value wins)")
+            di = load_di_github_historic(
+                args.floor_year,
+                args.category_label,
+                args.keep_eua,
+                args.debug,
+            )
+        else:
+            di = load_di_historic(
+                args.floor_year,
+                args.category_label,
+                args.keep_eua,
+                args.debug,
+                args.cookies,
+                args.di_source,
+                "annex-one",
+                _AMM_DI_CATEGORY,
+            )
         log(f"DI < {args.floor_year}: {len(di)} rows, {di['COUNTRY_CODE'].n_unique()} countries")
         parts.append(di)
 
@@ -606,6 +808,10 @@ def main() -> None:
     # (crt_methane.py's own _ANNEX_ONE), applied uniformly regardless of
     # source half - see the module docstring for why.
     out = out.with_columns(pl.col("COUNTRY_CODE").is_in(list(_ANNEX_ONE)).alias("ANNEX_FLAG"))
+
+    if not args.no_world:
+        out = add_world_rows(out)
+
     args.out.parent.mkdir(parents=True, exist_ok=True)
     out.write_csv(args.out)
 

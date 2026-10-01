@@ -22,9 +22,21 @@ The EIA rows already carry FORECAST_FLAG = False and SOURCE = "EIA".
 Both sources are kept (not de-duplicated) and told apart by SOURCE /
 FORECAST_FLAG, matching how the pipeline concatenates them.
 
+Also appends a COUNTRY_CODE="WLD" world-total row per YEAR. SOURCE is "EIA"
+or "IEA" depending on which source actually populates that year - EIA covers
+1990-2024 and IEA covers 2025-2030 with zero country-year overlap between
+them, so this is unambiguous (no new "WORLD" source value is invented).
+PRODUCTION_METALLURGICAL_MT / PRODUCTION_OTHER_MT / PRODUCTION_TOTAL_MT are
+each the sum across every country that year, skipping nulls. Because IEA
+forecast rows carry a total but no metallurgical/other split, the world
+met+other sum is null for 2025+ (every country that year is IEA-sourced) -
+same "unspecified" gap as Ember's public chart. FORECAST_FLAG is true if any
+country that year is on the IEA forecast. Pass --no-world to skip these rows.
+
 Usage:
     python coal_production_combined.py
     python coal_production_combined.py --indir . --outdir .
+    python coal_production_combined.py --no-world
 """
 
 from __future__ import annotations
@@ -73,11 +85,50 @@ def load_iea_forecast(path: Path) -> pl.DataFrame:
     ).select(COLUMNS)
 
 
+def _null_safe_sum(col: str) -> pl.Expr:
+    """sum() that stays null (not 0) when every contributing value that year
+    is null - e.g. 2026-2030, where every country is on an IEA forecast row
+    with no metallurgical/other split at all."""
+    return (
+        pl.when(pl.col(col).count() == 0)
+        .then(None)
+        .otherwise(pl.col(col).sum())
+        .alias(col)
+    )
+
+
+def add_world_rows(combined: pl.DataFrame) -> pl.DataFrame:
+    """Append one COUNTRY_CODE="WLD" row per YEAR summing every country's
+    production (nulls skipped - see module docstring for the met/other
+    undercount this implies on IEA-forecast years). SOURCE is "IEA" for a
+    year where any contributing row is IEA-sourced, else "EIA" - EIA (1990-
+    2024) and IEA (2025-2030) never share a country-year in this file, so
+    this exactly reflects which source actually built the row rather than
+    inventing a third "WORLD" label."""
+    world = (
+        combined.group_by("YEAR")
+        .agg(
+            _null_safe_sum("PRODUCTION_METALLURGICAL_MT"),
+            _null_safe_sum("PRODUCTION_TOTAL_MT"),
+            _null_safe_sum("PRODUCTION_OTHER_MT"),
+            pl.col("FORECAST_FLAG").any(),
+            (pl.col("SOURCE") == "IEA").any().alias("_has_iea"),
+        )
+        .with_columns(
+            pl.lit("WLD").alias("COUNTRY_CODE"),
+            pl.when(pl.col("_has_iea")).then(pl.lit("IEA")).otherwise(pl.lit("EIA")).alias("SOURCE"),
+        )
+        .select(combined.columns)
+    )
+    return pl.concat([combined, world], how="vertical").sort(["COUNTRY_CODE", "YEAR", "SOURCE"])
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     here = Path(__file__).parent
     ap.add_argument("--indir", default=str(here))
     ap.add_argument("--outdir", default=str(here))
+    ap.add_argument("--no-world", action="store_true", help="skip the COUNTRY_CODE=WLD world-total rows")
     args = ap.parse_args()
 
     indir, outdir = Path(args.indir), Path(args.outdir)
@@ -89,6 +140,9 @@ def main() -> None:
     combined = pl.concat([eia, iea], how="vertical").sort(
         ["COUNTRY_CODE", "YEAR", "SOURCE"]
     )
+
+    if not args.no_world:
+        combined = add_world_rows(combined)
 
     out_csv = outdir / "coal_production_combined.csv"
     combined.write_csv(out_csv)

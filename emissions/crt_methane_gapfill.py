@@ -62,6 +62,16 @@ above - a country-year can now carry several rows, told apart by SOURCE):
                  for any country with no steam- or coking-coal emissions of
                  its own.
 
+WORLD ROLLUP (COUNTRY_CODE="WLD", one set of rows per YEAR, see add_world_rows):
+    SOURCE_ALL="EIA-UNFCCC"  sum of EMISSIONS_CH4_KT across every country for
+                        that year, EXCLUDING the standalone GEM/IEA extras
+                        below - i.e. the same "reported + estimated" series
+                        Ember's public chart sums (UNFCCC / EIA-UNFCCC /
+                        IEA-UNFCCC together, labelled by the dominant method).
+    SOURCE_ALL="GEM"    sum of that year's GEM extra rows (EXTRA_SOURCE_YEAR only).
+    SOURCE_ALL="IEA"    sum of that year's IEA extra rows (EXTRA_SOURCE_YEAR only).
+    Pass --no-world to skip these.
+
 Usage:
     python crt_methane_gapfill.py
     python crt_methane_gapfill.py --emissions crt_methane_ch4.csv \
@@ -154,6 +164,10 @@ def load_production(path: Path) -> pl.DataFrame:
     missing = need - set(df.columns)
     if missing:
         raise SystemExit(f"{path.name}: missing columns {sorted(missing)}")
+    # coal_production_combined.py's own COUNTRY_CODE="WLD"/SOURCE="WORLD" rollup
+    # isn't a real country - this script derives its own WLD rows (add_world_rows)
+    # from the per-country factor estimates, so drop the input one before the join.
+    df = df.filter(pl.col("SOURCE") != "WORLD")
     df = df.select(
         pl.col("COUNTRY_CODE").cast(pl.Utf8),
         pl.col("YEAR").cast(pl.Int64),
@@ -376,6 +390,78 @@ def append_extra_sources(out: pl.DataFrame, extras: list[pl.DataFrame]) -> pl.Da
     )
 
 
+def add_world_rows(out: pl.DataFrame) -> pl.DataFrame:
+    """Append COUNTRY_CODE="WLD" rollup rows, one set per YEAR:
+
+      SOURCE_ALL="EIA-UNFCCC"  sum of EMISSIONS_CH4_KT over every row EXCEPT
+                          the standalone GEM/IEA extras (i.e. the UNFCCC /
+                          EIA-UNFCCC / IEA-UNFCCC "reported + estimated"
+                          series - matches Ember's public chart's main line).
+                          Labelled "EIA-UNFCCC" rather than a made-up value
+                          since that's this bottom-up series' dominant
+                          underlying method; no collision with the per-country
+                          EIA-UNFCCC/IEA-UNFCCC/UNFCCC rows since COUNTRY_CODE
+                          differs ("WLD" vs a real ISO3). EMISSIONS_TYPE is
+                          "Forecast" if any contributing row that year is a
+                          Forecast, else "Estimate" if any is an Estimate,
+                          else "Report".
+      SOURCE_ALL="GEM"    sum of the GEM extra rows for that year (EXTRA_SOURCE_YEAR only).
+      SOURCE_ALL="IEA"    sum of the IEA extra rows for that year (EXTRA_SOURCE_YEAR only).
+
+    Per-row fields that don't aggregate sensibly (SOURCE_EMISSIONS,
+    SOURCE_PRODUCTION, SOURCE_INTENSITY, ANNEX_FLAG) are left null on the
+    world rows.
+    """
+    null_extras = [
+        pl.lit(None, dtype=pl.String).alias("SOURCE_EMISSIONS"),
+        pl.lit(None, dtype=pl.String).alias("SOURCE_PRODUCTION"),
+        pl.lit(None, dtype=pl.String).alias("SOURCE_INTENSITY"),
+        pl.lit(None, dtype=pl.Boolean).alias("ANNEX_FLAG"),
+    ]
+
+    main = out.filter(~pl.col("SOURCE_ALL").is_in(["GEM", "IEA"]))
+    world_main = (
+        main.group_by("YEAR")
+        .agg(
+            pl.col("EMISSIONS_CH4_KT").sum(),
+            (pl.col("EMISSIONS_TYPE") == "Forecast").any().alias("_has_forecast"),
+            (pl.col("EMISSIONS_TYPE") == "Estimate").any().alias("_has_estimate"),
+        )
+        .with_columns(
+            pl.when(pl.col("_has_forecast"))
+            .then(pl.lit("Forecast"))
+            .when(pl.col("_has_estimate"))
+            .then(pl.lit("Estimate"))
+            .otherwise(pl.lit("Report"))
+            .alias("EMISSIONS_TYPE"),
+            pl.lit("WLD").alias("COUNTRY_CODE"),
+            pl.lit("EIA-UNFCCC").alias("SOURCE_ALL"),
+            *null_extras,
+        )
+        .with_columns((pl.col("EMISSIONS_TYPE") != "Report").alias("EMISSIONS_ESTIMATED_FLAG"))
+        .select(out.columns)
+    )
+
+    world_extras = [
+        out.filter(pl.col("SOURCE_ALL") == src)
+        .group_by("YEAR")
+        .agg(pl.col("EMISSIONS_CH4_KT").sum())
+        .with_columns(
+            pl.lit("WLD").alias("COUNTRY_CODE"),
+            pl.lit(src).alias("SOURCE_ALL"),
+            pl.lit("Estimate").alias("EMISSIONS_TYPE"),
+            pl.lit(True).alias("EMISSIONS_ESTIMATED_FLAG"),
+            *null_extras,
+        )
+        .select(out.columns)
+        for src in ("GEM", "IEA")
+    ]
+
+    return pl.concat([out, world_main, *world_extras], how="vertical_relaxed").sort(
+        ["COUNTRY_CODE", "YEAR", "SOURCE_ALL"]
+    )
+
+
 def gap_fill(emiss: pl.DataFrame, prod: pl.DataFrame) -> pl.DataFrame:
     """transform_coal_emissions_unfccc, UNFCCC branch only."""
     # ANNEX_FLAG is country-constant; carry it to rows that come only from the
@@ -538,6 +624,11 @@ def main() -> None:
     )
     ap.add_argument("--no-gem", action="store_true", help="skip the GEM 2025 rows")
     ap.add_argument("--no-iea", action="store_true", help="skip the IEA 2025 rows")
+    ap.add_argument(
+        "--no-world",
+        action="store_true",
+        help="skip the COUNTRY_CODE=WLD world-total rows (SOURCE_ALL=EIA-UNFCCC/GEM/IEA)",
+    )
     ap.add_argument("--out", type=Path, default=here / "crt_methane_ch4_gapfilled.csv")
     args = ap.parse_args()
 
@@ -561,6 +652,9 @@ def main() -> None:
         log(f"reading IEA          {args.iea} [{args.iea_tab}]")
         extras.append(load_iea_emissions(args.iea, args.iea_tab))
     out = append_extra_sources(out, extras)
+
+    if not args.no_world:
+        out = add_world_rows(out)
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
     out.write_csv(args.out)

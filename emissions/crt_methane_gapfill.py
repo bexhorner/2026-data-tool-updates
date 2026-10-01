@@ -62,6 +62,23 @@ above - a country-year can now carry several rows, told apart by SOURCE):
                  for any country with no steam- or coking-coal emissions of
                  its own.
 
+EXTRA-SOURCE FORECAST (2026-2030, see forecast_extra_source) - ported from
+ember-data-processing's transform_coal_emissions_iea / _gem, restricted to
+their forecast branch:
+    for each extra source, derive a constant per-country CH4-per-tonne
+    intensity (EMISSIONS_CH4_KT / PRODUCTION_MT), then scale the coal
+    production mart's forecast years (FORECAST_FLAG=true, i.e. 2026-2030 -
+    IEA is the only production SOURCE with a forecast) by that factor:
+      "IEA"  intensity benchmarked at EXTRA_SOURCE_YEAR (2025) production.
+      "GEM"  intensity benchmarked at each country's latest *reported*
+             (non-forecast) production year, same as the UNFCCC gap-fill's
+             own emission factor.
+    SOURCE_ALL stays "IEA"/"GEM" (no new label); EMISSIONS_TYPE is "Forecast"
+    and SOURCE_PRODUCTION/SOURCE_INTENSITY record how the figure was derived.
+    Only countries with usable benchmark production get a forecast -
+    production.csv's IEA forecast covers 24 countries, so a GEM country
+    outside that set keeps just its single EXTRA_SOURCE_YEAR row.
+
 WORLD ROLLUP (COUNTRY_CODE="WLD", one set of rows per YEAR, see add_world_rows):
     SOURCE_ALL="EIA-UNFCCC"  sum of EMISSIONS_CH4_KT across every country for
                         that year, EXCLUDING the standalone GEM/IEA extras
@@ -104,6 +121,7 @@ IEA_FILENAME = "IEA 2026 (Greenhouse gas emissions from energy)"
 IEA_CORE_COAL_SEGMENTS = ("steam coal", "coking coal")
 IEA_OTHER_COAL_SEGMENT = "other from coal"
 EXTRA_SOURCE_YEAR = 2025
+FORECAST_END_YEAR = 2030
 
 # (COUNTRY_CODE, first_year, last_year) - reported emissions inside the closed
 # interval are dropped before the emission factor is derived. Both ranges are
@@ -361,10 +379,65 @@ def load_iea_emissions(
     return out
 
 
-def append_extra_sources(out: pl.DataFrame, extras: list[pl.DataFrame]) -> pl.DataFrame:
+def forecast_extra_source(
+    base: pl.DataFrame, benchmark_production: pl.DataFrame, prod: pl.DataFrame
+) -> pl.DataFrame:
+    """Extend a one-year (EXTRA_SOURCE_YEAR) extra-source emissions df (GEM or
+    IEA, as produced by load_gem_emissions / load_iea_emissions) out to
+    FORECAST_END_YEAR.
+
+    Ported from ember-data-processing's transform_coal_emissions_iea /
+    transform_coal_emissions_gem, restricted to their forecast branch: derive
+    each country's implied CH4-per-tonne-of-coal intensity (EMISSIONS_CH4_KT
+    / PRODUCTION_MT) against `benchmark_production` (one row per country -
+    the caller picks the benchmark year), then scale the production mart's
+    forecast years (FORECAST_FLAG=true, i.e. 2026-2030 - IEA is the only
+    production SOURCE with a forecast) by that constant factor. A country
+    with no or zero benchmark production (no intensity) is left out of the
+    result - it keeps only its EXTRA_SOURCE_YEAR row.
+    """
+    source_name = base["SOURCE"][0] if base.height else "?"
+
+    intensity = (
+        base.join(benchmark_production, how="inner", on="COUNTRY_CODE")
+        .filter(pl.col("PRODUCTION_MT") > 0)
+        .select(
+            "COUNTRY_CODE",
+            (pl.col("EMISSIONS_CH4_KT") / pl.col("PRODUCTION_MT")).alias(
+                "INTENSITY_CH4_KT_PER_MT"
+            ),
+        )
+    )
+
+    future_prod = prod.filter(
+        pl.col("FORECAST_FLAG") & (pl.col("YEAR") > EXTRA_SOURCE_YEAR) & (pl.col("YEAR") <= FORECAST_END_YEAR)
+    ).select("COUNTRY_CODE", "YEAR", "PRODUCTION_MT", "PRODUCTION_SOURCE")
+
+    out = (
+        intensity.join(future_prod, how="inner", on="COUNTRY_CODE")
+        .with_columns(
+            (pl.col("INTENSITY_CH4_KT_PER_MT") * pl.col("PRODUCTION_MT")).alias("EMISSIONS_CH4_KT"),
+            pl.lit(source_name).alias("SOURCE_INTENSITY"),
+        )
+        .rename({"PRODUCTION_SOURCE": "SOURCE_PRODUCTION"})
+        .select("COUNTRY_CODE", "YEAR", "EMISSIONS_CH4_KT", "SOURCE_INTENSITY", "SOURCE_PRODUCTION")
+    )
+    log(
+        f"  {source_name} forecast {EXTRA_SOURCE_YEAR + 1}-{FORECAST_END_YEAR}: "
+        f"{out.height} country-year rows, {out['COUNTRY_CODE'].n_unique()} countries "
+        f"(of {base['COUNTRY_CODE'].n_unique()} with a {EXTRA_SOURCE_YEAR} estimate)"
+    )
+    return out
+
+
+def append_extra_sources(
+    out: pl.DataFrame, extras: list[pl.DataFrame], forecasts: list[pl.DataFrame]
+) -> pl.DataFrame:
     """Add GEM / IEA per-country rows to the gap-filled frame as extra source
-    rows (a country-year can now hold several rows, told apart by SOURCE)."""
-    if not extras:
+    rows (a country-year can now hold several rows, told apart by SOURCE_ALL):
+    the EXTRA_SOURCE_YEAR base estimate from `extras`, plus any
+    FORECAST_END_YEAR-bound rows from `forecasts` (see forecast_extra_source)."""
+    if not extras and not forecasts:
         return out
 
     annex = (
@@ -372,20 +445,36 @@ def append_extra_sources(out: pl.DataFrame, extras: list[pl.DataFrame]) -> pl.Da
         .drop_nulls("ANNEX_FLAG")
         .unique(subset=["COUNTRY_CODE"])
     )
-    add = (
-        pl.concat(extras, how="vertical")
-        .join(annex, how="left", on="COUNTRY_CODE")
-        .with_columns(
-            pl.lit("Estimate").alias("EMISSIONS_TYPE"),
-            pl.lit(True).alias("EMISSIONS_ESTIMATED_FLAG"),
-            pl.col("SOURCE").alias("SOURCE_EMISSIONS"),
-            pl.col("SOURCE").alias("SOURCE_ALL"),
-            pl.lit(None, dtype=pl.Utf8).alias("SOURCE_PRODUCTION"),
-            pl.lit(None, dtype=pl.Utf8).alias("SOURCE_INTENSITY"),
+
+    parts = []
+    if extras:
+        parts.append(
+            pl.concat(extras, how="vertical")
+            .join(annex, how="left", on="COUNTRY_CODE")
+            .with_columns(
+                pl.lit("Estimate").alias("EMISSIONS_TYPE"),
+                pl.lit(True).alias("EMISSIONS_ESTIMATED_FLAG"),
+                pl.col("SOURCE").alias("SOURCE_EMISSIONS"),
+                pl.col("SOURCE").alias("SOURCE_ALL"),
+                pl.lit(None, dtype=pl.Utf8).alias("SOURCE_PRODUCTION"),
+                pl.lit(None, dtype=pl.Utf8).alias("SOURCE_INTENSITY"),
+            )
+            .select(out.columns)
         )
-        .select(out.columns)
-    )
-    return pl.concat([out, add], how="vertical_relaxed").sort(
+    if forecasts:
+        parts.append(
+            pl.concat(forecasts, how="vertical")
+            .join(annex, how="left", on="COUNTRY_CODE")
+            .with_columns(
+                pl.lit("Forecast").alias("EMISSIONS_TYPE"),
+                pl.lit(True).alias("EMISSIONS_ESTIMATED_FLAG"),
+                pl.lit(None, dtype=pl.Utf8).alias("SOURCE_EMISSIONS"),
+                pl.col("SOURCE_INTENSITY").alias("SOURCE_ALL"),
+            )
+            .select(out.columns)
+        )
+
+    return pl.concat([out, *parts], how="vertical_relaxed").sort(
         ["COUNTRY_CODE", "YEAR", "SOURCE_ALL"]
     )
 
@@ -405,8 +494,10 @@ def add_world_rows(out: pl.DataFrame) -> pl.DataFrame:
                           "Forecast" if any contributing row that year is a
                           Forecast, else "Estimate" if any is an Estimate,
                           else "Report".
-      SOURCE_ALL="GEM"    sum of the GEM extra rows for that year (EXTRA_SOURCE_YEAR only).
-      SOURCE_ALL="IEA"    sum of the IEA extra rows for that year (EXTRA_SOURCE_YEAR only).
+      SOURCE_ALL="GEM"    sum of the GEM extra rows for that year (EXTRA_SOURCE_YEAR,
+                          plus FORECAST_END_YEAR-bound years where forecast - see
+                          forecast_extra_source).
+      SOURCE_ALL="IEA"    sum of the IEA extra rows for that year (same).
 
     Per-row fields that don't aggregate sensibly (SOURCE_EMISSIONS,
     SOURCE_PRODUCTION, SOURCE_INTENSITY, ANNEX_FLAG) are left null on the
@@ -449,7 +540,10 @@ def add_world_rows(out: pl.DataFrame) -> pl.DataFrame:
         .with_columns(
             pl.lit("WLD").alias("COUNTRY_CODE"),
             pl.lit(src).alias("SOURCE_ALL"),
-            pl.lit("Estimate").alias("EMISSIONS_TYPE"),
+            pl.when(pl.col("YEAR") == EXTRA_SOURCE_YEAR)
+            .then(pl.lit("Estimate"))
+            .otherwise(pl.lit("Forecast"))
+            .alias("EMISSIONS_TYPE"),
             pl.lit(True).alias("EMISSIONS_ESTIMATED_FLAG"),
             *null_extras,
         )
@@ -642,16 +736,37 @@ def main() -> None:
     out = gap_fill(emiss, prod)
 
     extras: list[pl.DataFrame] = []
+    forecasts: list[pl.DataFrame] = []
+
+    # IEA forecast benchmark: production at EXTRA_SOURCE_YEAR itself (already
+    # an IEA-forecast-flagged year in the mart).
+    iea_benchmark = prod.filter(pl.col("YEAR") == EXTRA_SOURCE_YEAR).select(
+        "COUNTRY_CODE", "PRODUCTION_MT"
+    )
+    # GEM forecast benchmark: each country's latest *reported* (non-forecast)
+    # production year - same baseline the UNFCCC gap-fill factor uses.
+    gem_benchmark = (
+        prod.filter(~pl.col("FORECAST_FLAG"))
+        .group_by("COUNTRY_CODE")
+        .agg(pl.col("YEAR").max().alias("YEAR"))
+        .join(prod, how="left", on=["COUNTRY_CODE", "YEAR"])
+        .select("COUNTRY_CODE", "PRODUCTION_MT")
+    )
+
     if not args.no_gem:
         if args.gem.exists():
             log(f"reading GEM          {args.gem}")
-            extras.append(load_gem_emissions(args.gem))
+            gem = load_gem_emissions(args.gem)
+            extras.append(gem)
+            forecasts.append(forecast_extra_source(gem, gem_benchmark, prod))
         else:
             log(f"  ! GEM file not found, skipping: {args.gem}")
     if not args.no_iea:
         log(f"reading IEA          {args.iea} [{args.iea_tab}]")
-        extras.append(load_iea_emissions(args.iea, args.iea_tab))
-    out = append_extra_sources(out, extras)
+        iea = load_iea_emissions(args.iea, args.iea_tab)
+        extras.append(iea)
+        forecasts.append(forecast_extra_source(iea, iea_benchmark, prod))
+    out = append_extra_sources(out, extras, forecasts)
 
     if not args.no_world:
         out = add_world_rows(out)

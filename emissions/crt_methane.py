@@ -1042,21 +1042,43 @@ def read_round(
 
     for tb in tarballs:
         log(f"  streaming {tb.name} (decompressing in memory, can take a few minutes) ...")
-        try:
-            with tarfile.open(tb, mode="r:*") as tar:
-                for member in tar:
-                    if not member.isfile() or not member.name.lower().endswith(".zip"):
-                        continue
-                    if not _label_matches_countries(member.name, countries):
-                        continue
-                    fh = tar.extractfile(member)
-                    if fh is None:
-                        continue
-                    _read_crt_zip(
-                        member.name, fh.read(), recurse, floor_year, frames, skip_drafts, countries
-                    )
-        except tarfile.TarError as exc:
-            log(f"  ! could not read {tb.name} ({exc})")
+        # Streaming a multi-GB lzma tar off a Drive-mounted path has turned out
+        # to intermittently raise a raw OSError ("[Errno 22] Invalid argument")
+        # partway through the lzma decompressor's internal buffered read - not
+        # a real archive-format problem (tarfile.TarError, handled separately
+        # below), just a transient hiccup at an arbitrary byte offset, different
+        # each run. There's no clean way to resume an in-progress streaming
+        # decompression after that, so a retry has to re-open the tarball and
+        # re-iterate from the start; frames already parsed just get overwritten
+        # with the same values, which is wasteful but harmless.
+        max_attempts = 3
+        for attempt in range(1, max_attempts + 1):
+            try:
+                with tarfile.open(tb, mode="r:*") as tar:
+                    for member in tar:
+                        if not member.isfile() or not member.name.lower().endswith(".zip"):
+                            continue
+                        if not _label_matches_countries(member.name, countries):
+                            continue
+                        fh = tar.extractfile(member)
+                        if fh is None:
+                            continue
+                        _read_crt_zip(
+                            member.name, fh.read(), recurse, floor_year, frames, skip_drafts, countries
+                        )
+                break
+            except tarfile.TarError as exc:
+                log(f"  ! could not read {tb.name} ({exc})")
+                break
+            except OSError as exc:
+                if attempt == max_attempts:
+                    log(f"  ! {tb.name}: giving up after {attempt} attempt(s) ({exc})")
+                    raise
+                log(
+                    f"  ! {tb.name}: transient read error on attempt {attempt}/{max_attempts} "
+                    f"({exc}) - re-opening and re-reading the whole archive ..."
+                )
+                time.sleep(5)
 
     if not frames:
         raise SystemExit(f"no CRT workbooks parsed under {round_dir}")

@@ -63,6 +63,10 @@ NOTES
     the V0-draft fallback - a value present via any non-draft submission
     always keeps DRAFT_FLAG=false, even if that submission happens to be a
     later round than an unused draft.
+  * EMISSIONS_CH4_KT and (if present) RECOVERY_FLARING_CH4_KT each get a
+    pair of CO2e columns (<base>_CO2E_20YR_KT / <base>_CO2E_100YR_KT, the
+    IPCC AR6 fossil-CH4 GWPs - see crt_methane.py's add_co2e_columns). CO2
+    columns (EMISSIONS_CO2_KT, RECOVERY_FLARING_CO2_KT) are already CO2e.
 """
 from __future__ import annotations
 
@@ -266,6 +270,13 @@ def main() -> None:
         tidy = tidy.with_columns(pl.lit(False).alias("DRAFT_FLAG"))
 
     tidy = tidy.sort(["COUNTRY_CODE", "YEAR"])
+
+    # CO2e columns for every CH4 value column this category happened to carry
+    # (EMISSIONS_CH4_KT always; RECOVERY_FLARING_CH4_KT only for a category
+    # whose workbook row has a recovery/flaring split) - CO2 columns are
+    # already CO2e (GWP=1) and need no conversion.
+    for ch4_col in ("EMISSIONS_CH4_KT", "RECOVERY_FLARING_CH4_KT"):
+        tidy = cm.add_co2e_columns(tidy, ch4_col)
 
     out_cols = [c for c in tidy.columns if c not in ("COUNTRY_CODE", "YEAR", "CH4_RAW", "DRAFT_FLAG")]
     # belt-and-braces alongside extract_category's column_N drop: a value

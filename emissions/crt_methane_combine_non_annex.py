@@ -30,7 +30,7 @@ from pathlib import Path
 import polars as pl
 
 sys.path.insert(0, str(Path(__file__).parent))
-from crt_methane import OUTPUT_COLUMNS, load_non_annex_sheet, log  # noqa: E402
+from crt_methane import OUTPUT_COLUMNS, add_co2e_columns, load_non_annex_sheet, log  # noqa: E402
 
 DEFAULT_SHEET = "1G-r_7ZvI5p-YU201tist4-RjnPLJg2pxnnnMFGt4iis"
 DEFAULT_TAB = "Sheet1"
@@ -71,6 +71,7 @@ def main() -> None:
     )
 
     out = pl.concat([annex, non_annex], how="vertical_relaxed").sort(["COUNTRY_CODE", "YEAR"])
+    out = add_co2e_columns(out)
 
     before = existing.height
     if out.height != before:

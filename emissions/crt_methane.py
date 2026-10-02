@@ -95,9 +95,12 @@ USAGE
     python crt_methane.py --di-only --out ./di_only.csv
 
 OUTPUT
-    Long CSV: COUNTRY_CODE, YEAR, EMISSIONS_CH4_KT, SOURCE, FILENAME
+    Long CSV: COUNTRY_CODE, YEAR, EMISSIONS_CH4_KT, SOURCE, FILENAME,
+              EMISSIONS_CO2E_20YR_KT, EMISSIONS_CO2E_100YR_KT
       SOURCE   - normalised category label (identical for every row)
       FILENAME - "historic" for DI rows; the winning CRT workbook path otherwise
+      EMISSIONS_CO2E_*YR_KT - EMISSIONS_CH4_KT x the IPCC AR6 fossil-CH4 GWP
+                 for that horizon (GWP_CH4_20YR=82.5, GWP_CH4_100YR=29.8)
 """
 from __future__ import annotations
 
@@ -126,6 +129,32 @@ VERSION = "2026.09.16.2"
 EUA_REMAP = {"EUA": "EU"}
 
 OUTPUT_COLUMNS = ["COUNTRY_CODE", "YEAR", "EMISSIONS_CH4_KT", "SOURCE", "FILENAME"]
+
+# IPCC AR6 fossil-CH4 GWPs (ch. 7, table 7.15) - coal mine/flaring CH4 is
+# fossil-sourced, which gets a slightly higher GWP than biogenic CH4 (the
+# extra CO2 it oxidises into on top of the methane forcing itself).
+GWP_CH4_20YR = 82.5
+GWP_CH4_100YR = 29.8
+
+
+def add_co2e_columns(df: pl.DataFrame, ch4_col: str = "EMISSIONS_CH4_KT") -> pl.DataFrame:
+    """Add <base>_CO2E_20YR_KT / <base>_CO2E_100YR_KT columns computed from
+    `ch4_col` (kt CH4) via GWP_CH4_20YR / GWP_CH4_100YR. <base> is `ch4_col`
+    with a trailing '_CH4_KT' stripped (so EMISSIONS_CH4_KT -> EMISSIONS_*,
+    RECOVERY_FLARING_CH4_KT -> RECOVERY_FLARING_*). No-op if `ch4_col` isn't
+    in `df` (some callers build a frame that dropped an all-null CH4 column).
+
+    Casts `ch4_col` to Float64 (strict=False) first: an all-null CH4 column
+    round-tripped through CSV (no non-null value to infer a numeric dtype
+    from) reads back as Utf8, which '*' rejects outright."""
+    if ch4_col not in df.columns:
+        return df
+    base = ch4_col[: -len("_CH4_KT")] if ch4_col.endswith("_CH4_KT") else ch4_col
+    ch4 = pl.col(ch4_col).cast(pl.Float64, strict=False)
+    return df.with_columns(
+        (ch4 * GWP_CH4_20YR).alias(f"{base}_CO2E_20YR_KT"),
+        (ch4 * GWP_CH4_100YR).alias(f"{base}_CO2E_100YR_KT"),
+    )
 
 
 def log(*a: object) -> None:
@@ -1620,6 +1649,7 @@ def main() -> None:
         .sort(["COUNTRY_CODE", "YEAR"])
         .select(out_cols)
     )
+    out = add_co2e_columns(out)
     args.out.parent.mkdir(parents=True, exist_ok=True)
     out.write_csv(args.out)
 

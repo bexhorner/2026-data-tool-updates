@@ -188,6 +188,7 @@ from crt_methane import (  # noqa: E402
     _ANNEX_ONE,
     _debug_frame,
     _NON_ANNEX_FILENAME,
+    add_co2e_columns,
     coalesce_join,
     country_name_to_code,
     discover_rounds,
@@ -811,6 +812,8 @@ def main() -> None:
 
     if not args.no_world:
         out = add_world_rows(out)
+
+    out = add_co2e_columns(out)
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
     out.write_csv(args.out)

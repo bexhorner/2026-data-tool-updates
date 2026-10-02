@@ -45,7 +45,10 @@ Output (crt_methane_ch4_gapfilled.csv), one row per country-year on the
 gap-filled series:
     COUNTRY_CODE, YEAR, EMISSIONS_CH4_KT, EMISSIONS_TYPE,
     EMISSIONS_ESTIMATED_FLAG, SOURCE_EMISSIONS, SOURCE_PRODUCTION,
-    SOURCE_INTENSITY, SOURCE_ALL, ANNEX_FLAG
+    SOURCE_INTENSITY, SOURCE_ALL, ANNEX_FLAG,
+    EMISSIONS_CO2E_20YR_KT, EMISSIONS_CO2E_100YR_KT
+        (EMISSIONS_CH4_KT x the IPCC AR6 fossil-CH4 GWP for that horizon -
+        see crt_methane.py's add_co2e_columns)
 
 SOURCE_ALL follows transform_mart_coal_emissions_all's SOURCE_ALL:
     "UNFCCC"      raw UNFCCC submission (reported figure passed through)
@@ -103,6 +106,9 @@ import sys
 from pathlib import Path
 
 import polars as pl
+
+sys.path.insert(0, str(Path(__file__).parent))
+from crt_methane import add_co2e_columns  # noqa: E402
 
 # --- extra 2025 emission sources (aggregated to one row per country) ----------
 GEM_SHEET = "Non-closed mines"
@@ -770,6 +776,8 @@ def main() -> None:
 
     if not args.no_world:
         out = add_world_rows(out)
+
+    out = add_co2e_columns(out)
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
     out.write_csv(args.out)

@@ -1,0 +1,60 @@
+COUNTRY,CODE,SCORE,CRITERIA1,CRITERIA2,CRITERIA3,TIER,CONFIDENCE
+Afghanistan,AFG,0,0,0,0,1,low confidence
+Bangladesh,BGD,0,0,0,0,Not reported,low confidence
+Lao People's Democratic Republic,LAO,0,0,0,0,1,low confidence
+Malawi,MWI,0,0,0,0,1,low confidence
+Mexico,MEX,0,0,0,0,1,low confidence
+Mozambique,MOZ,0,0,0,0,1,low confidence
+Nigeria,NGA,0,0,0,0,1,low confidence
+Peru,PER,0,0,0,0,1,low confidence
+Philippines,PHL,0,0,0,0,1,low confidence
+Tanzania,TZA,0,0,0,0,1,low confidence
+Venezuela,VEN,0,0,0,0,1,low confidence
+Argentina,ARG,1,1,0,0,1,low confidence
+Bosnia and Herzegovina,BIH,1,1,0,0,1,low confidence
+Indonesia,IDN,1,1,0,0,1,low confidence
+Kazakhstan,KAZ,1,0,0,1,"1,2",low confidence
+Mongolia,MNG,1,1,0,0,1,low confidence
+North Macedonia,MKD,1,1,0,0,1,low confidence
+Tajikistan,TJK,1,1,0,0,1,low confidence
+Thailand,THA,1,1,0,0,1,low confidence
+Viet Nam,VNM,1,1,0,0,1,low confidence
+Zimbabwe,ZWE,1,1,0,0,1,low confidence
+Colombia,COL,2,1,0,1,2,low confidence
+Greece,GRC,2,2,0,0,1,low confidence
+Korea,KOR,2,1,0,1,"1,2",low confidence
+South Africa,ZAF,2,1,0,1,2,low confidence
+Czechia,CZE,3,2,0,1,"1,2",medium confidence
+Germany,DEU,3,2,0,1,2,medium confidence
+New Zealand,NZL,3,2,0,1,"1,2",medium confidence
+Romania,ROU,3,2,0,1,"1,2",medium confidence
+Japan,JPN,4,2,0,2,"1,2,3",medium confidence
+Chile,CHL,1,0,1,0,1,low confidence
+Ethiopia,ETH,1,0,1,0,1,low confidence
+Georgia,GEO,1,0,1,0,1,low confidence
+Myanmar,MMR,1,0,1,0,1,low confidence
+Botswana,BWA,2,1,1,0,1,low confidence
+Iran (Islamic Republic of),IRN,2,1,1,0,1,low confidence
+Kyrgyzstan,KGZ,2,1,1,0,1,low confidence
+Malaysia,MYS,2,1,1,0,1,low confidence
+Niger,NER,2,1,1,0,1,low confidence
+Pakistan,PAK,2,1,1,0,1,low confidence
+Serbia,SRB,2,1,1,0,1,low confidence
+Uzbekistan,UZB,2,1,1,0,1,low confidence
+Canada,CAN,3,1,1,1,"2,3",medium confidence
+India,IND,3,1,1,1,"2,3",medium confidence
+Australia,AUS,4,2,1,1,"2, 3",medium confidence
+Hungary,HUN,4,2,1,1,2,medium confidence
+Russia,RUS,4,2,1,1,"1,2",medium confidence
+United Kingdom of Great Britain and Northern Ireland,GBR,4,2,1,1,"2,3",medium confidence
+Zambia,ZMB,2,0,2,0,1,low confidence
+Brazil,BRA,3,1,2,0,1,medium confidence
+Korea (Democratic People's Republic of),PRK,3,1,2,0,1,medium confidence
+Bulgaria,BGR,4,2,2,0,1,medium confidence
+China,CHN,4,1,2,1,"1,2",medium confidence
+United States of America,USA,4,1,2,1,"2,3",medium confidence
+Norway,NOR,5,2,2,1,2,good confidence
+Turkey,TUR,5,2,2,1,"1,2",good confidence
+Poland,POL,6,2,2,2,"1,3",good confidence
+Slovenia,SVN,6,2,2,2,"2,3",good confidence
+Ukraine,UKR,6,2,2,2,3,good confidence

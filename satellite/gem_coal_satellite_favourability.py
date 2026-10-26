@@ -42,9 +42,13 @@ Inputs:
         "Historic Production (2018-2025)"     -> GEM Mine ID, Country,
                                                   Mine Name, Status, yearly
                                                   Coal Output (Annual, Mt)
-  * combined_classes score file (unchanged source, from cmm-data-tool's
-    satellite-viewing-condition pipeline): one row per mine with Unit ID,
-    Country, Fuel type, Status, and Month_1..Month_12 condition classes.
+  * data/combined_score/..._combined_classes.csv (unchanged source, copied
+    in from cmm-data-tool's satellite-viewing-condition pipeline so this
+    folder doesn't depend on cmm-data-tool being checked out alongside it -
+    there is no generating script for it in that repo either; it's an
+    externally-produced artifact, frozen here as a snapshot): one row per
+    mine with Unit ID, Country, Fuel type, Status, and Month_1..Month_12
+    condition classes.
 
 Outputs (written to --outdir, default: this folder):
   * gem_coal_mine_production_most_recent.csv
@@ -59,9 +63,7 @@ Outputs (written to --outdir, default: this folder):
 
 Usage:
     python gem_coal_satellite_favourability.py
-    python gem_coal_satellite_favourability.py \
-        --gem "../emissions/Global Coal Mine Tracker, May 2026__.xlsx" \
-        --scores "../../Data Tool/cmm-data-tool/data_historical/combined_score/diff7_med1_sza70_75_elev80_100_csThres0.2_0.3_albedoSwir0.02_0.06_wind4_10combined_classes.csv"
+    python gem_coal_satellite_favourability.py --gem "../emissions/Global Coal Mine Tracker, May 2026__.xlsx"
 """
 from __future__ import annotations
 
@@ -85,17 +87,9 @@ SCORE_MONTH_COLS = [f"Month_{i}" for i in range(1, 13)]
 SCORE_STATUS = "Operating"
 SCORE_FUEL_TYPE = "coal"
 
-DEFAULT_SCORE_FILE = (
-    Path("..")
-    / ".."
-    / "Data Tool"
-    / "cmm-data-tool"
-    / "data_historical"
-    / "combined_score"
-    / (
-        "diff7_med1_sza70_75_elev80_100_csThres0.2_0.3_"
-        "albedoSwir0.02_0.06_wind4_10combined_classes.csv"
-    )
+DEFAULT_SCORE_FILE = Path("data") / "combined_score" / (
+    "diff7_med1_sza70_75_elev80_100_csThres0.2_0.3_"
+    "albedoSwir0.02_0.06_wind4_10combined_classes.csv"
 )
 
 

@@ -1,0 +1,60 @@
+COUNTRY,COUNTRY CODE,TIER,CRITERIA 1,CRITERIA 2,CRITERIA 3,CONFIDENCE SCORE
+Afghanistan,AFG,1,0,0,0,0
+Argentina,ARG,1,1,0,0,1
+Australia,AUS,"2, 3",2,1,1,4
+Bangladesh,BGD,Not reported,0,0,0,0
+Bosnia and Herzegovina,BIH,1,1,0,0,1
+Botswana,BWA,1,1,1,0,2
+Brazil,BRA,1,1,2,0,3
+Bulgaria,BGR,1,2,2,0,4
+Canada,CAN,"2,3",1,1,1,3
+Chile,CHL,1,0,1,0,1
+China,CHN,"1,2",1,2,1,4
+Colombia,COL,2,1,0,1,2
+Czechia,CZE,"1,2",2,0,1,3
+Ethiopia,ETH,1,0,1,0,1
+Georgia,GEO,1,0,1,0,1
+Germany,DEU,2,2,0,1,3
+Greece,GRC,1,2,0,0,2
+Hungary,HUN,2,2,1,1,4
+India,IND,"2,3",1,1,1,3
+Indonesia,IDN,1,1,0,0,1
+Iran (Islamic Republic of),IRN,1,1,1,0,2
+Japan,JPN,"1,2,3",2,0,2,4
+Kazakhstan,KAZ,"1,2",0,0,1,1
+Korea,KOR,"1,2",1,0,1,2
+Korea (Democratic People's Republic of),PRK,1,1,2,0,3
+Kyrgyzstan,KGZ,1,1,1,0,2
+Lao People's Democratic Republic,LAO,1,0,0,0,0
+Malawi,MWI,1,0,0,0,0
+Malaysia,MYS,1,1,1,0,2
+Mexico,MEX,1,0,0,0,0
+Mongolia,MNG,1,1,0,0,1
+Mozambique,MOZ,1,0,0,0,0
+Myanmar,MMR,1,0,1,0,1
+New Zealand,NZL,"1,2",2,0,1,3
+Niger,NER,1,1,1,0,2
+Nigeria,NGA,1,0,0,0,0
+North Macedonia,MKD,1,1,0,0,1
+Norway,NOR,2,2,2,1,5
+Pakistan,PAK,1,1,1,0,2
+Peru,PER,1,0,0,0,0
+Philippines,PHL,1,0,0,0,0
+Poland,POL,"1,3",2,2,2,6
+Romania,ROU,"1,2",2,0,1,3
+Russia,RUS,"1,2",2,1,1,4
+Serbia,SRB,1,1,1,0,2
+Slovenia,SVN,"2,3",2,2,2,6
+South Africa,ZAF,2,1,0,1,2
+Tajikistan,TJK,1,1,0,0,1
+Tanzania,TZA,1,0,0,0,0
+Thailand,THA,1,1,0,0,1
+Turkey,TUR,"1,2",2,2,1,5
+Ukraine,UKR,3,2,2,2,6
+United Kingdom of Great Britain and Northern Ireland,GBR,"2,3",2,1,1,4
+United States of America,USA,"2,3",1,2,1,4
+Uzbekistan,UZB,1,1,1,0,2
+Venezuela,VEN,1,0,0,0,0
+Viet Nam,VNM,1,1,0,0,1
+Zambia,ZMB,1,0,2,0,2
+Zimbabwe,ZWE,1,1,0,0,1
